@@ -1,0 +1,113 @@
+#ifndef __GNET_GSHOPLOG_RPCDATA
+#define __GNET_GSHOPLOG_RPCDATA
+
+#include "rpcdefs.h"
+
+
+namespace GNET
+{
+	class GShopLog : public GNET::Rpc::Data
+	{
+	public:
+		int roleid;
+		int order_id;
+		int item_id;
+		int expire;
+		int item_count;
+		int order_count;
+		int cash_need;
+		int time;
+		int guid1;
+		int guid2;
+
+	public:
+		GShopLog (int l_roleid = -1,int l_order_id = 0,int l_item_id = 0
+			,int l_expire = 0,int l_item_count = 0,int l_order_count = 0
+			,int l_cash_need = 0,int l_time = 0,int l_guid1 = 0
+			,int l_guid2 = 0)
+			: roleid(l_roleid),order_id(l_order_id),item_id(l_item_id)
+			,expire(l_expire),item_count(l_item_count),order_count(l_order_count)
+			,cash_need(l_cash_need),time(l_time),guid1(l_guid1)
+			,guid2(l_guid2)
+		{
+		}
+
+		GShopLog(const GShopLog &rhs)
+			: roleid(rhs.roleid),order_id(rhs.order_id),item_id(rhs.item_id),
+			expire(rhs.expire),item_count(rhs.item_count),order_count(rhs.order_count),
+			cash_need(rhs.cash_need),time(rhs.time),guid1(rhs.guid1),
+			guid2(rhs.guid2) { }
+
+		Rpc::Data *Clone() const { return new GShopLog(*this); }
+
+		Rpc::Data& operator = (const Rpc::Data &rhs)
+		{
+			const GShopLog *r = dynamic_cast<const GShopLog *>(&rhs);
+			if (r && r != this)
+			{
+				roleid = r->roleid;
+				order_id = r->order_id;
+				item_id = r->item_id;
+				expire = r->expire;
+				item_count = r->item_count;
+				order_count = r->order_count;
+				cash_need = r->cash_need;
+				time = r->time;
+				guid1 = r->guid1;
+				guid2 = r->guid2;
+			}
+			return *this;
+		}
+
+		GShopLog& operator = (const GShopLog &rhs)
+		{
+			const GShopLog *r = &rhs;
+			if (r && r != this)
+			{
+				roleid = r->roleid;
+				order_id = r->order_id;
+				item_id = r->item_id;
+				expire = r->expire;
+				item_count = r->item_count;
+				order_count = r->order_count;
+				cash_need = r->cash_need;
+				time = r->time;
+				guid1 = r->guid1;
+				guid2 = r->guid2;
+			}
+			return *this;
+		}
+
+		OctetsStream& marshal(OctetsStream & os) const
+		{
+			os << roleid;
+			os << order_id;
+			os << item_id;
+			os << expire;
+			os << item_count;
+			os << order_count;
+			os << cash_need;
+			os << time;
+			os << guid1;
+			os << guid2;
+			return os;
+		}
+
+		const OctetsStream& unmarshal(const OctetsStream &os)
+		{
+			os >> roleid;
+			os >> order_id;
+			os >> item_id;
+			os >> expire;
+			os >> item_count;
+			os >> order_count;
+			os >> cash_need;
+			os >> time;
+			os >> guid1;
+			os >> guid2;
+			return os;
+		}
+
+	};
+};
+#endif

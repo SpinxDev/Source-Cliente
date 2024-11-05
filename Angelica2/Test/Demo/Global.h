@@ -1,0 +1,70 @@
+/*
+ * FILE: Global.h
+ *
+ * DESCRIPTION: Global variables and definitions
+ *
+ * CREATED BY: Duyuxin, 2004/4/2
+ *
+ * HISTORY:
+ *
+ * Copyright (c) 2001 Archosaur Studio, All Rights Reserved.	
+ */
+
+#ifndef _GLOBAL_H_
+#define _GLOBAL_H_
+
+#include <windows.h>
+//	#include "Resource.h"
+
+#include "AC.h"
+#include "AF.h"
+#include "AM.h"
+#include "A3D.h"
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Define and Macro
+//
+///////////////////////////////////////////////////////////////////////////
+
+#define RENDER_WIDTH	1024
+#define RENDER_HEIGHT	768
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Types and Global variables
+//
+///////////////////////////////////////////////////////////////////////////
+
+extern ALog			g_Log;
+extern char			g_szWorkDir[];
+
+extern A3DVECTOR3	g_vOrigin;
+extern A3DVECTOR3	g_vAxisX;
+extern A3DVECTOR3	g_vAxisY;
+extern A3DVECTOR3	g_vAxisZ;
+
+extern HINSTANCE	g_hInstance;
+extern HWND			g_hWnd;
+extern bool			g_bFullScreen;
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Declare of Global functions
+//
+///////////////////////////////////////////////////////////////////////////
+
+ATOM MyRegisterClass(HINSTANCE hInstance);
+bool InitInstance(HINSTANCE hInstance, int nCmdShow);
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Inline functions
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+#endif	//	_GLOBAL_H_
+
+
+

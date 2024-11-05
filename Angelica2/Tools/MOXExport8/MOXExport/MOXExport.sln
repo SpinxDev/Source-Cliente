@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MOXExport", "MOXExport.vcproj", "{749D4E85-4043-4D3C-B890-0AFFF2F85A28}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectUniqueName0 = MOXExport.vcproj
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {3F6E7D92-2B1B-4049-B7A8-C5674833FCE5}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Hybrid = Hybrid
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{749D4E85-4043-4D3C-B890-0AFFF2F85A28}.Debug.ActiveCfg = Debug|Win32
+		{749D4E85-4043-4D3C-B890-0AFFF2F85A28}.Debug.Build.0 = Debug|Win32
+		{749D4E85-4043-4D3C-B890-0AFFF2F85A28}.Hybrid.ActiveCfg = Hybrid|Win32
+		{749D4E85-4043-4D3C-B890-0AFFF2F85A28}.Hybrid.Build.0 = Hybrid|Win32
+		{749D4E85-4043-4D3C-B890-0AFFF2F85A28}.Release.ActiveCfg = Release|Win32
+		{749D4E85-4043-4D3C-B890-0AFFF2F85A28}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

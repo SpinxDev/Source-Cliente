@@ -1,0 +1,87 @@
+/*
+ * FILE: SkeletonExport.h
+ *
+ * DESCRIPTION: Skeleton export class
+ *
+ * CREATED BY: duyuxin, 2003/8/25
+ *
+ * HISTORY:
+ *
+ * Copyright (c) 2003 Archosaur Studio, All Rights Reserved.
+ */
+
+#ifndef _SKELETONEXPORT_H_
+#define _SKELETONEXPORT_H_
+
+#include "max.h"
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Define and Macro
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Types and Global variables
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Declare of Global functions
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Class CSkeletonExport
+//
+///////////////////////////////////////////////////////////////////////////
+
+class CSkeletonExport : public SceneExport
+{
+public:		//	Types
+
+public:		//	Constructions and Destructions
+
+	CSkeletonExport();
+	virtual ~CSkeletonExport() {}
+
+public:		//	Attributes
+
+public:		//	Operaitons
+
+	const TCHAR* AuthorName();
+	const TCHAR* CopyrightMessage();
+	int DoExport(const TCHAR* name, ExpInterface* ei, Interface* i, BOOL suppressPrompts, DWORD options);
+	const TCHAR* Ext(int n);
+	int ExtCount();
+	const TCHAR* LongDesc();
+	const TCHAR* OtherMessage1();
+	const TCHAR* OtherMessage2();
+	const TCHAR* ShortDesc();
+	void ShowAbout(HWND hWnd);
+	unsigned int Version();
+
+protected:	//	Attributes
+
+	ExpInterface*	m_ei;			//	Export interface
+	Interface*		m_i;			//	Interface
+
+protected:	//	Operations
+
+};
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Inline functions
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+#endif	//	_SKELETONEXPORT_H_
+

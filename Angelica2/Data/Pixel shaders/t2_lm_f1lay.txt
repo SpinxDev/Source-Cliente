@@ -1,0 +1,20 @@
+; Pixel shader used by A3DTerrain2. This shader blend the first terrain layer with vertex color and
+; apply light map.
+
+; t0, layer's default texture
+; t1, light map texture
+; t2, layer's specular texture
+
+ps.1.1
+
+tex t0
+tex t1
+tex t2
+
+mul r1, t2, t2.a	; specular alpha * specular color
+mul r1, v1, r1		; multiply vertex color
+mul_x2 r1, r1, t1	; multiply lightmap color, do A3DTOP_MODULATE2X effect
+mul_x2 r0, t0, t1	; normal texture * lightmap color
+add_sat r0, r0, r1
+
+

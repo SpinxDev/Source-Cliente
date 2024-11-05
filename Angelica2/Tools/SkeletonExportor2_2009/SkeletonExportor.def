@@ -1,0 +1,12 @@
+; SkeletonExportor.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SkeletonExportor"
+DESCRIPTION  'SkeletonExportor Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+
+	LibDescription			@1
+	LibNumberClasses		@2
+	LibClassDesc			@3
+	LibVersion				@4

@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SkinMap - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/SkinMap.res" /d "NDEBUG" "C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SkinMap\SkinMap.rc"" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSPF42C.tmp" with contents
+[
+/nologo /G6 /MD /W3 /O2 /I "C:\3dsmax4\maxsdk\include" /I ".\bonesdef" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /Fp"Release/SkinMap.pch" /YX /Fo"Release/" /Fd"Release/" /FD /LD /c 
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SkinMap\DllEntry.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SkinMap\SkinMap.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SkinMap\skinmapper.cpp"
+]
+Creating command line "cl.exe @C:\Users\Wanmei\AppData\Local\Temp\RSPF42C.tmp" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSPF42D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib bmm.lib core.lib geom.lib gfx.lib mesh.lib maxutil.lib maxscrpt.lib gup.lib paramblk2.lib /nologo /base:"0xdbf0000" /subsystem:windows /dll /incremental:no /pdb:"Release/SkinMap.pdb" /machine:I386 /def:".\SkinMap.def" /out:"C:\3dsMax8\plugins\SkinMap.dlu" /implib:"Release/SkinMap.lib" /libpath:"C:\3dsmax4\maxsdk\lib" /release 
+.\Release\DllEntry.obj
+.\Release\SkinMap.obj
+.\Release\skinmapper.obj
+.\Release\SkinMap.res
+]
+Creating command line "link.exe @C:\Users\Wanmei\AppData\Local\Temp\RSPF42D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+DllEntry.cpp
+C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SkinMap\SkinMap.h(19) : fatal error C1083: Cannot open include file: 'Max.h': No such file or directory
+SkinMap.cpp
+C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SkinMap\SkinMap.h(19) : fatal error C1083: Cannot open include file: 'Max.h': No such file or directory
+skinmapper.cpp
+C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SkinMap\skinmapper.h(16) : fatal error C1083: Cannot open include file: 'Max.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+SkinMap.dlu - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

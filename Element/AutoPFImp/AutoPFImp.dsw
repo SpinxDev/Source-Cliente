@@ -1,0 +1,88 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "AutoMoveImp"=.\AutoMoveImp\AutoMoveImp.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/AutoPFImp/AutoMoveImp", XQQAAAAA
+    .\automoveimp
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AutoPFImp"=.\AutoPFImp.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/AutoPFImp", SPQAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AutoMoveImp
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "PfMapMerger"=.\PfMapMerger\PfMapMerger.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/AutoPFImp/PfMapMerger", TTQAAAAA
+    .\pfmapmerger
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WaterMapMerger"=.\WaterMapMerger\WaterMapMerger.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/AutoPFImp/WaterMapMerger", KPSAAAAA
+    .\watermapmerger
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/AutoPFImp", SPQAAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

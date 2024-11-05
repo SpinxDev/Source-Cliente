@@ -1,0 +1,104 @@
+#ifndef __GNET_GMAILSYNCDATA_RPCDATA
+#define __GNET_GMAILSYNCDATA_RPCDATA
+
+#include "rpcdefs.h"
+
+#include "grolepocket"
+#include "grolestorehouse"
+#include "groleinventory"
+#include "gshoplog"
+
+namespace GNET
+{
+	class GMailSyncData : public GNET::Rpc::Data
+	{
+	public:
+		int data_mask;
+		int cash_total;
+		unsigned int cash_used;
+		int cash_serial;
+		GRolePocket inventory;
+		GRoleStorehouse storehouse;
+		GRoleInventoryVector equipment;
+		std::vector<GShopLog> logs;
+
+	public:
+		GMailSyncData (int l_data_mask = 0,int l_cash_total = 0,unsigned int l_cash_used = 0
+			,int l_cash_serial = 0,const GRolePocket& l_inventory = GRolePocket(),const GRoleStorehouse& l_storehouse = GRoleStorehouse()
+			,const GRoleInventoryVector& l_equipment = GRoleInventoryVector())
+			: data_mask(l_data_mask),cash_total(l_cash_total),cash_used(l_cash_used)
+			,cash_serial(l_cash_serial),inventory(l_inventory),storehouse(l_storehouse)
+			,equipment(l_equipment)
+		{
+		}
+
+		GMailSyncData(const GMailSyncData &rhs)
+			: data_mask(rhs.data_mask),cash_total(rhs.cash_total),cash_used(rhs.cash_used),
+			cash_serial(rhs.cash_serial),inventory(rhs.inventory),storehouse(rhs.storehouse),
+			equipment(rhs.equipment),logs(rhs.logs) { }
+
+		Rpc::Data *Clone() const { return new GMailSyncData(*this); }
+
+		Rpc::Data& operator = (const Rpc::Data &rhs)
+		{
+			const GMailSyncData *r = dynamic_cast<const GMailSyncData *>(&rhs);
+			if (r && r != this)
+			{
+				data_mask = r->data_mask;
+				cash_total = r->cash_total;
+				cash_used = r->cash_used;
+				cash_serial = r->cash_serial;
+				inventory = r->inventory;
+				storehouse = r->storehouse;
+				equipment = r->equipment;
+				logs = r->logs;
+			}
+			return *this;
+		}
+
+		GMailSyncData& operator = (const GMailSyncData &rhs)
+		{
+			const GMailSyncData *r = &rhs;
+			if (r && r != this)
+			{
+				data_mask = r->data_mask;
+				cash_total = r->cash_total;
+				cash_used = r->cash_used;
+				cash_serial = r->cash_serial;
+				inventory = r->inventory;
+				storehouse = r->storehouse;
+				equipment = r->equipment;
+				logs = r->logs;
+			}
+			return *this;
+		}
+
+		OctetsStream& marshal(OctetsStream & os) const
+		{
+			os << data_mask;
+			os << cash_total;
+			os << cash_used;
+			os << cash_serial;
+			os << inventory;
+			os << storehouse;
+			os << equipment;
+			os << logs;
+			return os;
+		}
+
+		const OctetsStream& unmarshal(const OctetsStream &os)
+		{
+			os >> data_mask;
+			os >> cash_total;
+			os >> cash_used;
+			os >> cash_serial;
+			os >> inventory;
+			os >> storehouse;
+			os >> equipment;
+			os >> logs;
+			return os;
+		}
+
+	};
+};
+#endif

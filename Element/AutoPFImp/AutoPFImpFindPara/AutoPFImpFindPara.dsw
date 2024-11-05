@@ -1,0 +1,71 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "AutoPFImpFindPara"=.\AutoPFImpFindPara.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/CElement/AutoPFImp/AutoPFImpFindPara", JIDBAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AutoPFImpGenerator
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name AutoPFImpOptimize
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "AutoPFImpGenerator"=..\AutoPFImpGenerator\AutoPFImpGenerator.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/CElement/AutoPFImp/AutoPFImpGenerator", IIDBAAAA
+    ..\autopfimpgenerator
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AutoPFImpOptimize"=..\AutoPFImpOptimize\AutoPFImpOptimize.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/CElement/AutoPFImp/AutoPFImpOptimize", HIDBAAAA
+    ..\autopfimpoptimize
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

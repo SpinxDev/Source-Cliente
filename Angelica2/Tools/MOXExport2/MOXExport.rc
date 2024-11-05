@@ -1,0 +1,285 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "MOXViewer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open\t\tF3",                 IDM_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit",                       IDM_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CONSOLEFONT         BITMAP  DISCARDABLE     "ConsoleFont.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCEL ACCELERATORS DISCARDABLE 
+BEGIN
+    VK_F3,          IDM_OPEN,               VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOGASK4 DIALOG DISCARDABLE  0, 0, 293, 75
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Confirm"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "&Yes",IDC_BUTTONYES,22,54,50,14
+    PUSHBUTTON      "Yes &To All",IDC_BUTTONYESALL,91,54,50,14
+    DEFPUSHBUTTON   "&No",IDC_BUTTONNO,155,54,50,14
+    PUSHBUTTON      "No To &All",IDC_BUTTONNOALL,218,54,50,14
+    CTEXT           "Static",IDC_STATICINFO,22,15,255,33
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOGASK4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 286
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PANEL DIALOG DISCARDABLE  0, 0, 108, 395
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Angelica 3D Engine's\nMOX Export Utility",IDC_STATIC,7,
+                    7,94,19,SS_SUNKEN
+    CONTROL         "SAVE TEXT",IDC_BUTTONSAVE,"CustButton",WS_TABSTOP,14,
+                    238,81,14
+    CONTROL         "SHOW",IDC_BUTTONSHOW,"CustButton",WS_TABSTOP,14,309,81,
+                    14
+    CONTROL         "Keep Normal",IDC_CHECKKEEPNORMAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,42,60,10
+    CONTROL         "VALID",IDC_BUTTONVALID,"CustButton",WS_TABSTOP,14,354,
+                    81,14
+    GROUPBOX        "Options",IDC_STATIC,7,28,94,131
+    GROUPBOX        "Save",IDC_STATIC,7,222,94,62
+    CONTROL         "Copy Map File",IDC_CHECKCOPYMAP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,59,68,10
+    CONTROL         "Generate .Mod",IDC_CHECKGENERATEMOD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,93,64,10
+    CONTROL         "",IDC_EDITSTART,"CustEdit",WS_TABSTOP,35,194,15,10
+    CONTROL         "",IDC_SPINSTART,"SpinnerControl",WS_TABSTOP,51,194,6,10
+    LTEXT           "To",IDC_STATIC,61,196,9,8
+    CONTROL         "",IDC_EDITEND,"CustEdit",WS_TABSTOP,73,194,15,10
+    CONTROL         "",IDC_SPINEND,"SpinnerControl",WS_TABSTOP,89,194,6,10
+    LTEXT           "From",IDC_STATIC,13,194,17,8
+    GROUPBOX        "Range",IDC_STATIC,7,166,94,48
+    CONTROL         "Force Animation",IDC_CHECKFORCEANIM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,110,76,10
+    CONTROL         "Link Viewport",IDC_CHECKLINKVIEW,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,180,68,10
+    GROUPBOX        "D3D Show",IDC_STATIC,7,293,94,83
+    CONTROL         "SAVE BINARY",IDC_BUTTONSAVEBIN,"CustButton",WS_TABSTOP,
+                    14,261,81,14
+    CONTROL         "VIEWER",IDC_BUTTONVIEWER,"CustButton",WS_TABSTOP,14,332,
+                    81,14
+    CONTROL         "Put Into One",IDC_CHECKINTOONE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,125,64,10
+    CONTROL         "Allow Obj Anim",IDC_CHECKOBJANIM,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,25,143,72,10
+    CONTROL         "Texture Dir",IDC_CHECKTEXTUREDIR,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,24,76,60,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PANEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 388
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,0,0
+ PRODUCTVERSION 3,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "TECH: \0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "\0"
+            VALUE "FileVersion", "4.0.0.0\0"
+            VALUE "InternalName", "MOX Export\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "LegalTrademarks", "Angelica\0"
+            VALUE "OriginalFilename", "MOXExport.dlu\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Angleica 3D Engine Utilities\0"
+            VALUE "ProductVersion", "4.0.0.0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_LIBDESCRIPTION      "Angelica 3D Engine MOX Export 2"
+    IDS_CATEGORY            "Angelica"
+    IDS_CLASS_NAME          "MOX Export 2"
+    IDS_PARAMS              "Parameters"
+    IDS_SPIN                "Spin"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

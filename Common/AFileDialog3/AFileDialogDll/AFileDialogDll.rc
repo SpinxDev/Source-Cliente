@@ -1,0 +1,246 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+#if defined(_USE_BCGP) && !defined(_ANGELICA2)
+#include "bcgprores.h"
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\r\n"
+    "#if defined(_USE_BCGP)\r\n"
+    "#include ""bcgprores.h""\r\n"
+    "#endi\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AFileDialogDll.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "#if defined(_USE_BCGP)\r\n"
+    "#include ""BCGCBPro.rc""\r\n"
+    "#endi\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "AFileDialogDll DLL"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "AFileDialogDll"
+            VALUE "LegalCopyright", "版权所有 (C) 2009"
+            VALUE "OriginalFilename", "AFileDialogDll.DLL"
+            VALUE "ProductName", "AFileDialogDll Dynamic Link Library"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FILE_DIALOG DIALOGEX 0, 0, 359, 281
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Open"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "Look in:",IDC_STATIC_LOOKIN,3,6,26,8,SS_NOTIFY | NOT WS_GROUP
+    CONTROL         "",IDC_CB_PATH_SHORTCUT,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,32,4,202,300
+    LTEXT           "File &name:",IDC_STATIC_FILENAME,5,246,45,8,SS_NOTIFY | NOT WS_GROUP
+    EDITTEXT        IDC_STR_FILENAME,58,245,245,12,ES_AUTOHSCROLL
+    LTEXT           "Files of &type:",IDC_STATIC_FILETYPE,5,264,45,8,SS_NOTIFY | NOT WS_GROUP
+    COMBOBOX        IDC_CB_FILETYPES,58,262,245,100,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "&Open",IDOK,307,245,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,307,261,50,14
+    PUSHBUTTON      "Back",IDC_BT_BACK,242,4,15,14,BS_BITMAP | BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "Up",IDC_BT_UP,260,4,15,14,BS_BITMAP
+    CONTROL         "AlphaBlend",IDC_IS_ALPHA_BLEND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,279,7,46,10
+    CONTROL         "预览",IDC_IS_PWINDOW_SHOW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,328,7,29,10
+    LTEXT           "",IDC_STATIC_FILEINFO,9,226,244,14,WS_BORDER
+    PUSHBUTTON      "OpenFolder",IDC_OpenFolder,308,226,49,14
+    CONTROL         "显示lod",IDC_DISPLAY_LOD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,261,228,41,10
+END
+
+IDD_COMMONFILE_DIALOG DIALOGEX 0, 0, 388, 319
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CommonFileDlg"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "Open",IDOK,348,167,33,12
+    PUSHBUTTON      "Cancel",IDCANCEL,348,187,33,12
+    CONTROL         "List1",IDC_DIRLIST,"SysListView32",WS_BORDER | 
+                    WS_TABSTOP,7,3,54,309,WS_EX_CLIENTEDGE
+    LTEXT           "History:",IDC_STATIC,71,12,33,8
+    LTEXT           "LookIn:",IDC_STATIC,71,27,29,8
+    COMBOBOX        IDC_COMBO_HIST,109,12,253,40,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_COMBOBOXEX_LOOKIN,"ComboBoxEx32",CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP,109,27,204,71
+    PUSHBUTTON      "",IDC_BACKWARD,318,29,13,11,BS_BITMAP
+    PUSHBUTTON      "Button2",IDC_UP,338,29,13,11,BS_BITMAP
+    CONTROL         "List2",IDC_FILELIST,"SysListView32",LVS_LIST | 
+                    WS_BORDER | WS_TABSTOP,69,44,312,118,WS_EX_CLIENTEDGE
+    LTEXT           "File Name:",IDC_STATIC,71,167,41,8
+    EDITTEXT        IDC_FILENAME,133,167,199,13,ES_AUTOHSCROLL
+    LTEXT           "Files of Type:",IDC_STATIC,71,185,57,8
+    COMBOBOX        IDC_COMBO_FILETYPE,133,185,200,37,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Preview",IDC_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,93,203,42,10
+    CONTROL         "",IDC_STATIC_PREV,"Static",SS_GRAYFRAME | SS_NOTIFY,138,
+                    216,110,96
+    LTEXT           "",IDC_STATIC_FILEINFO,255,268,119,21
+    LTEXT           "",IDC_STATIC_IMAGEINFO,255,299,89,13
+    PUSHBUTTON      "Button2",IDC_SORT,358,29,13,11,BS_BITMAP
+    PUSHBUTTON      "置空",ID_SET_NULL,348,207,33,12
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DIRECTORY           BITMAP                  "res\\icon_directory.bmp"
+IDB_SOUND               BITMAP                  "res\\icon_sound.bmp"
+IDB_OTHER               BITMAP                  "res\\icon_other.bmp"
+IDB_PICTURE             BITMAP                  "res\\icon_picture.bmp"
+IDB_TEXT                BITMAP                  "res\\icon_text.bmp"
+IDB_ARROW_BACK          BITMAP                  "res\\arrow_back.bmp"
+IDB_ARROW_UP            BITMAP                  "res\\arrow_up.bmp"
+IDB_BACK                BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_DIR                 BITMAP  DISCARDABLE     "res\\bitmap3.bmp"
+IDB_LIST                BITMAP  DISCARDABLE     "res\\listicon.bmp"
+IDB_UP                  BITMAP  DISCARDABLE     "res\\selectfolder.bmp"
+IDB_SORT                BITMAP  DISCARDABLE     "res\\sort.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_FILE_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 357
+        BOTTOMMARGIN, 278
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_COMMONFILE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 381
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 312
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\AFileDialogDll.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+#if defined(_USE_BCGP) && !defined(_ANGELICA2)
+#include "BCGCBPro.rc"
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

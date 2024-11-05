@@ -1,0 +1,57 @@
+$$// newproj.inf = template for list of template files
+$$//  format is 'sourceResName' \t 'destFileName'
+$$//    The source res name may be preceded by any combination of '=', '-',  '!', '?', ':', '#', and/or '*'
+$$//       '=' => the resource is binary
+$$//       '-' => the file should not be added to the project (all files are added to the project by default)
+$$//       '!' => the file should be marked exclude from build
+$$//       '?' => the file should be treated as a help file
+$$//       ':' => the file should be treated as a resource
+$$//       '#' => the file should be treated as a template (implies '!')
+$$//       '*' => bypass the custom AppWizard's resources when loading
+$$//	if name starts with / => create new subdir
+
+$$// C++ Files ..............................................
+
+$$IF(APP_TYPE_MFC)
+
+MainFrm.cpp	MainFrm.cpp
+MainFrm.h	MainFrm.h
+MFCTemp.cpp	$$root$$.cpp
+MFCTemp.h	$$root$$.h
+MFCTempDoc.cpp	$$root$$Doc.cpp
+MFCTempDoc.h	$$root$$Doc.h
+MFCTempView.cpp	$$root$$View.cpp
+MFCTempView.h	$$root$$View.h
+MFCTempRes.h	Resource.h
+StdAfx.cpp	StdAfx.cpp
+StdAfx.h	StdAfx.h
+MFCTemp.clw	$$root$$.clw
+
+$$ELSE
+
+Win32Temp.cpp	$$root$$.cpp
+Win32TempRes.h	Resource.h
+
+$$ENDIF // Win32, MFC
+
+Render.cpp	Render.cpp
+Render.h	Render.h
+
+$$// Resources ..............................................
+
+/res
+
+$$IF(APP_TYPE_MFC)
+
+MFCTemp.rc	$$root$$.rc
+:MFCTemp.rc2	res\$$root$$.rc2
+=:MFCTemp.ico	res\$$root$$.ico
+=:MFCTemp_TB.bmp	res\$$root$$_TB.bmp
+=:MFCTempDoc.ico	res\$$root$$Doc.ico
+
+$$ELSE
+
+Win32Temp.rc	$$root$$.rc
+=:Win32Temp.ico	res\$$root$$.ico
+
+$$ENDIF // Win32, MFC

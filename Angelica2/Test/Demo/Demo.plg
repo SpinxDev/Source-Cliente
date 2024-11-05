@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Demo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSP88BA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\Output\A3DSDK\Include" /I "..\..\Output\AFSDK\Include" /I "..\..\Output\ACSDK\Include" /I "..\..\Output\AMSDK\Include" /I "..\..\Output\3rdSDK\Include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Demo.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Test\Demo\AppInit.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Test\Demo\Camera.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Test\Demo\Demo.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Test\Demo\FullGlow.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Test\Demo\Global.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Test\Demo\ModelShadow.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Test\Demo\Render.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Test\Demo\Terrain.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Test\Demo\Trail.cpp"
+]
+Creating command line "cl.exe @C:\Users\Wanmei\AppData\Local\Temp\RSP88BA.tmp" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSP88BB.tmp" with contents
+[
+zliblib.lib mpg123lib_d.lib Immwrapper_d.lib AngelicaCommon_d.lib Angelica3D_d.lib AngelicaFile_d.lib AngelicaMedia_d.lib dxguid.lib d3d8.lib d3dx8.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Demo_d.pdb" /debug /machine:I386 /out:"Bin\Demo_d.exe" /pdbtype:sept /libpath:"..\..\Output\A3DSDK\Lib" /libpath:"..\..\Output\AFSDK\Lib" /libpath:"..\..\Output\ACSDK\Lib" /libpath:"..\..\Output\AMSDK\Lib" /libpath:"..\..\Output\3rdSDK\Lib" 
+.\Debug\AppInit.obj
+.\Debug\Camera.obj
+.\Debug\Demo.obj
+.\Debug\FullGlow.obj
+.\Debug\Global.obj
+.\Debug\ModelShadow.obj
+.\Debug\Render.obj
+.\Debug\Terrain.obj
+.\Debug\Trail.obj
+]
+Creating command line "link.exe @C:\Users\Wanmei\AppData\Local\Temp\RSP88BB.tmp"
+<h3>Output Window</h3>
+Compiling...
+AppInit.cpp
+Camera.cpp
+Demo.cpp
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(390) : error C2039: 'AddForceToSuppleMesh' : is not a member of 'A3DSkinModel'
+        c:\sdk\a3dsdk\include\a3dskinmodel.h(108) : see declaration of 'A3DSkinModel'
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(395) : error C2039: 'AddForceToSuppleMesh' : is not a member of 'A3DSkinModel'
+        c:\sdk\a3dsdk\include\a3dskinmodel.h(108) : see declaration of 'A3DSkinModel'
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(400) : error C2039: 'AddForceToSuppleMesh' : is not a member of 'A3DSkinModel'
+        c:\sdk\a3dsdk\include\a3dskinmodel.h(108) : see declaration of 'A3DSkinModel'
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(405) : error C2039: 'AddForceToSuppleMesh' : is not a member of 'A3DSkinModel'
+        c:\sdk\a3dsdk\include\a3dskinmodel.h(108) : see declaration of 'A3DSkinModel'
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(514) : error C2039: 'AddForceToSuppleMesh' : is not a member of 'A3DSkinModel'
+        c:\sdk\a3dsdk\include\a3dskinmodel.h(108) : see declaration of 'A3DSkinModel'
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(645) : error C2039: 'RenderSkinModels' : is not a member of 'A3DEngine'
+        c:\sdk\a3dsdk\include\a3dengine.h(59) : see declaration of 'A3DEngine'
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(646) : error C2039: 'ResetRenderInfo' : is not a member of 'A3DSkinMan'
+        c:\sdk\a3dsdk\include\a3dskinman.h(59) : see declaration of 'A3DSkinMan'
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(664) : error C2039: 'RenderSkinModels' : is not a member of 'A3DEngine'
+        c:\sdk\a3dsdk\include\a3dengine.h(59) : see declaration of 'A3DEngine'
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(665) : error C2039: 'ResetRenderInfo' : is not a member of 'A3DSkinMan'
+        c:\sdk\a3dsdk\include\a3dskinman.h(59) : see declaration of 'A3DSkinMan'
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(696) : error C2039: 'RenderSkinModels' : is not a member of 'A3DEngine'
+        c:\sdk\a3dsdk\include\a3dengine.h(59) : see declaration of 'A3DEngine'
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(697) : error C2039: 'ResetRenderInfo' : is not a member of 'A3DSkinMan'
+        c:\sdk\a3dsdk\include\a3dskinman.h(59) : see declaration of 'A3DSkinMan'
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(943) : error C2039: 'SetColorOP' : is not a member of 'A3DSkinMan'
+        c:\sdk\a3dsdk\include\a3dskinman.h(59) : see declaration of 'A3DSkinMan'
+c:\users\wanmei\desktop\onlinegm\angelica2\test\demo\demo.cpp(1011) : error C2039: 'SetActionStopCallback' : is not a member of 'A3DSkinModel'
+        c:\sdk\a3dsdk\include\a3dskinmodel.h(108) : see declaration of 'A3DSkinModel'
+FullGlow.cpp
+Global.cpp
+ModelShadow.cpp
+C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Test\Demo\ModelShadow.cpp(133) : error C2039: 'RenderSkinModels' : is not a member of 'A3DEngine'
+        c:\sdk\a3dsdk\include\a3dengine.h(59) : see declaration of 'A3DEngine'
+C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Test\Demo\ModelShadow.cpp(134) : error C2039: 'ResetRenderInfo' : is not a member of 'A3DSkinMan'
+        c:\sdk\a3dsdk\include\a3dskinman.h(59) : see declaration of 'A3DSkinMan'
+Render.cpp
+C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Test\Demo\Render.cpp(202) : error C2660: 'SetDisplayMode' : function does not take 5 parameters
+Terrain.cpp
+Trail.cpp
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Demo_d.exe - 16 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

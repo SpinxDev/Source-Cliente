@@ -1,0 +1,813 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "北京欢乐亿派科技有限公司\0"
+            VALUE "FileDescription", "ShaderEditor\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ShaderEditor\0"
+            VALUE "LegalCopyright", "Copyright ? 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ShaderEditor.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "北京欢乐亿派科技有限公司 ShaderEditor\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "文件"
+    BEGIN
+        MENUITEM "新建 ...",                    ID_FILE_NEW
+        MENUITEM "打开 ...",                    ID_FILE_OPEN
+        MENUITEM "保存所有 Shaders",            ID_FILE_SAVEALL
+        MENUITEM SEPARATOR
+        MENUITEM "设置工作路径 ...",            ID_FILE_SETWORKPATH
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                        ID_FILE_EXIT
+    END
+    POPUP "设置"
+    BEGIN
+        MENUITEM "背景色 ...",                  ID_OPT_BGCOLOR
+        MENUITEM "背景贴图 ...",                ID_OPT_BGTEXTURE
+        MENUITEM SEPARATOR
+        MENUITEM "顶点颜色 ...",                ID_OPT_VERTCOLOR
+        MENUITEM "D3D 贴图 ...",                ID_OPT_D3DTEXTURE
+    END
+END
+
+IDR_SHADERMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "复制",                        ID_SHADER_COPY
+        MENUITEM "粘贴",                        ID_SHADER_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "保存",                        ID_SHADER_SAVE
+        MENUITEM "另存为 ...",                  ID_SHADER_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "重命名 ...",                  ID_SHADER_RENAME
+        MENUITEM "增加 Stage",                  ID_SHADER_ADDSTAGE
+        MENUITEM SEPARATOR
+        MENUITEM "关闭",                        ID_SHADER_REMOVE
+    END
+END
+
+IDR_GENERALMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "复制",                        ID_GEN_COPY
+        MENUITEM "粘贴",                        ID_GEN_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Z compare ...",               ID_GEN_ZCOMPARE
+        MENUITEM "Z enable ...",                ID_GEN_ZENABLE
+        MENUITEM "Z write enable ...",          ID_GEN_ZWRITE
+        MENUITEM "Alpha compare ...",           ID_GEN_ALPHACOMPARE
+        MENUITEM "Cull mode ...",               ID_GEN_CULLMODE
+        MENUITEM "Blend ...",                   ID_GEN_BLEND
+        MENUITEM "Color generate ...",          ID_GEN_COLORGEN
+        MENUITEM "Alpha generate ...",          ID_GEN_ALPHAGEN
+        MENUITEM "Pixel shader ...",            ID_GEN_PIXELSHADER
+        MENUITEM "Texture factor ...",          ID_GEN_TFACTOR
+        MENUITEM "半透明标志 ...",              ID_GEN_ALPHATEX
+        MENUITEM "PS C2 ...",                   ID_GEN_PSC2
+        MENUITEM "PS C3 ...",                   ID_GEN_PSC3
+        MENUITEM "PS C4 ...",                   ID_GEN_PSC4
+        MENUITEM "PS C5 ...",                   ID_GEN_PSC5
+        MENUITEM "PS C6 ...",                   ID_GEN_PSC6
+        MENUITEM "PS C7 ...",                   ID_GEN_PSC7
+    END
+END
+
+IDR_GENPROPMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "编辑 ...",                    ID_GPROP_EDIT
+        MENUITEM SEPARATOR
+        MENUITEM "删除",                        ID_GPROP_REMOVE
+    END
+END
+
+IDR_STAGEMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "显示 / 隐藏",                 ID_STG_HIDE
+        MENUITEM SEPARATOR
+        MENUITEM "复制",                        ID_STG_COPY
+        MENUITEM "剪切",                        ID_STG_CUT
+        MENUITEM "粘贴",                        ID_STG_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "在此之前增加一个 Stage",      ID_STG_ADDBEFORE
+        MENUITEM "在此之后增加一个 Stage",      ID_STG_ADDAFTER
+        MENUITEM "上移一层",                    ID_STG_MOVEUP
+        MENUITEM "下移一层",                    ID_STG_MOVEDOWN
+        MENUITEM SEPARATOR
+        MENUITEM "Texture ...",                 ID_STG_TEXTURE
+        MENUITEM "Filter...",                   ID_STG_FILTER
+        MENUITEM "Address...",                  ID_STG_ADDRESS
+        MENUITEM "Color operation ...",         ID_STG_COLOROP
+        MENUITEM "Alpha operation ...",         ID_STG_ALPHAOP
+        MENUITEM "Bump matrix ...",             ID_STG_BUMPMAT
+        MENUITEM "Bump scale ...",              ID_STG_BUMPSCALE
+        MENUITEM "Bump offset ...",             ID_STG_BUMPOFFSET
+        MENUITEM "Result argument ...",         ID_STG_RESULTARG
+        MENUITEM "Texture coordinates ...",     ID_STG_TEXCOORD
+        MENUITEM "Texture transform ...",       ID_STG_TEXTRANSFORM
+        MENUITEM SEPARATOR
+        MENUITEM "TC scale ...",                ID_STG_TCSCALE
+        MENUITEM "TC scroll ...",               ID_STG_TCSCROLL
+        MENUITEM "TC rotate ...",               ID_STG_TCROTATE
+        MENUITEM "TC stretch ...",              ID_STG_TCSTRETCH
+        MENUITEM "TC turb ...",                 ID_STG_TCTURB
+        MENUITEM SEPARATOR
+        MENUITEM "删除",                        ID_STG_REMOVE
+    END
+END
+
+IDR_STGPROPMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "编辑 ...",                    ID_SPROP_EDIT
+        MENUITEM SEPARATOR
+        MENUITEM "删除",                        ID_SPROP_REMOVE
+    END
+END
+
+IDR_STGPROPLISTMENU MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Popup",                       65535
+END
+
+IDR_TCMODMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "TC scale ...",                ID_STG_TCSCALE
+        MENUITEM "TC scroll ...",               ID_STG_TCSCROLL
+        MENUITEM "TC rotate ...",               ID_STG_TCROTATE
+        MENUITEM "TC stretch ...",              ID_STG_TCSTRETCH
+        MENUITEM "TC turb ...",                 ID_STG_TCTURB
+    END
+END
+
+IDR_TCMODPROPMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "编辑 ...",                    ID_TCMP_EDIT
+        MENUITEM SEPARATOR
+        MENUITEM "前移一位",                    ID_TCMP_MOVEUP
+        MENUITEM "后移一位",                    ID_TCMP_MOVEDOWN
+        MENUITEM SEPARATOR
+        MENUITEM "删除",                        ID_TCMP_REMOVE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SHADERFORM DIALOG DISCARDABLE  0, 0, 122, 212
+STYLE DS_MODALFRAME | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LISTBOX         IDC_SHADERLIST,7,30,93,148,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Shaders",IDC_STATIC,7,3,29,8
+END
+
+IDD_PROPERTYFORM DIALOGEX 0, 0, 219, 201
+STYLE WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_PROPTREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    WS_BORDER | WS_TABSTOP,16,51,133,112,WS_EX_DLGMODALFRAME
+END
+
+IDD_COMBOLISTDLG DIALOG DISCARDABLE  0, 0, 173, 53
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_VALUELIST,7,7,159,154,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "确定",IDOK,62,32,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,116,32,50,14
+END
+
+IDD_ALPHACOMPDLG DIALOG DISCARDABLE  0, 0, 196, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Alpha compare"
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_COMPCOMBO,59,18,120,107,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_REFVALUE,59,39,40,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,85,80,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,139,80,50,14
+    LTEXT           "比较函数：",IDC_STATIC,16,21,41,8
+    LTEXT           "参考值：",IDC_STATIC,24,41,33,8
+    LTEXT           "( 0 -- 255 )",IDC_STATIC,103,41,49,8
+    GROUPBOX        "",IDC_STATIC,7,4,182,59
+END
+
+IDD_GENBLENDDLG DIALOG DISCARDABLE  0, 0, 207, 97
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Blend"
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_SRCBLENDCOMBO,45,17,145,173,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DESTBLENDCOMBO,45,35,145,195,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "确定",IDOK,96,76,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,150,76,50,14
+    GROUPBOX        "",IDC_STATIC,7,3,193,57
+    LTEXT           "源：",IDC_STATIC,25,19,17,8
+    LTEXT           "目标：",IDC_STATIC,17,37,25,8
+END
+
+IDD_TEXTUREDLG DIALOG DISCARDABLE  0, 0, 251, 185
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "纹理设置"
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_TEXTYPELIST,60,22,175,116,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_NUMFRAME,39,85,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FRAMETIME,128,85,40,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,140,164,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,194,164,50,14
+    GROUPBOX        "一般属性",IDC_STATIC,7,7,237,55
+    GROUPBOX        "贴图文件",IDC_STATIC,7,113,237,39
+    GROUPBOX        "动画贴图",IDC_STATIC,7,68,237,39
+    LTEXT           "帧数",IDC_STATIC,18,87,17,8
+    LTEXT           "时间(ms)",IDC_STATIC,92,88,33,8
+    EDITTEXT        IDC_EDIT_TEXTUREFILE,15,129,197,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "...",IDC_BTN_BROWSE,217,129,21,14
+    LTEXT           "贴图格式：",IDC_STATIC,17,44,41,8
+    LTEXT           "贴图类型：",IDC_STATIC,17,25,41,8
+    COMBOBOX        IDC_TEXFORMATLIST,60,41,175,174,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_BUMPMATDLG DIALOG DISCARDABLE  0, 0, 164, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Bump mapping matrix"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,53,74,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,107,74,50,14
+    EDITTEXT        IDC_MAT00,31,18,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAT01,101,18,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAT10,31,39,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAT11,101,40,40,14,ES_AUTOHSCROLL
+    LTEXT           "00",IDC_STATIC,16,21,9,8
+    LTEXT           "01",IDC_STATIC,87,21,9,8
+    LTEXT           "10",IDC_STATIC,16,42,9,8
+    LTEXT           "11",IDC_STATIC,87,42,9,8
+    GROUPBOX        "",IDC_STATIC,7,3,150,62
+END
+
+IDD_SINGLEVALDLG DIALOG DISCARDABLE  0, 0, 158, 89
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,47,68,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,101,68,50,14
+    EDITTEXT        IDC_VALUE,15,33,127,14,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,7,3,144,54
+    LTEXT           "",IDC_PROMPT,15,17,126,8
+END
+
+IDD_TEXOPDLG DIALOG DISCARDABLE  0, 0, 201, 203
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_OPCOMBO,21,23,160,117,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_ARGCOMBO1,82,68,99,114,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_MODCOMBO1,82,88,99,93,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_ARGCOMBO2,82,131,99,105,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_MODCOMBO2,82,151,99,93,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "取消修改",IDC_BTN_RESTORE,7,182,52,14
+    DEFPUSHBUTTON   "关闭",IDOK,144,182,50,14
+    GROUPBOX        "操作",IDC_STATIC,7,7,187,39
+    GROUPBOX        "参数 1",IDC_STATIC,7,52,187,58
+    LTEXT           "Argument flag",IDC_STATIC,19,70,53,8
+    LTEXT           "Modifier flag",IDC_STATIC,19,89,53,8
+    GROUPBOX        "参数 2",IDC_STATIC,7,115,187,58
+    LTEXT           "Argument flag",IDC_STATIC,19,133,53,8
+    LTEXT           "Modifier flag",IDC_STATIC,19,152,53,8
+END
+
+IDD_SAVEASKDLG DIALOG DISCARDABLE  0, 0, 234, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "保存 Shader"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "保存",IDC_YES,177,7,50,14
+    PUSHBUTTON      "不保存",IDC_NOT,177,43,50,14
+    PUSHBUTTON      "全部保存",IDC_YESTOALL,177,25,50,14
+    PUSHBUTTON      "全部不保存",IDC_NOTTOALL,177,62,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,177,80,50,14
+    GROUPBOX        "",IDC_STATIC,7,3,161,91
+    EDITTEXT        IDC_PROMPT,16,14,143,74,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+END
+
+IDD_NEWSDRDLG DIALOG DISCARDABLE  0, 0, 212, 121
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "新建 Shader"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_NAME,16,18,180,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILE,16,63,125,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览...",IDC_BROWSE,148,63,47,14
+    DEFPUSHBUTTON   "确定",IDOK,101,100,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,155,100,50,14
+    GROUPBOX        "名字",IDC_STATIC,7,3,198,37
+    GROUPBOX        "保存文件",IDC_STATIC,7,45,198,42
+END
+
+IDD_WAVEDLG DIALOG DISCARDABLE  0, 0, 221, 149
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_WAVECOMBO,19,24,182,117,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_BASELINE,43,69,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_AMPLITUDE,154,69,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PHASE,43,92,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PERIOD,154,92,50,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,109,128,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,164,128,50,14
+    GROUPBOX        "Wave 函数",IDC_STATIC,7,7,207,41
+    GROUPBOX        "参数",IDC_STATIC,7,54,207,62
+    LTEXT           "基线：",IDC_STATIC,17,72,25,8
+    LTEXT           "振幅：",IDC_STATIC,123,72,25,8
+    LTEXT           "相位：",IDC_STATIC,17,95,25,8
+    LTEXT           "周期(ms)：",IDC_STATIC,107,95,41,8
+END
+
+IDD_TWOVALUEDLG DIALOG DISCARDABLE  0, 0, 222, 85
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_VALUEEDIT1,18,28,88,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VALUEEDIT2,117,28,87,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,110,64,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,165,64,50,14
+    GROUPBOX        "",IDC_STATIC,7,3,208,48
+    LTEXT           "Value1",IDC_VALUE1,20,16,82,8
+    LTEXT           "Value2",IDC_VALUE2,119,16,82,8
+END
+
+IDD_PIXELSHADERDLG DIALOGEX 0, 0, 323, 263
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Pixel Shader"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_CONTENT,15,80,293,126,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "保存",IDC_SAVE,235,212,35,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "测试",IDC_COMPILE,275,212,35,14,0,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "确定",IDOK,212,241,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,266,241,50,14
+    GROUPBOX        "Pixel Shader 文件",IDC_STATIC,7,24,309,35,BS_FLAT
+    GROUPBOX        "内容",IDC_STATIC,7,66,309,165,BS_FLAT
+    CONTROL         "使用 pixel shader",IDC_USEPIXELSHADER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,84,10
+    LTEXT           "Prompt",IDC_PROMPT,17,214,66,8
+    EDITTEXT        IDC_EDIT_PIXELFILE,15,39,266,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "...",IDC_BTN_BROWSE,286,39,24,14
+END
+
+IDD_SELECTFILE DIALOGEX 0, 0, 445, 317
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择文件"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_TREE_DIRECTORY,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,7,7,243,282,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE
+    CONTROL         "List1",IDC_LIST_FILE,"SysListView32",LVS_REPORT | 
+                    LVS_SORTASCENDING | LVS_NOCOLUMNHEADER | WS_BORDER | 
+                    WS_TABSTOP,253,7,185,282,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "确定",IDOK,333,296,50,14,BS_FLAT
+    PUSHBUTTON      "放弃",IDCANCEL,388,296,50,14,BS_FLAT
+    LTEXT           "",IDC_STATIC_PROMPT,7,299,321,8
+END
+
+IDD_COLORVALUE DIALOG DISCARDABLE  0, 0, 228, 75
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "颜色值"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,117,54,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,171,54,50,14
+    LTEXT           "R",IDC_STATIC,13,21,8,8
+    LTEXT           "G",IDC_STATIC,66,21,8,8
+    LTEXT           "B",IDC_STATIC,118,21,8,8
+    LTEXT           "A",IDC_STATIC,170,21,8,8
+    EDITTEXT        IDC_EDIT_R,21,19,34,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G,74,19,34,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_B,126,19,34,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_A,179,19,34,14,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,7,7,214,35
+END
+
+IDD_TEXCOORDINDEX DIALOG DISCARDABLE  0, 0, 219, 91
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Texture Coordinates Index"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "索引",IDC_STATIC,18,22,17,8
+    GROUPBOX        "",IDC_STATIC,7,7,205,54
+    COMBOBOX        IDC_COMBO_INDEX,42,20,53,143,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "标志",IDC_STATIC,18,40,17,8
+    COMBOBOX        IDC_COMBO_FLAGS,42,39,161,172,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "确定",IDOK,108,70,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,162,70,50,14
+END
+
+IDD_TEXTRANSFORM DIALOG DISCARDABLE  0, 0, 217, 211
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Texture Transform"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,106,190,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,160,190,50,14
+    GROUPBOX        "变换矩阵",IDC_STATIC,7,7,203,106
+    GROUPBOX        "Flags",IDC_STATIC,7,120,203,54
+    COMBOBOX        IDC_COMBO_FLAGS,15,136,188,148,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_M11,19,25,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M12,67,25,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M13,115,25,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M14,163,25,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M21,19,45,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M22,67,45,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M23,115,45,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M24,163,45,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M31,19,66,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M32,67,66,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M33,115,66,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M34,163,66,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M41,19,87,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M42,67,87,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M43,115,87,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_M44,163,87,35,14,ES_AUTOHSCROLL
+    CONTROL         "投影（Projected）",IDC_CHECK_PROJECTED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,155,84,10
+END
+
+IDD_COMBOVALDLG DIALOG DISCARDABLE  0, 0, 215, 81
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,103,60,50,14
+    PUSHBUTTON      "放弃",IDCANCEL,158,60,50,14
+    GROUPBOX        "Static",IDC_STATIC_DESC,7,7,201,40
+    COMBOBOX        IDC_COMBO_VALUE,16,23,184,202,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_D3DTEXTURES DIALOGEX 0, 0, 301, 233
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "确定",IDOK,244,212,50,14
+    CONTROL         "List2",IDC_LIST_TEXTURES,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,7,7,287,198,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "增加贴图...",IDC_BTN_BROWSE,7,212,63,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SHADERFORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 115
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_PROPERTYFORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_COMBOLISTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 46
+    END
+
+    IDD_ALPHACOMPDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_GENBLENDDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_TEXTUREDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_BUMPMATDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 157
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_SINGLEVALDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 151
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_TEXOPDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_SAVEASKDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_NEWSDRDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_WAVEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 142
+    END
+
+    IDD_TWOVALUEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_PIXELSHADERDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 316
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 255
+    END
+
+    IDD_SELECTFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 438
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 310
+    END
+
+    IDD_COLORVALUE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_TEXCOORDINDEX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+
+    IDD_TEXTRANSFORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 204
+    END
+
+    IDD_COMBOVALDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_D3DTEXTURES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 226
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SELECTED            BITMAP  DISCARDABLE     "Res\\Selected.bmp"
+IDB_UNSELECTED          BITMAP  DISCARDABLE     "Res\\Unselected.bmp"
+IDB_GENERAL             BITMAP  DISCARDABLE     "Res\\General.bmp"
+IDB_TREELINE            BITMAP  DISCARDABLE     "Res\\Line.bmp"
+IDB_TCMODS              BITMAP  DISCARDABLE     "res\\tcmods.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APPICON             ICON    DISCARDABLE     "res\\appicon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TOOMUCHSTAGE        "一个 Shader 最多只能有 8 个 Stage。"
+    IDS_CANNOTDELPROP       "不能删除该属性。"
+    IDS_SAVEPROMPT          "    点击‘保存’保存当前 Shader；点击‘全部全部’保存所有 Shaders；点击‘不保存’放弃保存当前 Shader；点击‘全部不保存’放弃所有未保存的 Shaders；点击‘放弃’放弃当前操作。"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

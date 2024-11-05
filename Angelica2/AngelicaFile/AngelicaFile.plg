@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AngelicaFile - Win32 StdNew Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSP3736.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I ".\header" /I "..\AngelicaCommon\Header" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "UNICODE" /D "_A_FORBID_NEWDELETE" /D "_A_FORBID_MALLOC" /Fp"StdNew_Unicode_Release/AngelicaFile.pch" /YX /Fo"StdNew_Unicode_Release/" /Fd"StdNew_Unicode_Release/" /FD /c 
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\ADir.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\ADirImage.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\AFI.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\AFile.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\AFileImage.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\AFilePackage.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\AFileUnicode.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\AIniFile.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\AMemFile.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\AScriptFile.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\ATextTabFile.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\AWIniFile.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\AngelicaFile\Source\AWScriptFile.cpp"
+]
+Creating command line "cl.exe @C:\Users\Wanmei\AppData\Local\Temp\RSP3736.tmp" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSP3737.tmp" with contents
+[
+/nologo /out:"StdNew_Unicode_Release\AngelicaFile_su.lib" 
+.\StdNew_Unicode_Release\ADir.obj
+.\StdNew_Unicode_Release\ADirImage.obj
+.\StdNew_Unicode_Release\AFI.obj
+.\StdNew_Unicode_Release\AFile.obj
+.\StdNew_Unicode_Release\AFileImage.obj
+.\StdNew_Unicode_Release\AFilePackage.obj
+.\StdNew_Unicode_Release\AFileUnicode.obj
+.\StdNew_Unicode_Release\AIniFile.obj
+.\StdNew_Unicode_Release\AMemFile.obj
+.\StdNew_Unicode_Release\AScriptFile.obj
+.\StdNew_Unicode_Release\ATextTabFile.obj
+.\StdNew_Unicode_Release\AWIniFile.obj
+.\StdNew_Unicode_Release\AWScriptFile.obj
+]
+Creating command line "link.exe -lib @C:\Users\Wanmei\AppData\Local\Temp\RSP3737.tmp"
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSP3738.bat" with contents
+[
+@echo off
+echo copy libary into sdk folder
+copy .\StdNew_Unicode_Release\AngelicaFile_su.lib ..\Output\afsdk\lib\AngelicaFile_su.lib
+echo copy headers into sdk folder
+copy .\header\*.h ..\Output\afsdk\include\*.h
+del ..\Output\afsdk\include\afpi.h
+]
+Creating command line "C:\Users\Wanmei\AppData\Local\Temp\RSP3738.bat"
+Compiling...
+ADir.cpp
+ADirImage.cpp
+AFI.cpp
+AFile.cpp
+AFileImage.cpp
+AFilePackage.cpp
+AFileUnicode.cpp
+AIniFile.cpp
+AMemFile.cpp
+AScriptFile.cpp
+ATextTabFile.cpp
+AWIniFile.cpp
+AWScriptFile.cpp
+Creating library...
+<h3>Output Window</h3>
+Performing Custom Build Step on .\StdNew_Unicode_Release\AngelicaFile_su.lib
+copy libary into sdk folder
+已复制         1 个文件。
+copy headers into sdk folder
+.\header\ADir.h
+.\header\ADirImage.h
+.\header\AF.h
+.\header\AFI.h
+.\header\AFile.h
+.\header\AFileImage.h
+.\header\AFilePackage.h
+.\header\AFileUnicode.h
+.\header\AFPI.h
+.\header\AFPlatform.h
+.\header\AIniFile.h
+.\header\AMemFile.h
+.\header\AScriptFile.h
+.\header\ATextTabFile.h
+.\header\AWIniFile.h
+.\header\AWScriptFile.h
+已复制        16 个文件。
+
+
+
+<h3>Results</h3>
+AngelicaFile_su.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

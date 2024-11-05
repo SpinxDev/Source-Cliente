@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[AngelicaCommon.dsp]
+SCC_Aux_Path = "\\elementserver\engineserver_vss"
+SCC_Project_Name = "$/Angelica2/AngelicaCommon", EQBAAAAA

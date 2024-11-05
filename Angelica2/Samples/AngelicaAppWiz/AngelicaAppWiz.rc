@@ -1,0 +1,209 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "#include ""afxres.rc""  // Standard components\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ANGELICAAPPWIZ AppWizard\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ANGELICAAPPWIZ\0"
+            VALUE "LegalCopyright", "Copyright \0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ANGELICAAPPWIZ.DLL\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Angelica3D AppWizard\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CUSTOM1 DIALOG DISCARDABLE  0, 0, 303, 197
+STYLE DS_CONTROL | WS_CHILD | WS_TABSTOP
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "普通 Win32 程序",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,157,24,76,10
+    CONTROL         "MFC SDI 程序",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    157,37,64,10
+    LTEXT           "请选择程序类型：",IDC_STATIC,148,9,65,8
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,0,0,140,197
+END
+
+IDD_CUSTOM2 DIALOGEX 0, 0, 303, 197
+STYLE DS_CONTROL | WS_CHILD | WS_TABSTOP
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "窗口模式",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,157,24,48,10
+    CONTROL         "全屏模式",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,157,38,
+                    48,10
+    LTEXT           "请选择程序以窗口还是全屏方式运行：",IDC_STATIC,148,9,
+                    137,8
+    CONTROL         "640 X 480",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,157,76,52,10
+    CONTROL         "800 X 600",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,157,
+                    89,52,10
+    CONTROL         "1024 X 768",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,157,
+                    103,56,10
+    LTEXT           "请选择渲染表面的大小：",IDC_STATIC,148,61,89,8
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,0,0,140,197
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,149,54,146,1,
+                    WS_EX_STATICEDGE
+END
+
+IDD_CUSTOM3 DIALOG DISCARDABLE  0, 0, 303, 197
+STYLE DS_CONTROL | WS_CHILD | WS_TABSTOP
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "静态链接库",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED | WS_GROUP,157,23,56,10
+    CONTROL         "动态链接库",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON,157,
+                    37,56,10
+    LTEXT           "请选择如何使用 MFC 类库：",IDC_STATIC,148,9,101,8
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,0,0,140,197
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEMPLATE
+//
+
+NEWPROJ.INF             TEMPLATE DISCARDABLE    "template\\newproj.inf"
+CONFIRM.INF             TEMPLATE DISCARDABLE    "template\\confirm.inf"
+MFCTemp.ico             TEMPLATE DISCARDABLE    "Template\\MFCTemp.ico"
+MFCTempDoc.ico          TEMPLATE DISCARDABLE    "Template\\MFCTempDoc.ico"
+MainFrm.cpp             TEMPLATE DISCARDABLE    "Template\\MainFrm.cpp"
+MainFrm.h               TEMPLATE DISCARDABLE    "Template\\MainFrm.h"
+MFCTemp.clw             TEMPLATE DISCARDABLE    "Template\\MFCTemp.clw"
+MFCTemp.cpp             TEMPLATE DISCARDABLE    "Template\\MFCTemp.cpp"
+MFCTemp.h               TEMPLATE DISCARDABLE    "Template\\MFCTemp.h"
+MFCTemp.rc              TEMPLATE DISCARDABLE    "Template\\MFCTemp.rc"
+MFCTemp.rc2             TEMPLATE DISCARDABLE    "Template\\MFCTemp.rc2"
+MFCTemp_TB.bmp          TEMPLATE DISCARDABLE    "Template\\MFCTemp_TB.bmp"
+MFCTempDoc.cpp          TEMPLATE DISCARDABLE    "Template\\MFCTempDoc.cpp"
+MFCTempDoc.h            TEMPLATE DISCARDABLE    "Template\\MFCTempDoc.h"
+MFCTempView.cpp         TEMPLATE DISCARDABLE    "Template\\MFCTempView.cpp"
+MFCTempView.h           TEMPLATE DISCARDABLE    "Template\\MFCTempView.h"
+StdAfx.cpp              TEMPLATE DISCARDABLE    "Template\\StdAfx.cpp"
+StdAfx.h                TEMPLATE DISCARDABLE    "Template\\StdAfx.h"
+Render.h                TEMPLATE DISCARDABLE    "Template\\Render.h"
+Render.cpp              TEMPLATE DISCARDABLE    "Template\\Render.cpp"
+MFCTempRes.h            TEMPLATE DISCARDABLE    "Template\\MFCTempRes.h"
+Win32TempRes.h          TEMPLATE DISCARDABLE    "Template\\Win32TempRes.h"
+Win32Temp.ico           TEMPLATE DISCARDABLE    "Template\\Win32Temp.ico"
+Win32Temp.rc            TEMPLATE DISCARDABLE    "Template\\Win32Temp.rc"
+Win32Temp.cpp           TEMPLATE DISCARDABLE    "Template\\Win32Temp.cpp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ANGELICAAPPWIZ      ICON    DISCARDABLE     "res\\AngelicaAppWiz.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+#include "afxres.rc"  // Standard components
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

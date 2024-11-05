@@ -1,0 +1,133 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AUInterface - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\DevUser\LOCALS~1\Temp\RSP1466.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\ClientTools\LuaWrapper\Include" /I "..\include\luawrapper" /I "..\LuaWrapperExport\Include" /I "..\LuaWrapper\Include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "UNICODE" /D "_ANGELICA2" /D _WIN32_WINNT=0x0400 /Fr"Debug/" /Fp"Debug/AUInterface.pch" /Yu"AUI.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\mmorpg_engine\AUInterface2\A2DDotLine.cpp"
+"D:\mmorpg_engine\AUInterface2\A2DDotLineMan.cpp"
+"D:\mmorpg_engine\AUInterface2\A3DAlterableSkinModel.cpp"
+"D:\mmorpg_engine\AUInterface2\A3DFTFont.cpp"
+"D:\mmorpg_engine\AUInterface2\A3DFTFontMan.cpp"
+"D:\mmorpg_engine\AUInterface2\AStringWithWildcard.cpp"
+"D:\mmorpg_engine\AUInterface2\AUICheckBox.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIClockIcon.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIComboBox.cpp"
+"D:\mmorpg_engine\AUInterface2\AUICommon.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIConsole.cpp"
+"D:\mmorpg_engine\AUInterface2\AUICTranslate.cpp"
+"D:\mmorpg_engine\AUInterface2\AUICustomize.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIDialog.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIEditBox.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIFrame.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIImagePicture.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIImeHook.cpp"
+"D:\mmorpg_engine\AUInterface2\AUILabel.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIListBox.cpp"
+"D:\mmorpg_engine\AUInterface2\AUILuaDialog.cpp"
+"D:\mmorpg_engine\AUInterface2\AUILuaManager.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIManager.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIModelPicture.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIObject.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIPicture.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIProgress.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIRadioButton.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIScroll.cpp"
+"D:\mmorpg_engine\AUInterface2\AUISlider.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIStillImageButton.cpp"
+"D:\mmorpg_engine\AUInterface2\AUISubDialog.cpp"
+"D:\mmorpg_engine\AUInterface2\AUITag.cpp"
+"D:\mmorpg_engine\AUInterface2\AUITextArea.cpp"
+"D:\mmorpg_engine\AUInterface2\AUITreeView.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIVerticalText.cpp"
+"D:\mmorpg_engine\AUInterface2\AUIWindowPicture.cpp"
+"D:\mmorpg_engine\AUInterface2\AXMLFile.cpp"
+"D:\mmorpg_engine\AUInterface2\CSplit.cpp"
+"D:\mmorpg_engine\AUInterface2\LuaDlgApi.cpp"
+"D:\mmorpg_engine\AUInterface2\UIRenderTarget.cpp"
+"D:\mmorpg_engine\AUInterface2\WndThreadManager.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\DevUser\LOCALS~1\Temp\RSP1466.tmp" 
+Creating temporary file "C:\DOCUME~1\DevUser\LOCALS~1\Temp\RSP1467.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\ClientTools\LuaWrapper\Include" /I "..\include\luawrapper" /I "..\LuaWrapperExport\Include" /I "..\LuaWrapper\Include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "UNICODE" /D "_ANGELICA2" /D _WIN32_WINNT=0x0400 /Fr"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\mmorpg_engine\AUInterface2\AUIObjectTemplateManager.cpp"
+"D:\mmorpg_engine\AUInterface2\ImeUi.cpp"
+"D:\mmorpg_engine\AUInterface2\IMEWrapper.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\DevUser\LOCALS~1\Temp\RSP1467.tmp" 
+Creating temporary file "C:\DOCUME~1\DevUser\LOCALS~1\Temp\RSP1468.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\..\ClientTools\LuaWrapper\Include" /I "..\include\luawrapper" /I "..\LuaWrapperExport\Include" /I "..\LuaWrapper\Include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "UNICODE" /D "_ANGELICA2" /D _WIN32_WINNT=0x0400 /Fr"Debug/" /Fp"Debug/AUInterface.pch" /Yc"AUI.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\mmorpg_engine\AUInterface2\AUI.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\DevUser\LOCALS~1\Temp\RSP1468.tmp" 
+Creating temporary file "C:\DOCUME~1\DevUser\LOCALS~1\Temp\RSP1469.tmp" with contents
+[
+/nologo /out:"Lib\AUInterface_d.lib" 
+.\Debug\A2DDotLine.obj
+.\Debug\A2DDotLineMan.obj
+.\Debug\A3DAlterableSkinModel.obj
+.\Debug\A3DFTFont.obj
+.\Debug\A3DFTFontMan.obj
+.\Debug\AStringWithWildcard.obj
+.\Debug\AUI.obj
+.\Debug\AUICheckBox.obj
+.\Debug\AUIClockIcon.obj
+.\Debug\AUIComboBox.obj
+.\Debug\AUICommon.obj
+.\Debug\AUIConsole.obj
+.\Debug\AUICTranslate.obj
+.\Debug\AUICustomize.obj
+.\Debug\AUIDialog.obj
+.\Debug\AUIEditBox.obj
+.\Debug\AUIFrame.obj
+.\Debug\AUIImagePicture.obj
+.\Debug\AUIImeHook.obj
+.\Debug\AUILabel.obj
+.\Debug\AUIListBox.obj
+.\Debug\AUILuaDialog.obj
+.\Debug\AUILuaManager.obj
+.\Debug\AUIManager.obj
+.\Debug\AUIModelPicture.obj
+.\Debug\AUIObject.obj
+.\Debug\AUIObjectTemplateManager.obj
+.\Debug\AUIPicture.obj
+.\Debug\AUIProgress.obj
+.\Debug\AUIRadioButton.obj
+.\Debug\AUIScroll.obj
+.\Debug\AUISlider.obj
+.\Debug\AUIStillImageButton.obj
+.\Debug\AUISubDialog.obj
+.\Debug\AUITag.obj
+.\Debug\AUITextArea.obj
+.\Debug\AUITreeView.obj
+.\Debug\AUIVerticalText.obj
+.\Debug\AUIWindowPicture.obj
+.\Debug\AXMLFile.obj
+.\Debug\CSplit.obj
+.\Debug\ImeUi.obj
+.\Debug\IMEWrapper.obj
+.\Debug\LuaDlgApi.obj
+.\Debug\UIRenderTarget.obj
+.\Debug\WndThreadManager.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\DevUser\LOCALS~1\Temp\RSP1469.tmp"
+<h3>Output Window</h3>
+Compiling...
+AUI.cpp
+d:\mmorpg_engine\auinterface2\auiluamanager.h(14) : fatal error C1083: Cannot open include file: 'ScriptValue.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+AUInterface_d.lib - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

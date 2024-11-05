@@ -1,0 +1,193 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SectorEditor - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/SectorEditor.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\SectorEditor.rc"" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSP6BFB.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\..\Output\A3DSDK\Include" /I "..\..\Output\AFSDK\Include" /I "..\..\Output\ACSDK\Include" /I "..\..\Output\AMSDK\Include" /I "..\..\Output\3rdSDK\Include" /I "F:\DirectX 8.1 SDK\Include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SectorEditor.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\Global.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\MainFrm.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\MainFrmUpdate.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\SectorEditor.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\SectorEditorDoc.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\SectorEditorDocFile.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\SectorEditorView.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\Utility.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\WndOrthogonal.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\WndPerspective.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\WndViewport.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\WndXY.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\WndXZ.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\WndYZ.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\PT_BSP.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\PT_Main.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\PT_Math.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\PT_Plane.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\PT_Sector.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\PT_Winding.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\PT_Write.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\Portal.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\SceneFrame.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\SceneTexture.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\Sector.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OptBase.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OptCreatePortal.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OptCreateSector.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OptCreateSidePortal.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OptLinkSector.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OptMoveObject.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OptNamePortal.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OptSizePortal.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OptSizeSector.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OptSnapPortal.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OptZoom.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\Bound.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\Box3D.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OrthoCamera.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OrthoGrid.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\OrthoViewport.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\Render.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\WireCollector.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\DlgExportPtFile.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\DlgMessage.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\DlgOptions.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\DlgPortalProp.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\DlgPortalSector.cpp"
+]
+Creating command line "cl.exe @C:\Users\Wanmei\AppData\Local\Temp\RSP6BFB.tmp" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSP6BFC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\..\Output\A3DSDK\Include" /I "..\..\Output\AFSDK\Include" /I "..\..\Output\ACSDK\Include" /I "..\..\Output\AMSDK\Include" /I "..\..\Output\3rdSDK\Include" /I "F:\DirectX 8.1 SDK\Include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SectorEditor.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\SectorEditor\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Wanmei\AppData\Local\Temp\RSP6BFC.tmp" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSP6BFD.tmp" with contents
+[
+zliblib.lib mpg123lib.lib Immwrapper.lib AngelicaCommon.lib Angelica3D.lib dxguid.lib d3d8.lib d3dx8.lib dsound.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SectorEditor.pdb" /machine:I386 /out:"Bin\SectorEditor.exe" /libpath:"..\..\Output\A3DSDK\Lib" /libpath:"..\..\Output\AFSDK\Lib" /libpath:"..\..\Output\ACSDK\Lib" /libpath:"..\..\Output\AMSDK\Lib" /libpath:"..\..\Output\3rdSDK\Lib" /libpath:"F:\DirectX 8.1 SDK\lib" 
+.\Release\Global.obj
+.\Release\MainFrm.obj
+.\Release\MainFrmUpdate.obj
+.\Release\SectorEditor.obj
+.\Release\SectorEditorDoc.obj
+.\Release\SectorEditorDocFile.obj
+.\Release\SectorEditorView.obj
+.\Release\StdAfx.obj
+.\Release\Utility.obj
+.\Release\WndOrthogonal.obj
+.\Release\WndPerspective.obj
+.\Release\WndViewport.obj
+.\Release\WndXY.obj
+.\Release\WndXZ.obj
+.\Release\WndYZ.obj
+.\Release\PT_BSP.obj
+.\Release\PT_Main.obj
+.\Release\PT_Math.obj
+.\Release\PT_Plane.obj
+.\Release\PT_Sector.obj
+.\Release\PT_Winding.obj
+.\Release\PT_Write.obj
+.\Release\Portal.obj
+.\Release\SceneFrame.obj
+.\Release\SceneTexture.obj
+.\Release\Sector.obj
+.\Release\OptBase.obj
+.\Release\OptCreatePortal.obj
+.\Release\OptCreateSector.obj
+.\Release\OptCreateSidePortal.obj
+.\Release\OptLinkSector.obj
+.\Release\OptMoveObject.obj
+.\Release\OptNamePortal.obj
+.\Release\OptSizePortal.obj
+.\Release\OptSizeSector.obj
+.\Release\OptSnapPortal.obj
+.\Release\OptZoom.obj
+.\Release\Bound.obj
+.\Release\Box3D.obj
+.\Release\OrthoCamera.obj
+.\Release\OrthoGrid.obj
+.\Release\OrthoViewport.obj
+.\Release\Render.obj
+.\Release\WireCollector.obj
+.\Release\DlgExportPtFile.obj
+.\Release\DlgMessage.obj
+.\Release\DlgOptions.obj
+.\Release\DlgPortalProp.obj
+.\Release\DlgPortalSector.obj
+.\Release\SectorEditor.res
+]
+Creating command line "link.exe @C:\Users\Wanmei\AppData\Local\Temp\RSP6BFD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Global.cpp
+MainFrm.cpp
+MainFrmUpdate.cpp
+SectorEditor.cpp
+SectorEditorDoc.cpp
+SectorEditorDocFile.cpp
+SectorEditorView.cpp
+Utility.cpp
+WndOrthogonal.cpp
+WndPerspective.cpp
+WndViewport.cpp
+WndXY.cpp
+WndXZ.cpp
+WndYZ.cpp
+PT_BSP.cpp
+PT_Main.cpp
+PT_Math.cpp
+PT_Plane.cpp
+PT_Sector.cpp
+PT_Winding.cpp
+PT_Write.cpp
+Portal.cpp
+SceneFrame.cpp
+SceneTexture.cpp
+Sector.cpp
+OptBase.cpp
+OptCreatePortal.cpp
+OptCreateSector.cpp
+OptCreateSidePortal.cpp
+OptLinkSector.cpp
+OptMoveObject.cpp
+OptNamePortal.cpp
+OptSizePortal.cpp
+OptSizeSector.cpp
+OptSnapPortal.cpp
+OptZoom.cpp
+Bound.cpp
+Box3D.cpp
+OrthoCamera.cpp
+OrthoGrid.cpp
+OrthoViewport.cpp
+Render.cpp
+WireCollector.cpp
+DlgExportPtFile.cpp
+DlgMessage.cpp
+DlgOptions.cpp
+DlgPortalProp.cpp
+DlgPortalSector.cpp
+Linking...
+Angelica3D.lib(AMOggFile.obj) : error LNK2001: unresolved external symbol _ov_pcm_total
+Angelica3D.lib(AMOggFile.obj) : error LNK2001: unresolved external symbol _ov_open_callbacks
+Angelica3D.lib(AMOggFile.obj) : error LNK2001: unresolved external symbol _ov_clear
+Angelica3D.lib(AMOggFile.obj) : error LNK2001: unresolved external symbol _ov_pcm_seek
+Angelica3D.lib(AMOggFile.obj) : error LNK2001: unresolved external symbol _ov_read
+Angelica3D.lib(AMOggFile.obj) : error LNK2001: unresolved external symbol _ov_info
+Bin\SectorEditor.exe : fatal error LNK1120: 6 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+SectorEditor.exe - 7 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

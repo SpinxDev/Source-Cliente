@@ -1,0 +1,248 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open",                       IDM_FILEOPEN
+        MENUITEM "&Exit",                       IDM_FILEEXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCEL ACCELERATORS DISCARDABLE 
+BEGIN
+    VK_ESCAPE,      IDM_FILEEXIT,           VIRTKEY, NOINVERT
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PANEL DIALOGEX 0, 0, 108, 549
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "Angelica 3D IBL Mesh Exporter",IDC_STATIC,7,7,94,20,0,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Export Selected IBL",IDC_BUTTONEXPORT,11,452,84,14,
+                    WS_DISABLED
+    GROUPBOX        "Options",IDC_STATIC,7,80,94,306
+    CONTROL         "Cast Shadow",IDC_CHECKUSESHADOW,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,106,81,10
+    CONTROL         "Texture Maps",IDC_CHECKUSEMAPS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,92,81,10
+    PUSHBUTTON      "Show Selected IBL",IDC_BUTTONSHOW,11,467,84,14
+    GROUPBOX        "Presets",IDC_STATIC,7,31,94,40
+    COMBOBOX        IDC_COMBOPRESET,11,46,87,65,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Blur",IDC_CHECKUSEBLUR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,134,32,10
+    CONTROL         "Default Light",IDC_CHECKDEFAULTLIGHT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,120,81,10
+    LTEXT           "Times",IDC_STATIC,77,136,21,8
+    GROUPBOX        "Blur Coeff.",IDC_STATIC,12,148,86,63
+    CONTROL         "",IDC_EDITBLURTIME,"CUSTEDIT",WS_TABSTOP,49,132,24,13
+    CONTROL         "",IDC_EDITF00,"CUSTEDIT",WS_TABSTOP,18,160,20,14
+    CONTROL         "",IDC_EDITF01,"CUSTEDIT",WS_TABSTOP,45,160,20,14
+    CONTROL         "",IDC_EDITF02,"CUSTEDIT",WS_TABSTOP,72,160,20,14
+    CONTROL         "",IDC_EDITF10,"CUSTEDIT",WS_TABSTOP,18,176,20,14
+    CONTROL         "",IDC_EDITF11,"CUSTEDIT",WS_TABSTOP,45,176,20,14
+    CONTROL         "",IDC_EDITF12,"CUSTEDIT",WS_TABSTOP,72,176,20,14
+    CONTROL         "",IDC_EDITF20,"CUSTEDIT",WS_TABSTOP,18,192,20,14
+    CONTROL         "",IDC_EDITF21,"CUSTEDIT",WS_TABSTOP,45,192,20,14
+    CONTROL         "",IDC_EDITF22,"CUSTEDIT",WS_TABSTOP,72,192,20,14
+    GROUPBOX        "Light Range",IDC_STATIC,11,213,86,52
+    CONTROL         "(1X) Normal",IDC_RADIO1X,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,16,224,78,10
+    CONTROL         "(2X) Shining",IDC_RADIO2X,"Button",BS_AUTORADIOBUTTON,
+                    16,237,78,10
+    CONTROL         "(4X) Dazzling",IDC_RADIO4X,"Button",BS_AUTORADIOBUTTON,
+                    16,250,78,10
+    PUSHBUTTON      "Export IBL By BB",IDC_BUTTONEXPORTBB,12,524,84,14,
+                    WS_DISABLED
+    GROUPBOX        "View Control",IDC_STATIC,7,392,94,45
+    CONTROL         "Sky Simulate",IDC_CHECKSKY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,406,77,10
+    CONTROL         "Vertex Color",IDC_CHECKVC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,422,76,10
+    GROUPBOX        "Sample Control",IDC_STATIC,11,268,86,114
+    CONTROL         "",IDC_EDITSTEP,"CUSTEDIT",WS_TABSTOP,62,286,24,13
+    LTEXT           "Face Step",IDC_STATIC,16,287,44,8
+    LTEXT           "Lightmap size",IDC_STATIC,15,350,77,8
+    COMBOBOX        IDC_COMBOSIZE,15,362,77,45,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Show IBL Scene",IDC_BUTTONIBLSCENE,12,503,83,14
+    PUSHBUTTON      "Export IBL Scene",IDC_BUTTONEXPORTIBLSCENE,12,487,83,14
+    GROUPBOX        "Export Control",IDC_STATIC,7,440,94,102
+    LTEXT           "Grid Size",IDC_STATIC,16,303,44,8
+    CONTROL         "",IDC_EDITGRIDSIZE,"CUSTEDIT",WS_TABSTOP,62,302,24,13
+    CONTROL         "Smooth Grid",IDC_CHECKGRIDSMOOTH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,336,76,10
+    LTEXT           "Dim value",IDC_STATIC,16,320,44,8
+    CONTROL         "",IDC_EDITGRIDDIM,"CUSTEDIT",WS_TABSTOP,62,319,24,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PANEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 542
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PANEL DLGINIT
+BEGIN
+    IDC_COMBOPRESET, 0x403, 13, 0
+0x614d, 0x2078, 0x6353, 0x6e61, 0x696c, 0x656e, "\000" 
+    IDC_COMBOPRESET, 0x403, 13, 0
+0x6946, 0x616e, 0x206c, 0x6552, 0x646e, 0x7265, "\000" 
+    IDC_COMBOPRESET, 0x403, 11, 0
+0x694c, 0x6867, 0x7374, 0x6163, 0x6570, "\000" 
+    IDC_COMBOSIZE, 0x403, 10, 0
+0x3532, 0x2036, 0x202a, 0x3532, 0x0036, 
+    IDC_COMBOSIZE, 0x403, 10, 0
+0x3135, 0x2032, 0x202a, 0x3135, 0x0032, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_LIBDESCRIPTION      "Angelica 3D Light Extra 2"
+    IDS_CATEGORY            "Angelica"
+    IDS_CLASS_NAME          "LightExtra2"
+    IDS_PARAMS              "Light Extractor"
+    IDS_SPIN                "Spin"
+    IDS_LIGHTEXTRA_PROGRESS "Extracting Lights..."
+    IDS_CALCULATEFACE       "Calculating face counts..."
+    IDS_NODESHADOR_PREPARELIGHT "Preparing Lights..."
+    IDS_SHADELIGHTGRID      "Calculating Light Grid..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

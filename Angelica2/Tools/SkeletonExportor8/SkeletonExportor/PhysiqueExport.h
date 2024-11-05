@@ -1,0 +1,85 @@
+/*
+ * FILE: PhysiqueExport.h
+ *
+ * DESCRIPTION: 
+ *
+ * CREATED BY: Duyuxin, 2004/5/24
+ *
+ * HISTORY: 
+ *
+ * Copyright (c) 2004 Archosaur Studio, All Rights Reserved.
+ */
+
+#ifndef _PHYSIQUEEXPORT_H_
+#define _PHYSIQUEEXPORT_H_
+
+#include "max.h"
+
+///////////////////////////////////////////////////////////////////////////
+//	
+//	Define and Macro
+//	
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//	
+//	Types and Global variables
+//	
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//	
+//	Declare of Global functions
+//	
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//	
+//	Class CPhysiqueExport
+//	
+///////////////////////////////////////////////////////////////////////////
+
+class CPhysiqueExport : public SceneExport
+{
+public:		//	Types
+
+public:		//	Constructor and Destructor
+
+	CPhysiqueExport();
+	virtual ~CPhysiqueExport() {}
+
+public:		//	Attributes
+
+public:		//	Operations
+
+	const TCHAR* AuthorName();
+	const TCHAR* CopyrightMessage();
+	int DoExport(const TCHAR* name, ExpInterface* ei, Interface* i, BOOL suppressPrompts, DWORD options);
+	const TCHAR* Ext(int n);
+	int ExtCount();
+	const TCHAR* LongDesc();
+	const TCHAR* OtherMessage1();
+	const TCHAR* OtherMessage2();
+	const TCHAR* ShortDesc();
+	void ShowAbout(HWND hWnd);
+	unsigned int Version();
+
+protected:	//	Attributes
+
+	ExpInterface*	m_ei;			//	Export interface
+	Interface*		m_i;			//	Interface
+
+protected:	//	Operations
+
+};
+
+///////////////////////////////////////////////////////////////////////////
+//	
+//	Inline functions
+//	
+///////////////////////////////////////////////////////////////////////////
+
+#endif	//	_PHYSIQUEEXPORT_H_

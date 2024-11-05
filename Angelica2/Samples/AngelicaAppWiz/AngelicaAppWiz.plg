@@ -1,0 +1,118 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AngelicaAppWiz - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSPE13F.bat" with contents
+[
+@echo off
+echo. >"hlp\AngelicaAppWiz.hm"
+echo // Commands (ID_* and IDM_*) >>"hlp\AngelicaAppWiz.hm"
+makehm ID_,HID_,0x10000 IDM_,HIDM_,0x10000 resource.h >>"hlp\AngelicaAppWiz.hm"
+echo. >>"hlp\AngelicaAppWiz.hm"
+echo // Prompts (IDP_*) >>"hlp\AngelicaAppWiz.hm"
+makehm IDP_,HIDP_,0x30000 resource.h >>"hlp\AngelicaAppWiz.hm"
+echo. >>"hlp\AngelicaAppWiz.hm"
+echo // Resources (IDR_*) >>"hlp\AngelicaAppWiz.hm"
+makehm IDR_,HIDR_,0x20000 resource.h >>"hlp\AngelicaAppWiz.hm"
+echo. >>"hlp\AngelicaAppWiz.hm"
+echo // Dialogs (IDD_*) >>"hlp\AngelicaAppWiz.hm"
+makehm IDD_,HIDD_,0x20000 resource.h >>"hlp\AngelicaAppWiz.hm"
+echo. >>"hlp\AngelicaAppWiz.hm"
+echo // Frame Controls (IDW_*) >>"hlp\AngelicaAppWiz.hm"
+makehm IDW_,HIDW_,0x50000 resource.h >>"hlp\AngelicaAppWiz.hm"
+]
+Creating command line "C:\Users\Wanmei\AppData\Local\Temp\RSPE13F.bat"
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSPE140.bat" with contents
+[
+@echo off
+start /wait hcw /C /E /M "hlp\AngelicaAppWiz.hpj"
+if errorlevel 1 goto :Error
+if not exist "hlp\AngelicaAppWiz.hlp" goto :Error
+copy "hlp\AngelicaAppWiz.hlp" .\Release
+copy ".\Release\AngelicaAppWiz.hlp" "C:\msvc6\MSDev98\Template"
+goto :done
+:Error
+echo hlp\AngelicaAppWiz.hpj(1) : error:
+type "hlp\AngelicaAppWiz.log"
+:done
+]
+Creating command line "C:\Users\Wanmei\AppData\Local\Temp\RSPE140.bat"
+Creating command line "rc.exe /l 0x804 /fo"Release/AngelicaAppWiz.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Samples\AngelicaAppWiz\AngelicaAppWiz.rc"" 
+Making help include file...
+Making help file...
+hlp\AngelicaAppWiz.hpj(1) : error:
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+angelicaappwiz.hpj
+    HC5011: Error: angelicaappwiz.hpj : 
+ Cannot open the file "F:\Microsoft Visual Studio\VC98\MFC\include\afxhelp.hm."
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSPE334.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/AngelicaAppWiz.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Samples\AngelicaAppWiz\AngelicaAppWiz.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Samples\AngelicaAppWiz\AngelicaAppWizAw.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Samples\AngelicaAppWiz\Chooser.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Samples\AngelicaAppWiz\Cstm1Dlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Samples\AngelicaAppWiz\Cstm2Dlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Samples\AngelicaAppWiz\Cstm3Dlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Samples\AngelicaAppWiz\Debug.cpp"
+]
+Creating command line "cl.exe @C:\Users\Wanmei\AppData\Local\Temp\RSPE334.tmp" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSPE335.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/AngelicaAppWiz.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Samples\AngelicaAppWiz\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Wanmei\AppData\Local\Temp\RSPE335.tmp" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSPE336.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/AngelicaAppWiz.pdb" /machine:I386 /out:"Release/AngelicaAppWiz.awx" /implib:"Release/AngelicaAppWiz.lib" 
+.\Release\AngelicaAppWiz.obj
+.\Release\AngelicaAppWizAw.obj
+.\Release\Chooser.obj
+.\Release\Cstm1Dlg.obj
+.\Release\Cstm2Dlg.obj
+.\Release\Cstm3Dlg.obj
+.\Release\Debug.obj
+.\Release\StdAfx.obj
+.\Release\AngelicaAppWiz.res
+]
+Creating command line "link.exe @C:\Users\Wanmei\AppData\Local\Temp\RSPE336.tmp"
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSPE337.bat" with contents
+[
+@echo off
+if not exist "C:\msvc6\MSDev98\Template\nul" md "C:\msvc6\MSDev98\Template"
+copy ".\Release\AngelicaAppWiz.awx" "C:\msvc6\MSDev98\Template"
+if exist ".\Release\AngelicaAppWiz.pdb" copy ".\Release\AngelicaAppWiz.pdb" "C:\msvc6\MSDev98\Template"
+]
+Creating command line "C:\Users\Wanmei\AppData\Local\Temp\RSPE337.bat"
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AngelicaAppWiz.cpp
+AngelicaAppWizAw.cpp
+Chooser.cpp
+Cstm1Dlg.cpp
+Cstm2Dlg.cpp
+Cstm3Dlg.cpp
+Debug.cpp
+Generating Code...
+Linking...
+<h3>Output Window</h3>
+Copying custom AppWizard to Template directory...
+子目录或文件 C:\msvc6\MSDev98\Template 已经存在。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+AngelicaAppWiz.awx - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

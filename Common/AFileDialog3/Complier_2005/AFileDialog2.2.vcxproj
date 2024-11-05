@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Editor Unicode Debug|Win32">
+      <Configuration>Editor Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Editor Unicode Release|Win32">
+      <Configuration>Editor Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Debug|Win32">
+      <Configuration>Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Release|Win32">
+      <Configuration>Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectName>AFileDialog</ProjectName>
+    <ProjectGuid>{BEED90C6-620A-4C47-A5EE-66DB36B1C3B8}</ProjectGuid>
+    <RootNamespace>AFileDialog3</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.34714.143</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <GenerateManifest>true</GenerateManifest>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\Lib_2005\</OutDir>
+    <IntDir>Build\2.2\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <GenerateManifest>true</GenerateManifest>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <OutDir>..\Lib_2005\</OutDir>
+    <IntDir>Build\2.2\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <GenerateManifest>true</GenerateManifest>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <OutDir>..\Lib_2005\</OutDir>
+    <IntDir>Build\2.2\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <GenerateManifest>true</GenerateManifest>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>true</GenerateManifest>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>true</GenerateManifest>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include;D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\Angelica2\Output\include;D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\Angelica2\Output\3rdSDK\include\cximage;D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\Angelica2\Output\include\lua;..\AFileDialogDll;..\ImageCacheLib;D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\SMElement253\include\LuaWrapper;D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\SMElement253\include\GFX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_USRDLL;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;_CRT_SECURE_NO_WARNINGS;_ANGELICA2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ProgramDataBaseFileName>$(IntDir)vc80_afd.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>GfxEditor_d.lib;d3d8.lib;d3dx8.lib;dsound.lib;cximage_d.lib;ImageCacheLib_d.lib;dxguid.lib;AngelicaCommon_d.lib;AngelicaFile_d.lib;AngelicaMedia_d.lib;Angelica3D_d.lib;LuaWrapper_d.lib;lua5.1.mtd.lib;AudioEngine2.2_lib_d.lib;APhysXEngineStatic_d.lib;fmodex_vc.lib;imagehlp.lib;ImmWrapper_d.lib;mpg123lib_d.lib;vorbis_static_d.lib;vorbisfile_static_d.lib;ogg_static_d.lib;strmbase_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\lib;D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\SMElement253\lib;..\Lib_2005\2.2;D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\Angelica2\Output\lib;..\AFileDialogDll;D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\Angelica2\Output\3rdSDK\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy ..\AFileDialogDll\*Wrapper.h ..\AFileDialogDllInclude /Y /D /Q /R
+xcopy ..\AFileDialogDll\AFileExpDecl.h ..\AFileDialogDllInclude /Y /D /Q /R
+xcopy ..\CommonFile\CommonFileName.h ..\AFileDialogDllInclude /Y /D /Q /R
+set DST_PATH="..\..\Output"
+xcopy "$(TargetPath)" %25DST_PATH%25\..\..\Bin\ /Y /D /Q /R
+xcopy "$(TargetDir)$(TargetName).lib" %25DST_PATH%25\lib\ /Y /D /Q /R
+xcopy ..\AFileDialogDllInclude\*.h %25DST_PATH%25\Include\ /Y /D /Q /R
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\..\..\Angelica2\Output\ACSDK\Include;..\..\..\Angelica2\Output\AFSDK\Include;..\..\..\Angelica2\Output\AMSDK\Include;..\..\..\Angelica2\Output\APSDK\Include;..\..\..\Angelica2\Output\A3DSDK\Include;..\..\..\Angelica2\Output\3rdSDK\Include\cximage;..\..\..\Angelica2\Output\3rdSDK\Include;..\..\..\Angelica2\Output\3rdSDK\include\lua;..\AFileDialogDll;..\ImageCacheLib;..\..\Output\include\LuaWrapper;..\..\Output\Include\Gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_USRDLL;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;_CRT_SECURE_NO_WARNINGS;_ANGELICA2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(IntDir)vc80_afd.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>GfxEditor.lib;d3d8.lib;d3dx8.lib;dsound.lib;cximage.lib;ImageCacheLib.lib;dxguid.lib;AngelicaCommon.lib;AngelicaFile.lib;AngelicaMedia.lib;Angelica3D.lib;LuaWrapper.lib;lua5.1.mt.lib;AudioEngine2.2_lib.lib;APhysXEngineStatic.lib;fmodex_vc.lib;imagehlp.lib;ImmWrapper.lib;mpg123lib.lib;vorbis_static.lib;vorbisfile_static.lib;ogg_static.lib;strmbase_u.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\Lib_2005\$(ProjectName)2_2.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\Angelica2\Output\3rdsdk\Lib;..\..\..\Angelica2\Output\ACSDK\Lib;..\..\..\Angelica2\Output\AFSDK\Lib;..\..\..\Angelica2\Output\AMSDK\Lib;..\..\..\Angelica2\Output\A3DSDK\Lib;..\..\Output\Lib;..\Lib_2005\2.2;..\AFileDialogDll;..\..\APhysXIntegration\PhysX_SDK\v2.8.4_win\SDKs\lib\Win32;..\..\APhysXIntegration\lib_vc8;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy ..\AFileDialogDll\*Wrapper.h ..\AFileDialogDllInclude /Y /D /Q /R
+xcopy ..\AFileDialogDll\AFileExpDecl.h ..\AFileDialogDllInclude /Y /D /Q /R
+xcopy ..\CommonFile\CommonFileName.h ..\AFileDialogDllInclude /Y /D /Q /R
+set DST_PATH="..\..\Output"
+xcopy "$(TargetPath)" %25DST_PATH%25\..\..\Bin\ /Y /D /Q /R
+xcopy "$(TargetDir)$(TargetName).lib" %25DST_PATH%25\lib\ /Y /D /Q /R
+xcopy ..\AFileDialogDllInclude\*.h %25DST_PATH%25\Include\ /Y /D /Q /R
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\Angelica2\Output\ACSDK\Include;..\..\..\Angelica2\Output\AFSDK\Include;..\..\..\Angelica2\Output\AMSDK\Include;..\..\..\Angelica2\Output\APSDK\Include;..\..\..\Angelica2\Output\A3DSDK\Include;..\..\..\Angelica2\Output\3rdSDK\Include\cximage;..\..\..\Angelica2\Output\3rdSDK\Include;..\..\..\Angelica2\Output\3rdSDK\include\lua;..\AFileDialogDll;..\ImageCacheLib;..\..\Output\include\LuaWrapper;..\..\Output\Include\Gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;UNICODE;_WINDOWS;_USRDLL;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;_CRT_SECURE_NO_WARNINGS;_ANGELICA2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ProgramDataBaseFileName>$(IntDir)vc80_afd.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d8.lib;d3dx8.lib;dsound.lib;cximage_ud.lib;ImageCacheLib_ud.lib;dxguid.lib;AngelicaCommon_ud.lib;AngelicaFile_ud.lib;AngelicaMedia_ud.lib;Angelica3D_ud.lib;GfxEditor_ud.lib;LuaWrapper_ud.lib;lua5.1.mtd.lib;d3d9.lib;AudioEngine2.2_lib_d.lib;APhysXEngineStatic_ud.lib;fmodex_vc.lib;ImmWrapper_d.lib;mpg123lib_d.lib;vorbis_static_d.lib;vorbisfile_static_d.lib;ogg_static_d.lib;strmbase_d.lib;Dbghelp.lib;Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\Lib_2005\$(ProjectName)2_2_ud.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\Angelica2\Output\3rdsdk\Lib;..\..\..\Angelica2\Output\ACSDK\Lib;..\..\..\Angelica2\Output\AFSDK\Lib;..\..\..\Angelica2\Output\AMSDK\Lib;..\..\..\Angelica2\Output\A3DSDK\Lib;..\..\Output\Lib;..\Lib_2005\2.2;..\AFileDialogDll;..\..\APhysXIntegration\PhysX_SDK\v2.8.4_win\SDKs\lib\Win32;..\..\APhysXIntegration\lib_vc8;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy ..\AFileDialogDll\*Wrapper.h ..\AFileDialogDllInclude /Y /D /Q /R
+xcopy ..\AFileDialogDll\AFileExpDecl.h ..\AFileDialogDllInclude /Y /D /Q /R
+xcopy ..\CommonFile\CommonFileName.h ..\AFileDialogDllInclude /Y /D /Q /R
+set DST_PATH="..\..\Output"
+xcopy "$(TargetPath)" %25DST_PATH%25\..\..\Bin\ /Y /D /Q /R
+xcopy "$(TargetDir)$(TargetName).lib" %25DST_PATH%25\lib\ /Y /D /Q /R
+xcopy ..\AFileDialogDllInclude\*.h %25DST_PATH%25\Include\ /Y /D /Q /R
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\..\..\Angelica2\Output\ACSDK\Include;..\..\..\Angelica2\Output\AFSDK\Include;..\..\..\Angelica2\Output\AMSDK\Include;..\..\..\Angelica2\Output\APSDK\Include;..\..\..\Angelica2\Output\A3DSDK\Include;..\..\..\Angelica2\Output\3rdSDK\Include\cximage;..\..\..\Angelica2\Output\3rdSDK\Include;..\..\..\Angelica2\Output\3rdSDK\include\lua;..\AFileDialogDll;..\ImageCacheLib;..\..\Output\include\LuaWrapper;..\..\Output\Include\Gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_UNICODE;NDEBUG;WIN32;_WINDOWS;_USRDLL;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;_CRT_SECURE_NO_WARNINGS;_ANGELICA2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(IntDir)vc80_afd.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d8.lib;d3dx8.lib;dsound.lib;cximage_u.lib;ImageCacheLib_u.lib;dxguid.lib;AngelicaCommon_u.lib;AngelicaFile_u.lib;AngelicaMedia_u.lib;Angelica3D_u.lib;GfxEditor_u.lib;LuaWrapper_u.lib;lua5.1.mt.lib;d3d9.lib;AudioEngine2.2_lib.lib;APhysXEngineStatic_u.lib;fmodex_vc.lib;ImmWrapper.lib;mpg123lib.lib;vorbis_static.lib;vorbisfile_static.lib;ogg_static.lib;strmbase_u.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\Lib_2005\$(ProjectName)2_2_u.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\Angelica2\Output\3rdsdk\Lib;..\..\..\Angelica2\Output\ACSDK\Lib;..\..\..\Angelica2\Output\AFSDK\Lib;..\..\..\Angelica2\Output\AMSDK\Lib;..\..\..\Angelica2\Output\A3DSDK\Lib;..\..\Output\Lib;..\Lib_2005\2.2;..\AFileDialogDll;..\..\APhysXIntegration\PhysX_SDK\v2.8.4_win\SDKs\lib\Win32;..\..\APhysXIntegration\lib_vc8;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy ..\AFileDialogDll\*Wrapper.h ..\AFileDialogDllInclude /Y /D /Q /R
+xcopy ..\AFileDialogDll\AFileExpDecl.h ..\AFileDialogDllInclude /Y /D /Q /R
+xcopy ..\CommonFile\CommonFileName.h ..\AFileDialogDllInclude /Y /D /Q /R
+set DST_PATH="..\..\Output"
+xcopy "$(TargetPath)" %25DST_PATH%25\..\..\Bin\ /Y /D /Q /R
+xcopy "$(TargetDir)$(TargetName).lib" %25DST_PATH%25\lib\ /Y /D /Q /R
+xcopy ..\AFileDialogDllInclude\*.h %25DST_PATH%25\Include\ /Y /D /Q /R
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\Angelica2\Output\ACSDK\Include;..\..\..\Angelica2\Output\AFSDK\Include;..\..\..\Angelica2\Output\AMSDK\Include;..\..\..\Angelica2\Output\APSDK\Include;..\..\..\Angelica2\Output\A3DSDK\Include;..\..\..\Angelica2\Output\3rdSDK\Include\cximage;..\..\..\Angelica2\Output\3rdSDK\Include;..\..\..\Angelica2\Output\3rdSDK\include\lua;..\AFileDialogDll;..\ImageCacheLib;..\..\Output\include\LuaWrapper;..\..\Output\Include\Gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;UNICODE;_WINDOWS;_USRDLL;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;_CRT_SECURE_NO_WARNINGS;_ANGELICA2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ProgramDataBaseFileName>$(IntDir)vc80_afd.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d8.lib;d3dx8.lib;dsound.lib;cximage_ud.lib;ImageCacheLib_ud.lib;dxguid.lib;AngelicaCommon_ud.lib;AngelicaFile_ud.lib;AngelicaMedia_ud.lib;Angelica3D_ud.lib;GfxEditor_ud.lib;LuaWrapper_ud.lib;lua5.1.mtd.lib;AudioEngine2.2_lib_ud.lib;APhysXEngineStatic_d.lib;fmodex_vc.lib;imagehlp.lib;ImmWrapper_d.lib;mpg123lib_d.lib;vorbis_static_d.lib;vorbisfile_static_d.lib;ogg_static_d.lib;strmbase_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\Lib_2005\$(ProjectName)2_2_ud.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\Angelica2\Output\3rdsdk\Lib;..\..\..\Angelica2\Output\ACSDK\Lib;..\..\..\Angelica2\Output\AFSDK\Lib;..\..\..\Angelica2\Output\AMSDK\Lib;..\..\..\Angelica2\Output\A3DSDK\Lib;..\..\Output\Lib;..\Lib_2005\2.2;..\AFileDialogDll;..\..\APhysXIntegration\PhysX_SDK\v2.8.4_win\SDKs\lib\Win32;..\..\APhysXIntegration\lib_vc8;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy ..\AFileDialogDll\*Wrapper.h ..\AFileDialogDllInclude /Y /D /Q /R
+xcopy ..\AFileDialogDll\AFileExpDecl.h ..\AFileDialogDllInclude /Y /D /Q /R
+xcopy ..\CommonFile\CommonFileName.h ..\AFileDialogDllInclude /Y /D /Q /R
+set DST_PATH="..\..\Output"
+xcopy "$(TargetPath)" %25DST_PATH%25\..\..\Bin\ /Y /D /Q /R
+xcopy "$(TargetDir)$(TargetName).lib" %25DST_PATH%25\lib\ /Y /D /Q /R
+xcopy ..\AFileDialogDllInclude\*.h %25DST_PATH%25\Include\ /Y /D /Q /R
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\Angelica2\Output\ACSDK\Include;..\..\..\Angelica2\Output\AFSDK\Include;..\..\..\Angelica2\Output\AMSDK\Include;..\..\..\Angelica2\Output\APSDK\Include;..\..\..\Angelica2\Output\A3DSDK\Include;..\..\..\Angelica2\Output\3rdSDK\Include\cximage;..\..\..\Angelica2\Output\3rdSDK\Include;..\..\..\Angelica2\Output\3rdSDK\include\lua;..\AFileDialogDll;..\ImageCacheLib;..\..\Output\include\LuaWrapper;..\..\Output\Include\Gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;UNICODE;_WINDOWS;_USRDLL;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;_CRT_SECURE_NO_WARNINGS;_ANGELICA2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ProgramDataBaseFileName>$(IntDir)vc80_afd.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>GfxEditor_u.lib;d3d8.lib;d3dx8.lib;dsound.lib;cximage_u.lib;ImageCacheLib_u.lib;dxguid.lib;AngelicaCommon_u.lib;AngelicaFile_u.lib;AngelicaMedia_u.lib;Angelica3D_u.lib;LuaWrapper_u.lib;lua5.1.mt.lib;AudioEngine2.2_lib_u.lib;APhysXEngineStatic_u.lib;fmodex_vc.lib;imagehlp.lib;ImmWrapper.lib;mpg123lib.lib;vorbis_static.lib;vorbisfile_static.lib;ogg_static.lib;strmbase_u.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\Lib_2005\$(ProjectName)2_2_u.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\Angelica2\Output\3rdsdk\Lib;..\..\..\Angelica2\Output\ACSDK\Lib;..\..\..\Angelica2\Output\AFSDK\Lib;..\..\..\Angelica2\Output\AMSDK\Lib;..\..\..\Angelica2\Output\A3DSDK\Lib;..\..\Output\Lib;..\Lib_2005\2.2;..\AFileDialogDll;..\..\APhysXIntegration\PhysX_SDK\v2.8.4_win\SDKs\lib\Win32;..\..\APhysXIntegration\lib_vc8;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy ..\AFileDialogDll\*Wrapper.h ..\AFileDialogDllInclude /Y /D /Q /R
+xcopy ..\AFileDialogDll\AFileExpDecl.h ..\AFileDialogDllInclude /Y /D /Q /R
+xcopy ..\CommonFile\CommonFileName.h ..\AFileDialogDllInclude /Y /D /Q /R
+set DST_PATH="..\..\Output"
+xcopy "$(TargetPath)" %25DST_PATH%25\..\..\Bin\ /Y /D /Q /R
+xcopy "$(TargetDir)$(TargetName).lib" %25DST_PATH%25\lib\ /Y /D /Q /R
+xcopy ..\AFileDialogDllInclude\*.h %25DST_PATH%25\Include\ /Y /D /Q /R
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AFileDialogDll\AFileDialog.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AFileDialog2.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AFileDialogDll.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AFileDialogWrapper.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AFileGfxInterface.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AFileImageWrapper.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AFileItem.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AFileItemType.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AFilePreview.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AFilePreviewWnd.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AFileSkillGfxEventMan.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AFTaskPlaySound.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AImagePreviewImpl.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AImagePreviewWrapper.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AListCtrl.cpp" />
+    <ClCompile Include="..\AFileDialogDll\AListCtrl2.cpp" />
+    <ClCompile Include="..\AFileDialogDll\ASoundPlayerImpl.cpp" />
+    <ClCompile Include="..\AFileDialogDll\ASoundPlayerWrapper.cpp" />
+    <ClCompile Include="..\AFileDialogDll\DynSizeCtrl.cpp" />
+    <ClCompile Include="..\AFileDialogDll\ECMRenderItem.cpp" />
+    <ClCompile Include="..\AFileDialogDll\GfxRenderItem.cpp" />
+    <ClCompile Include="..\AFileDialogDll\Render.cpp" />
+    <ClCompile Include="..\AFileDialogDll\SMDRenderItem.cpp" />
+    <ClCompile Include="..\AFileDialogDll\StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\UMDRenderItem.cpp" />
+    <ClCompile Include="..\AFileDialogDll\UMDSRenderItem.cpp" />
+    <ClCompile Include="..\CommonFile\CommonFileDlg.cpp" />
+    <ClCompile Include="..\CommonFile\CommonFileName.cpp" />
+    <ClCompile Include="..\CommonFile\ItemInfo.cpp" />
+    <ClCompile Include="..\CommonFile\Renderable2DObject.cpp" />
+    <ClCompile Include="..\CommonFile\Renderable3DObject.cpp" />
+    <ClCompile Include="..\CommonFile\RenderableObject.cpp" />
+    <ClCompile Include="..\CommonFile\RenderWnd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AFileDialogDll\AFDRequireHeaders.h" />
+    <ClInclude Include="..\AFileDialogDll\AFileDialog.h" />
+    <ClInclude Include="..\AFileDialogDll\AFileDialog2.h" />
+    <ClInclude Include="..\AFileDialogDll\AFileDialogDll.h" />
+    <ClInclude Include="..\AFileDialogDll\AFileDialogWrapper.h" />
+    <ClInclude Include="..\AFileDialogDll\AFileGfxInterface.h" />
+    <ClInclude Include="..\AFileDialogDll\AFileImageWrapper.h" />
+    <ClInclude Include="..\AFileDialogDll\AFileItem.h" />
+    <ClInclude Include="..\AFileDialogDll\AFileItemType.h" />
+    <ClInclude Include="..\AFileDialogDll\AFilePreview.h" />
+    <ClInclude Include="..\AFileDialogDll\AFilePreviewWnd.h" />
+    <ClInclude Include="..\AFileDialogDll\AFileSkillGfxEventMan.h" />
+    <ClInclude Include="..\AFileDialogDll\AFTaskPlaySound.h" />
+    <ClInclude Include="..\AFileDialogDll\AImagePreviewImpl.h" />
+    <ClInclude Include="..\AFileDialogDll\AImagePreviewWrapper.h" />
+    <ClInclude Include="..\AFileDialogDll\AListCtrl.h" />
+    <ClInclude Include="..\AFileDialogDll\AListCtrl2.h" />
+    <ClInclude Include="..\AFileDialogDll\ARenderItem.h" />
+    <ClInclude Include="..\AFileDialogDll\ASoundPlayerImpl.h" />
+    <ClInclude Include="..\AFileDialogDll\ASoundPlayerWrapper.h" />
+    <ClInclude Include="..\AFileDialogDll\DynSizeCtrl.h" />
+    <ClInclude Include="..\AFileDialogDll\ECMRenderItem.h" />
+    <ClInclude Include="..\AFileDialogDll\GfxRenderItem.h" />
+    <ClInclude Include="..\AFileDialogDll\IAFileDialog.h" />
+    <ClInclude Include="..\AFileDialogDll\Render.h" />
+    <ClInclude Include="..\AFileDialogDll\resource.h" />
+    <ClInclude Include="..\AFileDialogDll\SMDRenderItem.h" />
+    <ClInclude Include="..\AFileDialogDll\StdAfx.h" />
+    <ClInclude Include="..\AFileDialogDll\SyncWrapper.h" />
+    <ClInclude Include="..\AFileDialogDll\TypeDefs.h" />
+    <ClInclude Include="..\AFileDialogDll\UMDRenderItem.h" />
+    <ClInclude Include="..\AFileDialogDll\UMDSRenderItem.h" />
+    <ClInclude Include="..\CommonFile\CommonFileDlg.h" />
+    <ClInclude Include="..\CommonFile\CommonFileName.h" />
+    <ClInclude Include="..\CommonFile\ItemInfo.h" />
+    <ClInclude Include="..\CommonFile\Renderable2DObject.h" />
+    <ClInclude Include="..\CommonFile\Renderable3DObject.h" />
+    <ClInclude Include="..\CommonFile\RenderableObject.h" />
+    <ClInclude Include="..\CommonFile\RenderWnd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\AFileDialogDll\AFileDialogDll.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\AFileDialogDll\res\arrow_back.bmp" />
+    <Image Include="..\AFileDialogDll\res\arrow_up.bmp" />
+    <Image Include="..\AFileDialogDll\res\icon_directory.bmp" />
+    <Image Include="..\AFileDialogDll\res\icon_other.bmp" />
+    <Image Include="..\AFileDialogDll\res\icon_picture.bmp" />
+    <Image Include="..\AFileDialogDll\res\icon_sound.bmp" />
+    <Image Include="..\AFileDialogDll\res\icon_text.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="\ProjectInAngelica3\AFileDialog3\AFileDialogDll\AFileDialogDll.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

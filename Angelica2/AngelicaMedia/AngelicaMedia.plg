@@ -1,0 +1,331 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Angelica3D - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Angelica3D.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Angelica3D - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Angelica3D_d.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Angelica3D - Win32 Unicode Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Angelica3D_ud.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Angelica3D - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Angelica3D_u.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Angelica3D - Win32 StdNew Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Angelica3D_sd.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Angelica3D - Win32 StdNew Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Angelica3D_s.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Angelica3D - Win32 StdNew Unicode Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Angelica3D_sud.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Angelica3D - Win32 StdNew Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Angelica3D_su.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Angelica3D - Win32 DBG Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Angelica3D_dr.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaCommon - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaCommon.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaCommon - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaCommon_d.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaCommon - Win32 Unicode Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaCommon_ud.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaCommon - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaCommon_u.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaCommon - Win32 StdNew Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaCommon_sd.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaCommon - Win32 StdNew Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaCommon_s.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaCommon - Win32 StdNew Unicode Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaCommon_sud.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaCommon - Win32 DBG Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaCommon_dr.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaCommon - Win32 StdNew Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaCommon_su.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaFile - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaFile.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaFile - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaFile_d.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaFile - Win32 Unicode Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaFile_ud.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaFile - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaFile_u.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaFile - Win32 StdNew Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaFile_sd.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaFile - Win32 StdNew Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaFile_s.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaFile - Win32 StdNew Unicode Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaFile_sud.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaFile - Win32 DBG Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaFile_dr.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaFile - Win32 StdNew Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaFile_su.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaMedia - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaMedia.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaMedia - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaMedia_d.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaMedia - Win32 Unicode Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaMedia_ud.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaMedia - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaMedia_u.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaMedia - Win32 StdNew Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaMedia_sd.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaMedia - Win32 StdNew Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaMedia_s.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaMedia - Win32 StdNew Unicode Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaMedia_sud.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaMedia - Win32 DBG Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaMedia_dr.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: AngelicaMedia - Win32 StdNew Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+AngelicaMedia_su.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

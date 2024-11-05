@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: freetype - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "e:\Temp\RSP889.tmp" with contents
+[
+/MDd /Za /W4 /GX /Zi /Od /I "..\..\..\include" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "FT_DEBUG_LEVEL_ERROR" /D "FT_DEBUG_LEVEL_TRACE" /Fo"..\..\..\objs\debug/" /Fd"..\..\..\objs\debug/" /FD /GZ /c 
+"F:\Visual Studio Projects\FTDriver\freetype-2.1.10\src\base\ftinit.c"
+]
+Creating command line "cl.exe @e:\Temp\RSP889.tmp" 
+Creating temporary file "e:\Temp\RSP88A.tmp" with contents
+[
+/nologo /out:"..\..\..\objs\freetype2110_D.lib" 
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\bdf.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\cff.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\ftbase.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\ftcache.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\ftdebug.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\ftglyph.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\ftgzip.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\ftinit.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\ftlzw.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\ftmm.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\ftsystem.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\pcf.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\pfr.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\psaux.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\pshinter.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\psmodule.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\raster.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\sfnt.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\smooth.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\truetype.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\type1.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\type1cid.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\type42.obj"
+"\Visual Studio Projects\FTDriver\freetype-2.1.10\objs\debug\winfnt.obj"
+]
+Creating command line "link.exe -lib @e:\Temp\RSP88A.tmp"
+<h3>Output Window</h3>
+Compiling...
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8804 for 80x86
+Copyright (C) Microsoft Corp 1984-1998. All rights reserved.
+
+cl /MDd /Za /W4 /GX /Zi /Od /I "..\..\..\include" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "FT_DEBUG_LEVEL_ERROR" /D "FT_DEBUG_LEVEL_TRACE" /Fo"..\..\..\objs\debug/" /Fd"..\..\..\objs\debug/" /FD /GZ /c 
+   "F:\Visual Studio Projects\FTDriver\freetype-2.1.10\src\base\ftinit.c"
+
+ftinit.c
+Creating library...
+
+
+
+<h3>Results</h3>
+freetype2110_D.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/*
+ * FILE: VTechDemoMsg.h
+ *
+ * DESCRIPTION: specific message in technique demo
+ *
+ * CREATED BY: Hedi, 2002/8/2
+ *
+ * HISTORY:
+ *
+ * Copyright (c) 2002-2008 Archosaur Studio, All Rights Reserved.	
+ */
+
+#ifndef _VTECHDEMOMSG_H_
+#define _VTECHDEMOMSG_H_
+
+#include "VGameMsg.h"
+
+#define GAMEMSG_DEGDELTA		(GAMEMSG_SPECMSG + 1)
+#define GAMEMSG_PITCHDELTA		(GAMEMSG_SPECMSG + 2)
+
+#define GAMEMSG_FORWARD			(GAMEMSG_SPECMSG + 3)
+#define GAMEMSG_BACK			(GAMEMSG_SPECMSG + 4)
+#define GAMEMSG_LEFT			(GAMEMSG_SPECMSG + 5)
+#define GAMEMSG_RIGHT			(GAMEMSG_SPECMSG + 6)
+#define GAMEMSG_CLIBM			(GAMEMSG_SPECMSG + 7)
+#define GAMEMSG_DIVE			(GAMEMSG_SPECMSG + 8)
+#define GAMEMSG_JUMP			(GAMEMSG_SPECMSG + 9)
+
+#define GAMEMSG_FIRE			(GAMEMSG_SPECMSG + 11)
+#define GAMEMSG_ZOOMIN			(GAMEMSG_SPECMSG + 12)
+#define GAMEMSG_ZOOMOUT			(GAMEMSG_SPECMSG + 13)
+
+#define GAMEMSG_EFFECT_EXPLODE	(GAMEMSG_SPECMSG + 21)
+
+#endif//_VTECHDEMOMSG_H_

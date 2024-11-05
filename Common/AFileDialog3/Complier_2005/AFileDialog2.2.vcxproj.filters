@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Wrappers">
+      <UniqueIdentifier>{24346cf4-9281-474b-aab3-9174c45b9cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExportImpls">
+      <UniqueIdentifier>{c8993540-b483-47a9-a92f-c76f4a18a2e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AFileDialog2">
+      <UniqueIdentifier>{1a296923-f6cd-4dc0-8ce7-cc4016d9850e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Preview">
+      <UniqueIdentifier>{b8fdf28e-5a0f-4672-aec9-d38719f533a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Preview\RenderItem">
+      <UniqueIdentifier>{bcc79c78-2916-4990-be85-1728cd2642d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonFile">
+      <UniqueIdentifier>{b458823a-1a6f-45c4-a9cb-d544d64fddbb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AFileDialogDll\AFileDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AFileDialogDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AFileGfxInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AFileSkillGfxEventMan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AFTaskPlaySound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\DynSizeCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\Render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AFileDialogWrapper.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AFileImageWrapper.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AImagePreviewWrapper.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\ASoundPlayerWrapper.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AImagePreviewImpl.cpp">
+      <Filter>ExportImpls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\ASoundPlayerImpl.cpp">
+      <Filter>ExportImpls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AFileDialog2.cpp">
+      <Filter>AFileDialog2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AFileItem.cpp">
+      <Filter>AFileDialog2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AFileItemType.cpp">
+      <Filter>AFileDialog2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AListCtrl2.cpp">
+      <Filter>AFileDialog2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AFilePreview.cpp">
+      <Filter>Preview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\AFilePreviewWnd.cpp">
+      <Filter>Preview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\ECMRenderItem.cpp">
+      <Filter>Preview\RenderItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\GfxRenderItem.cpp">
+      <Filter>Preview\RenderItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\SMDRenderItem.cpp">
+      <Filter>Preview\RenderItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\UMDRenderItem.cpp">
+      <Filter>Preview\RenderItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AFileDialogDll\UMDSRenderItem.cpp">
+      <Filter>Preview\RenderItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFile\CommonFileDlg.cpp">
+      <Filter>CommonFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFile\CommonFileName.cpp">
+      <Filter>CommonFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFile\ItemInfo.cpp">
+      <Filter>CommonFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFile\Renderable2DObject.cpp">
+      <Filter>CommonFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFile\Renderable3DObject.cpp">
+      <Filter>CommonFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFile\RenderableObject.cpp">
+      <Filter>CommonFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFile\RenderWnd.cpp">
+      <Filter>CommonFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AFileDialogDll\AFDRequireHeaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AFileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AFileDialogDll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AFileGfxInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AFileSkillGfxEventMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AFTaskPlaySound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\DynSizeCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\IAFileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\Render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\SyncWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\TypeDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AFileDialogWrapper.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AFileImageWrapper.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AImagePreviewWrapper.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\ASoundPlayerWrapper.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AImagePreviewImpl.h">
+      <Filter>ExportImpls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\ASoundPlayerImpl.h">
+      <Filter>ExportImpls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AFileDialog2.h">
+      <Filter>AFileDialog2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AFileItem.h">
+      <Filter>AFileDialog2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AFileItemType.h">
+      <Filter>AFileDialog2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AListCtrl2.h">
+      <Filter>AFileDialog2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AFilePreview.h">
+      <Filter>Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\AFilePreviewWnd.h">
+      <Filter>Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\ARenderItem.h">
+      <Filter>Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\ECMRenderItem.h">
+      <Filter>Preview\RenderItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\GfxRenderItem.h">
+      <Filter>Preview\RenderItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\SMDRenderItem.h">
+      <Filter>Preview\RenderItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\UMDRenderItem.h">
+      <Filter>Preview\RenderItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AFileDialogDll\UMDSRenderItem.h">
+      <Filter>Preview\RenderItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFile\CommonFileDlg.h">
+      <Filter>CommonFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFile\CommonFileName.h">
+      <Filter>CommonFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFile\ItemInfo.h">
+      <Filter>CommonFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFile\Renderable2DObject.h">
+      <Filter>CommonFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFile\Renderable3DObject.h">
+      <Filter>CommonFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFile\RenderableObject.h">
+      <Filter>CommonFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFile\RenderWnd.h">
+      <Filter>CommonFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\AFileDialogDll\AFileDialogDll.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\AFileDialogDll\res\arrow_back.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\AFileDialogDll\res\arrow_up.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\AFileDialogDll\res\icon_directory.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\AFileDialogDll\res\icon_other.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\AFileDialogDll\res\icon_picture.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\AFileDialogDll\res\icon_sound.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\AFileDialogDll\res\icon_text.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

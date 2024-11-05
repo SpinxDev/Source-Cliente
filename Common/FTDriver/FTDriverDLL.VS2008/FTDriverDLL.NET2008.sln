@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FTDriverDLL.NET2008", "FTDriverDLL.NET2008.vcproj", "{D2D09E72-50D0-4097-A6CD-350D90817938}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FTDriverDLL.NET2008.vcproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2D09E72-50D0-4097-A6CD-350D90817938}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2D09E72-50D0-4097-A6CD-350D90817938}.Debug|Win32.Build.0 = Debug|Win32
+		{D2D09E72-50D0-4097-A6CD-350D90817938}.Release|Win32.ActiveCfg = Release|Win32
+		{D2D09E72-50D0-4097-A6CD-350D90817938}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

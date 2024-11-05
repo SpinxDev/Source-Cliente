@@ -1,0 +1,123 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ShaderEditor - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ShaderEditor.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\ShaderEditor.rc"" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSP7894.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\..\Output\A3DSDK\Include" /I "..\..\Output\AFSDK\Include" /I "..\..\Output\ACSDK\Include" /I "..\..\Output\AMSDK\Include" /I "..\..\Output\3rdSDK\Include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/ShaderEditor.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\Clipboard.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\CommonDef.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\Decal.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\MainForm.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\MenuUpdate.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\PropertyForm.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\PropFormCmd.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\RenderWnd.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\ShaderEditor.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\ShaderForm.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\stdafx.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\AlphaCompDlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\BumpMatDlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\ComboListDlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\DlgColorValue.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\DlgComboVal.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\DlgD3DTextures.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\DlgSelectFile.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\DlgTexCoord.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\DlgTexTransform.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\GenBlendDlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\NewShaderDlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\PixelShaderDlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\SaveAskDlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\SingleValDlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\TexOPDlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\TextureDlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\TwoValDlg.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\Tools\ShaderEditor\WaveDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Wanmei\AppData\Local\Temp\RSP7894.tmp" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSP7895.tmp" with contents
+[
+vorbis_static.lib vorbisfile_static.lib ogg_static.lib zliblib.lib mpg123lib.lib Immwrapper.lib AngelicaCommon.lib AngelicaFile.lib AngelicaMedia.lib dsound.lib dxguid.lib D3dx8.lib d3d8.lib Angelica3d.lib shlwapi.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ShaderEditor.pdb" /machine:I386 /out:"Bin\ShaderEditor.exe" /libpath:"..\..\Output\A3DSDK\Lib" /libpath:"..\..\Output\AFSDK\Lib" /libpath:"..\..\Output\ACSDK\Lib" /libpath:"..\..\Output\AMSDK\Lib" /libpath:"..\..\Output\3rdSDK\Lib" 
+.\Release\Clipboard.obj
+.\Release\CommonDef.obj
+.\Release\Decal.obj
+.\Release\MainForm.obj
+.\Release\MenuUpdate.obj
+.\Release\PropertyForm.obj
+.\Release\PropFormCmd.obj
+.\Release\RenderWnd.obj
+.\Release\ShaderEditor.obj
+.\Release\ShaderForm.obj
+.\Release\stdafx.obj
+.\Release\AlphaCompDlg.obj
+.\Release\BumpMatDlg.obj
+.\Release\ComboListDlg.obj
+.\Release\DlgColorValue.obj
+.\Release\DlgComboVal.obj
+.\Release\DlgD3DTextures.obj
+.\Release\DlgSelectFile.obj
+.\Release\DlgTexCoord.obj
+.\Release\DlgTexTransform.obj
+.\Release\GenBlendDlg.obj
+.\Release\NewShaderDlg.obj
+.\Release\PixelShaderDlg.obj
+.\Release\SaveAskDlg.obj
+.\Release\SingleValDlg.obj
+.\Release\TexOPDlg.obj
+.\Release\TextureDlg.obj
+.\Release\TwoValDlg.obj
+.\Release\WaveDlg.obj
+.\Release\ShaderEditor.res
+]
+Creating command line "link.exe @C:\Users\Wanmei\AppData\Local\Temp\RSP7895.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Clipboard.cpp
+CommonDef.cpp
+Decal.cpp
+MainForm.cpp
+MenuUpdate.cpp
+PropertyForm.cpp
+PropFormCmd.cpp
+RenderWnd.cpp
+ShaderEditor.cpp
+ShaderForm.cpp
+stdafx.cpp
+AlphaCompDlg.cpp
+BumpMatDlg.cpp
+ComboListDlg.cpp
+DlgColorValue.cpp
+DlgComboVal.cpp
+DlgD3DTextures.cpp
+DlgSelectFile.cpp
+DlgTexCoord.cpp
+DlgTexTransform.cpp
+GenBlendDlg.cpp
+NewShaderDlg.cpp
+PixelShaderDlg.cpp
+SaveAskDlg.cpp
+SingleValDlg.cpp
+TexOPDlg.cpp
+TextureDlg.cpp
+TwoValDlg.cpp
+WaveDlg.cpp
+Linking...
+AngelicaMedia.lib(AMSoundBuffer.obj) : error LNK2001: unresolved external symbol "void __cdecl _a_FreeTemp(void *)" (?_a_FreeTemp@@YAXPAX@Z)
+AngelicaMedia.lib(AMSoundBuffer.obj) : error LNK2001: unresolved external symbol "void * __cdecl _a_MallocTemp(unsigned int)" (?_a_MallocTemp@@YAPAXI@Z)
+Bin\ShaderEditor.exe : fatal error LNK1120: 2 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+ShaderEditor.exe - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

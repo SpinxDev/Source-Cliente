@@ -1,0 +1,313 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAPRED           BITMAP  DISCARDABLE     "bitmap1.bmp"
+IDB_BITMAPGREEN         BITMAP  DISCARDABLE     "bitmapre.bmp"
+IDB_BITMAPBLUE          BITMAP  DISCARDABLE     "bmp00001.bmp"
+IDB_BITMAPNOLINK        BITMAP  DISCARDABLE     "notlink.bmp"
+IDB_BITMAPLINK          BITMAP  DISCARDABLE     "link.bmp"
+IDB_BITMAPDIRSINGLE     BITMAP  DISCARDABLE     "dirsingle.bmp"
+IDB_BITMAPDIRDOUBLE     BITMAP  DISCARDABLE     "dirdouble.bmp"
+IDB_BITMAPDIRCIRCLE     BITMAP  DISCARDABLE     "dircircle.bmp"
+IDB_BITMAPDISABLEDLINK  BITMAP  DISCARDABLE     "disabledlink.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PANELSETUP DIALOG DISCARDABLE  0, 0, 108, 221
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "New",IDC_BUTTONADD,"CustButton",WS_TABSTOP,13,159,25,14
+    CONTROL         "Del",IDC_BUTTONDEL,"CustButton",WS_TABSTOP,69,159,25,14
+    GROUPBOX        "Muscles",-1,7,7,94,207
+    CONTROL         "Original Mesh",IDC_BUTTONORIGINAL,"CustButton",
+                    WS_TABSTOP,13,19,82,14
+    CONTROL         "List1",IDC_LISTCTRLMUSCLES,"SysListView32",
+                    LVS_SMALLICON | LVS_SINGLESEL | LVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,10,69,88,88
+    CONTROL         "Solo Muscle",IDC_BUTTONSOLOMUSCLE,"CustButton",
+                    WS_TABSTOP,13,35,82,14
+    CONTROL         "Show Weight",IDC_BUTTONSHOWWEIGHT,"CustButton",
+                    WS_TABSTOP,13,51,82,14
+    CONTROL         "Clone",IDC_BUTTONCLONE,"CustButton",WS_TABSTOP,41,159,
+                    25,14
+    CONTROL         "Import",IDC_BUTTONIMPORT,"CustButton",WS_TABSTOP,13,178,
+                    36,14
+    CONTROL         "Export",IDC_BUTTONEXPORT,"CustButton",WS_TABSTOP,59,178,
+                    36,14
+    CONTROL         "Export To Engine",IDC_BUTTONEXPORT2ENGINE,"CustButton",
+                    WS_TABSTOP,13,197,82,14
+END
+
+IDD_PANELTEST DIALOG DISCARDABLE  0, 0, 108, 65
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Tension",IDC_STATIC,14,21,29,8
+    CONTROL         "",IDC_EDITTENSION,"CustEdit",WS_DISABLED | WS_TABSTOP,
+                    47,20,35,10
+    CONTROL         "",IDC_SPINTENSION,"SpinnerControl",WS_DISABLED,85,20,7,
+                    10
+    GROUPBOX        "Current Tension",IDC_STATIC,7,7,94,32
+    CONTROL         "Randomize All",IDC_BUTTONRANDALL,"CustButton",
+                    WS_TABSTOP,17,44,70,14
+END
+
+IDD_PANELVERTWEIGHT DIALOG DISCARDABLE  0, 0, 108, 84
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Update Vert Set",IDC_BUTTONUPDATEVERTSET,"CustButton",
+                    WS_TABSTOP,17,20,76,14
+    CONTROL         "",IDC_EDITWEIGHT,"CustEdit",WS_DISABLED | WS_TABSTOP,42,
+                    63,35,10
+    LTEXT           "Weight",IDC_STATIC,11,64,25,8
+    CONTROL         "+",IDC_BUTTONADDVERT,"CustButton",WS_TABSTOP,35,41,15,
+                    14
+    CONTROL         "-",IDC_BUTTONREMOVEVERT,"CustButton",WS_TABSTOP,63,41,
+                    15,14
+    CONTROL         "",IDC_SPINWEIGHT,"SpinnerControl",0x0,81,63,7,10
+    GROUPBOX        "Vertex Weight",IDC_STATIC,7,7,94,70
+END
+
+IDD_PANELPARAM DIALOG DISCARDABLE  0, 0, 108, 209
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_EDITNAME,"CustEdit",WS_DISABLED | WS_TABSTOP,47,
+                    23,50,10
+    CONTROL         "",IDC_EDITRADIUSX,"CustEdit",WS_DISABLED | WS_TABSTOP,
+                    47,39,35,10
+    CONTROL         "",IDC_SPINRADIUSX,"SpinnerControl",WS_DISABLED,86,39,7,
+                    10
+    CONTROL         "",IDC_EDITRADIUSY,"CustEdit",WS_DISABLED | WS_TABSTOP,
+                    47,53,35,10
+    CONTROL         "",IDC_SPINRADIUSY,"SpinnerControl",WS_DISABLED,86,53,7,
+                    10
+    LTEXT           "Name",IDC_STATIC,11,25,31,8
+    LTEXT           "RadiusX",IDC_STATIC,11,39,29,8
+    GROUPBOX        "Parameters",IDC_STATIC,7,7,94,195
+    LTEXT           "RadiusY",IDC_STATIC,11,54,29,8
+    CONTROL         "",IDC_EDITRADIUSZ,"CustEdit",WS_DISABLED | WS_TABSTOP,
+                    47,67,35,10
+    CONTROL         "",IDC_SPINRADIUSZ,"SpinnerControl",WS_DISABLED,86,67,7,
+                    10
+    LTEXT           "RadiusZ",IDC_STATIC,11,69,29,8
+    CONTROL         "",IDC_EDITLENGTH,"CustEdit",WS_DISABLED | WS_TABSTOP,47,
+                    80,35,10
+    CONTROL         "",IDC_SPINLENGTH,"SpinnerControl",WS_DISABLED,86,80,7,
+                    10
+    LTEXT           "Length",IDC_STATIC,11,82,29,8
+    LTEXT           "Pitch",IDC_STATIC,12,94,29,8
+    CONTROL         "",IDC_EDITPITCH,"CustEdit",WS_DISABLED | WS_TABSTOP,47,
+                    93,35,10
+    CONTROL         "",IDC_SPINPITCH,"SpinnerControl",WS_DISABLED,86,93,7,10
+    CONTROL         101,IDC_STATIC,"Static",SS_BITMAP,41,42,4,4
+    CONTROL         102,IDC_STATIC,"Static",SS_BITMAP,41,56,4,4
+    CONTROL         103,IDC_STATIC,"Static",SS_BITMAP,41,70,4,4
+    CONTROL         "",IDC_STATICCURVE,"Static",SS_BLACKFRAME,10,123,88,43
+    LTEXT           "Type",IDC_STATIC,13,109,28,8
+    COMBOBOX        IDC_COMBOTYPE,47,107,48,56,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Mirror Along Axis",IDC_STATIC,10,167,88,31
+    CONTROL         "X",IDC_BUTTONX,"CustButton",WS_TABSTOP,16,180,21,14
+    CONTROL         "Y",IDC_BUTTONY,"CustButton",WS_TABSTOP,42,180,21,14
+    CONTROL         "Z",IDC_BUTTONZ,"CustButton",WS_TABSTOP,69,180,21,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PANELSETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_PANELTEST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_PANELVERTWEIGHT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_PANELPARAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,0,0
+ PRODUCTVERSION 3,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileVersion", "4.0.0.0\0"
+            VALUE "InternalName", "MuscleSetup\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "OriginalFilename", "MuscleSetup.dlm\0"
+            VALUE "ProductName", "3ds max\0"
+            VALUE "ProductVersion", "4.0.0.0\0"
+            VALUE "FileDescription", "\0"
+            VALUE "Comments", "TECH: \0"
+            VALUE "LegalTrademarks", "3D Studio MAX, Biped, Character Studio, Heidi, Kinetix and Physique are registered trademarks and 3ds max, combustion, Discreet, DWG Unplugged, DXF, FLI and FLC are trademarks of Autodesk, Inc.\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_LIBDESCRIPTION      "Angelica 2 musle setup plugin"
+    IDS_CATEGORY            "Angelica"
+    IDS_CLASS_NAME          "Musle setup"
+    IDS_PANELSETUP          "Setup Muscles"
+    IDS_PANELTEST           "Test Muscles"
+    IDS_STARTPOINT          "Start Point"
+    IDS_ENDPOINT            "End Point"
+    IDS_MUSCLECTRLAFR       "Affected Region"
+    IDS_MUSCLECTRLWEIGHT    "Vertex Weight"
+    IDS_PANELVERTWEIGHT     "Vertex Weight"
+    IDS_PANELPARAM          "Parameters"
+    IDS_MUSCLE              "Muscle Controller"
+    IDS_MUSCLECTRLEND       "End Point"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MUSCLEEND           "Muscle End Point Controller"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

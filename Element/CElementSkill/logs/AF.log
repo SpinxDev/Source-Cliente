@@ -1,0 +1,5 @@
+Angelica File Module Error Log
+Created(or opened) on 16/11/2023 09:19:25
+
+[09:19:25.090] AFilePackGame::Open(), Can not open file [g:\Srclt\Element_Normal\CElementSkill\configs.pck]
+[09:19:25.090] AFilePackMan::OpenFilePackageInGame(), Can not open package [configs.pck]

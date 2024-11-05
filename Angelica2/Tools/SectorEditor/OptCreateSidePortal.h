@@ -1,0 +1,92 @@
+/*
+ * FILE: OptCreateSidePortal.h
+ *
+ * DESCRIPTION: Create portal on sector's side
+ *
+ * CREATED BY: Duyuxin, 2003/8/5
+ *
+ * HISTORY:
+ *
+ * Copyright (c) 2001 Archosaur Studio, All Rights Reserved.	
+ */
+
+#ifndef _OPTCREATESIDEPORTAL_H_
+#define _OPTCREATESIDEPORTAL_H_
+
+#include "OptBase.h"
+#include "A3DTypes.h"
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Define and Macro
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Types and Global variables
+//
+///////////////////////////////////////////////////////////////////////////
+
+class COrthogonalWnd;
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Declare of Global functions
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Class COptCreateSidePortal
+//
+///////////////////////////////////////////////////////////////////////////
+
+class COptCreateSidePortal : public COperation
+{
+public:		//	Types
+
+public:		//	Constructor and Destructor
+
+	COptCreateSidePortal(int iID);
+	virtual ~COptCreateSidePortal() {}
+
+public:		//	Attributes
+
+public:		//	Operations
+
+	//	Begin operation
+	virtual bool Begin();
+	//	End operation
+	virtual bool End(bool bCancel);
+	
+	//	Tick routinue
+	virtual bool FrameMove(DWORD dwTime);
+	//	Render routinue
+	virtual bool Render(CViewportWnd* pView);
+
+	//	Mouse operations
+	virtual void OnLButtonDown(int x, int y, DWORD dwFlags);
+	virtual void OnRButtonDown(int x, int y, DWORD dwFlags);
+
+protected:	//	Attributes
+
+	COrthogonalWnd*	m_pViewWnd;
+
+protected:	//	Operations
+
+};
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Inline functions
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+#endif	//	_OPTCREATESIDEPORTAL_H_
+
+
+

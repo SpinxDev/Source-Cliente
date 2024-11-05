@@ -1,0 +1,140 @@
+/*
+ * FILE: InterfaceWrapper.h
+ *
+ * DESCRIPTION:
+ *
+ * CREATED BY: duyuxin, 2006/7/11
+ *
+ * HISTORY:
+ *
+ * Copyright (c) 2006 Archosaur Studio, All Rights Reserved.
+ */
+
+#ifndef _INTERFACEWRAPPER_H_
+#define _INTERFACEWRAPPER_H_
+
+#include <A3DSkeleton.h>
+#include <A3DSkin.h>
+#include <A3DTrackMan.h>
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Define and Macro
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Types and Global variables
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Declare of Global functions
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Class CSkeletonWrapper
+//
+///////////////////////////////////////////////////////////////////////////
+
+class CSkeletonWrapper : public A3DSkeleton
+{
+public:		//	Types
+
+public:		//	Constructions and Destructions
+
+	CSkeletonWrapper() {}
+	virtual ~CSkeletonWrapper() {}
+
+public:		//	Attributes
+
+public:		//	Operaitons
+
+	//	Initialize object
+	bool Init();
+	//	Release object
+	void Release();
+
+	//	Load skeleton data form file
+	bool Load(const char* szFile);
+
+protected:	//	Attributes
+
+protected:	//	Operations
+
+};
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Class CSkinWrapper
+//
+///////////////////////////////////////////////////////////////////////////
+
+class CSkinWrapper : public A3DSkin
+{
+public:		//	Types
+
+public:		//	Constructions and Destructions
+
+	CSkinWrapper() {}
+	virtual ~CSkinWrapper() {}
+
+public:		//	Attributes
+
+public:		//	Operaitons
+
+	//	Initialize object
+	bool Init(A3DEngine* pA3DEngine);
+	//	Release object
+	void Release();
+
+protected:	//	Attributes
+
+protected:	//	Operations
+
+};
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Class CTrackSetWrapper
+//
+///////////////////////////////////////////////////////////////////////////
+
+class CTrackSetWrapper : public A3DSklTrackSet
+{
+public:		//	Types
+
+public:		//	Constructions and Destructions
+
+	CTrackSetWrapper() : A3DSklTrackSet(false) {}
+	virtual ~CTrackSetWrapper() {}
+
+public:		//	Attributes
+
+public:		//	Operaitons
+
+	//	Create a empty bone track
+	BONETRACK* CreateBoneTrack(int id);
+
+protected:	//	Attributes
+
+protected:	//	Operations
+
+};
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Inline functions
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+#endif	//	_INTERFACEWRAPPER_H_
+

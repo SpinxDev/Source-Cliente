@@ -1,0 +1,326 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Analysis.props(24,5): warning MSB4211: a propriedade "MsvcAnalysisPluginPath" está sendo definida para um valor pela primeira vez, mas já foi consumida em "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CodeAnalysis.Extensions.props (33,5)".
+cl : linha de comando  warning D9035: opção 'Gm' foi preterida e será removida em uma versão futura
+  StdAfx.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(426,27): error C2146: erro de sintaxe: ';' ausente antes do identificador 'PVOID64'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(426,34): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(14515,13): error C3646: 'Buffer': especificador de substituição desconhecido
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(14515,19): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(155,28): error C2011: '_D3DLIGHTTYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(180,14):
+  consulte a declaração de '_D3DLIGHTTYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(189,28): error C2011: '_D3DSHADEMODE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(214,14):
+  consulte a declaração de '_D3DSHADEMODE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(196,27): error C2011: '_D3DFILLMODE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(221,14):
+  consulte a declaração de '_D3DFILLMODE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(208,24): error C2011: '_D3DBLEND': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(228,14):
+  consulte a declaração de '_D3DBLEND'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(225,26): error C2011: '_D3DBLENDOP': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(255,14):
+  consulte a declaração de '_D3DBLENDOP'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(234,33): error C2011: '_D3DTEXTUREADDRESS': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(264,14):
+  consulte a declaração de '_D3DTEXTUREADDRESS'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(243,23): error C2011: '_D3DCULL': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(273,14):
+  consulte a declaração de '_D3DCULL'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(250,26): error C2011: '_D3DCMPFUNC': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(280,14):
+  consulte a declaração de '_D3DCMPFUNC'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(262,28): error C2011: '_D3DSTENCILOP': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(292,14):
+  consulte a declaração de '_D3DSTENCILOP'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(274,26): error C2011: '_D3DFOGMODE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(304,14):
+  consulte a declaração de '_D3DFOGMODE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(282,30): error C2011: '_D3DZBUFFERTYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(312,14):
+  consulte a declaração de '_D3DZBUFFERTYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(290,32): error C2011: '_D3DPRIMITIVETYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(320,14):
+  consulte a declaração de '_D3DPRIMITIVETYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(300,37): error C2011: '_D3DTRANSFORMSTATETYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(330,14):
+  consulte a declaração de '_D3DTRANSFORMSTATETYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(320,34): error C2011: '_D3DRENDERSTATETYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(350,14):
+  consulte a declaração de '_D3DRENDERSTATETYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(403,1): error C2011: '_D3DMATERIALCOLORSOURCE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(463,14):
+  consulte a declaração de '_D3DMATERIALCOLORSOURCE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(434,1): error C2011: '_D3DTEXTURESTAGESTATETYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(495,14):
+  consulte a declaração de '_D3DTEXTURESTAGESTATETYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(479,1): error C2011: '_D3DTEXTUREOP': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(568,14):
+  consulte a declaração de '_D3DTEXTUREOP'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(555,1): error C2011: '_D3DTEXTUREFILTERTYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(645,14):
+  consulte a declaração de '_D3DTEXTUREFILTERTYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(574,1): warning C4005: 'D3DFVF_POSITION_MASK': redefinição de macro
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(672,1):
+  consulte a definição anterior de 'D3DFVF_POSITION_MASK'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(602,1): warning C4005: 'D3DFVF_RESERVED2': redefinição de macro
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(702,1):
+  consulte a definição anterior de 'D3DFVF_RESERVED2'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(874,1): error C2011: '_D3DSHADER_INSTRUCTION_OPCODE_TYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(819,14):
+  consulte a declaração de '_D3DSHADER_INSTRUCTION_OPCODE_TYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(945,1): warning C4005: 'D3DSP_REGNUM_MASK': redefinição de macro
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(983,1):
+  consulte a definição anterior de 'D3DSP_REGNUM_MASK'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(960,5): error C2059: erro de sintaxe: '('
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(963,1): error C2143: erro de sintaxe: ';' ausente antes de '}'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(963,1): error C2059: erro de sintaxe: '}'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(974,1): error C2011: '_D3DSHADER_PARAM_REGISTER_TYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1017,14):
+  consulte a declaração de '_D3DSHADER_PARAM_REGISTER_TYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(989,1): error C2011: '_D3DVS_RASTOUT_OFFSETS': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1058,14):
+  consulte a declaração de '_D3DVS_RASTOUT_OFFSETS'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1002,1): error C2011: '_D3DVS_ADDRESSMODE_TYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1071,14):
+  consulte a declaração de '_D3DVS_ADDRESSMODE_TYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1086,1): error C2011: '_D3DSHADER_PARAM_SRCMOD_TYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1165,14):
+  consulte a declaração de '_D3DSHADER_PARAM_SRCMOD_TYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1126,1): error C2011: '_D3DBASISTYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1227,14):
+  consulte a declaração de '_D3DBASISTYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1143,1): error C2011: '_D3DPATCHEDGESTYLE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1244,14):
+  consulte a declaração de '_D3DPATCHEDGESTYLE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1150,1): error C2011: '_D3DSTATEBLOCKTYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1251,14):
+  consulte a declaração de '_D3DSTATEBLOCKTYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1160,1): error C2011: '_D3DVERTEXBLENDFLAGS': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1261,14):
+  consulte a declaração de '_D3DVERTEXBLENDFLAGS'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1170,40): error C2011: '_D3DTEXTURETRANSFORMFLAGS': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1272,14):
+  consulte a declaração de '_D3DTEXTURETRANSFORMFLAGS'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1197,1): error C2011: '_D3DDEVTYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1298,14):
+  consulte a declaração de '_D3DDEVTYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1207,1): error C2011: '_D3DMULTISAMPLE_TYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1310,14):
+  consulte a declaração de '_D3DMULTISAMPLE_TYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1264,1): error C2011: '_D3DFORMAT': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1373,14):
+  consulte a declaração de '_D3DFORMAT'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1322,1): error C2011: '_D3DDISPLAYMODE': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1486,16):
+  consulte a declaração de '_D3DDISPLAYMODE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1331,1): error C2011: '_D3DDEVICE_CREATION_PARAMETERS': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1495,16):
+  consulte a declaração de '_D3DDEVICE_CREATION_PARAMETERS'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1341,1): error C2011: '_D3DSWAPEFFECT': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1505,14):
+  consulte a declaração de '_D3DSWAPEFFECT'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1351,23): error C2011: '_D3DPOOL': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1522,14):
+  consulte a declaração de '_D3DPOOL'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1368,1): error C2011: '_D3DPRESENT_PARAMETERS_': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1537,16):
+  consulte a declaração de '_D3DPRESENT_PARAMETERS_'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1397,1): error C2011: '_D3DGAMMARAMP': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1582,16):
+  consulte a declaração de '_D3DGAMMARAMP'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1405,1): error C2011: '_D3DBACKBUFFER_TYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1590,14):
+  consulte a declaração de '_D3DBACKBUFFER_TYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1415,31): error C2011: '_D3DRESOURCETYPE': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1601,14):
+  consulte a declaração de '_D3DRESOURCETYPE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1451,1): error C2011: '_D3DCUBEMAP_FACES': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1680,14):
+  consulte a declaração de '_D3DCUBEMAP_FACES'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1479,1): error C2011: '_D3DVERTEXBUFFER_DESC': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1710,16):
+  consulte a declaração de '_D3DVERTEXBUFFER_DESC'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1492,1): error C2011: '_D3DINDEXBUFFER_DESC': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1723,16):
+  consulte a declaração de '_D3DINDEXBUFFER_DESC'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1503,1): error C2011: '_D3DSURFACE_DESC': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1734,16):
+  consulte a declaração de '_D3DSURFACE_DESC'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1516,1): error C2011: '_D3DVOLUME_DESC': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1747,16):
+  consulte a declaração de '_D3DVOLUME_DESC'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1530,1): error C2011: '_D3DLOCKED_RECT': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1760,16):
+  consulte a declaração de '_D3DLOCKED_RECT'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1537,1): error C2011: '_D3DBOX': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1767,16):
+  consulte a declaração de '_D3DBOX'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1547,1): error C2011: '_D3DLOCKED_BOX': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1777,16):
+  consulte a declaração de '_D3DLOCKED_BOX'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1555,1): error C2011: '_D3DRANGE': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1785,16):
+  consulte a declaração de '_D3DRANGE'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1562,1): error C2011: '_D3DRECTPATCH_INFO': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1792,16):
+  consulte a declaração de '_D3DRECTPATCH_INFO'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1573,1): error C2011: '_D3DTRIPATCH_INFO': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1803,16):
+  consulte a declaração de '_D3DTRIPATCH_INFO'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1609,1): error C2011: '_D3DRASTER_STATUS': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1840,16):
+  consulte a declaração de '_D3DRASTER_STATUS'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1628,37): error C2011: '_D3DDEBUGMONITORTOKENS': redefinição do tipo 'enum'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1860,14):
+  consulte a declaração de '_D3DDEBUGMONITORTOKENS'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1640,1): error C2011: '_D3DRESOURCESTATS': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1898,16):
+  consulte a declaração de '_D3DRESOURCESTATS'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1659,1): error C2011: '_D3DDEVINFO_RESOURCEMANAGER': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1917,16):
+  consulte a declaração de '_D3DDEVINFO_RESOURCEMANAGER'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\DXSDK\include\d3d8types.h(1664,1): error C2011: '_D3DDEVINFO_D3DVERTEXSTATS': redefinição do tipo 'struct'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1926,16):
+  consulte a declaração de '_D3DDEVINFO_D3DVERTEXSTATS'
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\Angelica2\Output\include\A3DDevice.h(126,24): error C2079: 'A3DDevice::m_d3dpp' usa struct '_D3DPRESENT_PARAMETERS_' indefinido
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  
+D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\Angelica2\Output\include\A3DDevice.h(466,51): error C2440: 'return': não é possível converter de 'int' para 'const D3DPRESENT_PARAMETERS &'
+  (compilando o arquivo fonte '../AFileDialogDll/StdAfx.cpp')
+  D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\Angelica2\Output\include\A3DDevice.h(466,51):
+  Razão: não é possível converter de 'int' para 'const D3DPRESENT_PARAMETERS'
+  D:\FW253_code_vs2019_May FW community always be happy\FW253_code_vs2019\Angelica2\Output\include\A3DDevice.h(466,51):
+  uso do tipo indefinido '_D3DPRESENT_PARAMETERS_'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\d3d9types.h(1537,16):
+  consulte a declaração de '_D3DPRESENT_PARAMETERS_'
+  

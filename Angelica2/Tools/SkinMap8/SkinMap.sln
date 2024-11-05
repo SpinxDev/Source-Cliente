@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkinMap", "SkinMap.vcproj", "{D0D36BB5-7C14-434D-A931-46BAC63B924B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectUniqueName0 = SkinMap.vcproj
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {98B21263-9C46-4988-96F6-F4406A7A7C33}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D0D36BB5-7C14-434D-A931-46BAC63B924B}.Debug.ActiveCfg = Debug|Win32
+		{D0D36BB5-7C14-434D-A931-46BAC63B924B}.Debug.Build.0 = Debug|Win32
+		{D0D36BB5-7C14-434D-A931-46BAC63B924B}.Release.ActiveCfg = Release|Win32
+		{D0D36BB5-7C14-434D-A931-46BAC63B924B}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

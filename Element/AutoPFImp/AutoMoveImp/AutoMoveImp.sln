@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoMoveImp", "AutoMoveImp.vcproj", "{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DbgRelease|Win32 = DbgRelease|Win32
+		DbgReleaseLAA|Win32 = DbgReleaseLAA|Win32
+		DbgReleaseLAALOG|Win32 = DbgReleaseLAALOG|Win32
+		Debug|Win32 = Debug|Win32
+		DebugCRTAllocator|Win32 = DebugCRTAllocator|Win32
+		DebugLAA|Win32 = DebugLAA|Win32
+		DebugLAAMemProfile|Win32 = DebugLAAMemProfile|Win32
+		EditerDebug|Win32 = EditerDebug|Win32
+		EditerDebugCRT|Win32 = EditerDebugCRT|Win32
+		EditorRelease|Win32 = EditorRelease|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.DbgRelease|Win32.ActiveCfg = DbgRelease|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.DbgRelease|Win32.Build.0 = DbgRelease|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.DbgReleaseLAA|Win32.ActiveCfg = DbgReleaseLAA|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.DbgReleaseLAA|Win32.Build.0 = DbgReleaseLAA|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.DbgReleaseLAALOG|Win32.ActiveCfg = DbgReleaseLAALOG|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.DbgReleaseLAALOG|Win32.Build.0 = DbgReleaseLAALOG|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.Debug|Win32.Build.0 = Debug|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.DebugCRTAllocator|Win32.ActiveCfg = DebugCRTAllocator|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.DebugCRTAllocator|Win32.Build.0 = DebugCRTAllocator|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.DebugLAA|Win32.ActiveCfg = DebugLAA|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.DebugLAA|Win32.Build.0 = DebugLAA|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.DebugLAAMemProfile|Win32.ActiveCfg = DebugLAAMemProfile|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.DebugLAAMemProfile|Win32.Build.0 = DebugLAAMemProfile|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.EditerDebug|Win32.ActiveCfg = EditerDebug|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.EditerDebug|Win32.Build.0 = EditerDebug|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.EditerDebugCRT|Win32.ActiveCfg = EditerDebugCRT|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.EditerDebugCRT|Win32.Build.0 = EditerDebugCRT|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.EditorRelease|Win32.ActiveCfg = EditorRelease|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.EditorRelease|Win32.Build.0 = EditorRelease|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.Release|Win32.ActiveCfg = Release|Win32
+		{5ACE9142-64A2-455C-8F23-F6E0C9AC779A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,50 @@
+	public:
+		int faction_id;
+		unsigned int score;
+		unsigned short rob_minecar_count;
+		unsigned short rob_minebase_count;
+		char can_get_bonus;
+		unsigned int localsid;
+		enum { PROTOCOL_TYPE = PROTOCOL_FACTIONRESOURCEBATTLEPLAYERQUERYRESULT };
+	public:
+		FactionResourceBattlePlayerQueryResult() { type = PROTOCOL_FACTIONRESOURCEBATTLEPLAYERQUERYRESULT; }
+		FactionResourceBattlePlayerQueryResult(void*) : Protocol(PROTOCOL_FACTIONRESOURCEBATTLEPLAYERQUERYRESULT) { }
+		FactionResourceBattlePlayerQueryResult (int l_faction_id,unsigned int l_score,unsigned short l_rob_minecar_count,
+			unsigned short l_rob_minebase_count,char l_can_get_bonus,unsigned int l_localsid)
+			 : faction_id(l_faction_id),score(l_score),rob_minecar_count(l_rob_minecar_count)
+			,rob_minebase_count(l_rob_minebase_count),can_get_bonus(l_can_get_bonus),localsid(l_localsid)
+		{
+			type = PROTOCOL_FACTIONRESOURCEBATTLEPLAYERQUERYRESULT;
+		}
+
+		FactionResourceBattlePlayerQueryResult(const FactionResourceBattlePlayerQueryResult &rhs)
+			: Protocol(rhs),faction_id(rhs.faction_id),score(rhs.score),rob_minecar_count(rhs.rob_minecar_count)
+			,rob_minebase_count(rhs.rob_minebase_count),can_get_bonus(rhs.can_get_bonus),localsid(rhs.localsid) { }
+
+		GNET::Protocol *Clone() const { return new FactionResourceBattlePlayerQueryResult(*this); }
+
+		OctetsStream& marshal(OctetsStream & os) const
+		{
+			os << faction_id;
+			os << score;
+			os << rob_minecar_count;
+			os << rob_minebase_count;
+			os << can_get_bonus;
+			os << localsid;
+			return os;
+		}
+
+		const OctetsStream& unmarshal(const OctetsStream &os)
+		{
+			os >> faction_id;
+			os >> score;
+			os >> rob_minecar_count;
+			os >> rob_minebase_count;
+			os >> can_get_bonus;
+			os >> localsid;
+			return os;
+		}
+
+		int PriorPolicy( ) const { return 1; }
+
+		bool SizePolicy(size_t size) const { return size <= 65536; }

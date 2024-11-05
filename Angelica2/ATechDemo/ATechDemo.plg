@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ATechDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSPFE85.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".\header" /I "..\output\a3dsdk\include" /I "..\Output\3rdsdk\include" /I "..\output\afsdk\incude" /I "..\output\acsdk\include" /I "..\output\amsdk\include" /I "..\sframework\header" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/ATechDemo.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\ATechDemo\Source\VRobot.cpp"
+]
+Creating command line "cl.exe @C:\Users\Wanmei\AppData\Local\Temp\RSPFE85.tmp" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSPFE86.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".\header" /I "..\output\a3dsdk\include" /I "..\Output\3rdsdk\include" /I "..\output\afsdk\incude" /I "..\output\acsdk\include" /I "..\output\amsdk\include" /I "..\sframework\header" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\ATechDemo\Source\VTechDemo.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\ATechDemo\Source\VTechDemoKeyTrans.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\ATechDemo\Source\VTechDemoWorld.cpp"
+"C:\Users\Wanmei\Desktop\OnlineGm\Angelica2\ATechDemo\Winmain.cpp"
+]
+Creating command line "cl.exe @C:\Users\Wanmei\AppData\Local\Temp\RSPFE86.tmp" 
+Creating temporary file "C:\Users\Wanmei\AppData\Local\Temp\RSPFE97.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib d3d8.lib d3dx8.lib dxguid.lib dsound.lib angelica3d_d.lib angelicacommon_d.lib angelicafile_d.lib immwrapper_d.lib zliblib.lib angelicamedia_d.lib mpg123lib.lib strmbase_d.lib sframework.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ATechDemo.pdb" /debug /machine:I386 /out:"Debug/ATechDemo.exe" /pdbtype:sept /libpath:"..\output\3rdsdk\lib" /libpath:"..\output\a3dsdk\lib" /libpath:"..\output\acsdk\lib" /libpath:"..\output\afsdk\lib" /libpath:"..\output\amsdk\lib" /libpath:"..\sframework\debug" 
+.\Debug\VRobot.obj
+.\Debug\VTechDemo.obj
+.\Debug\VTechDemoKeyTrans.obj
+.\Debug\VTechDemoWorld.obj
+.\Debug\Winmain.obj
+]
+Creating command line "link.exe @C:\Users\Wanmei\AppData\Local\Temp\RSPFE97.tmp"
+<h3>Output Window</h3>
+Compiling...
+VRobot.cpp
+c:\users\wanmei\desktop\onlinegm\angelica2\atechdemo\header\vrobot.h(20) : error C2146: syntax error : missing ';' before identifier 'm_obbShape'
+c:\users\wanmei\desktop\onlinegm\angelica2\atechdemo\header\vrobot.h(20) : error C2501: 'OBBSHAPE' : missing storage-class or type specifiers
+c:\users\wanmei\desktop\onlinegm\angelica2\atechdemo\header\vrobot.h(20) : error C2501: 'm_obbShape' : missing storage-class or type specifiers
+c:\users\wanmei\desktop\onlinegm\angelica2\atechdemo\header\vrobot.h(28) : error C2146: syntax error : missing ';' before identifier 'm_groundTrace'
+c:\users\wanmei\desktop\onlinegm\angelica2\atechdemo\header\vrobot.h(28) : error C2501: 'AABBTRACE' : missing storage-class or type specifiers
+c:\users\wanmei\desktop\onlinegm\angelica2\atechdemo\header\vrobot.h(28) : error C2501: 'm_groundTrace' : missing storage-class or type specifiers
+c:\users\wanmei\desktop\onlinegm\angelica2\atechdemo\header\vrobot.h(29) : error C2146: syntax error : missing ';' before identifier 'm_move'
+c:\users\wanmei\desktop\onlinegm\angelica2\atechdemo\header\vrobot.h(29) : error C2501: 'A3DMOVE' : missing storage-class or type specifiers
+c:\users\wanmei\desktop\onlinegm\angelica2\atechdemo\header\vrobot.h(29) : error C2501: 'm_move' : missing storage-class or type specifiers
+c:\users\wanmei\desktop\onlinegm\angelica2\atechdemo\source\vrobot.cpp(2) : fatal error C1083: Cannot open include file: 'VGame.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ATechDemo.exe - 10 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

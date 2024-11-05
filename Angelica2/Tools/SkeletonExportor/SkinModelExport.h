@@ -1,0 +1,87 @@
+/*
+ * FILE: SkinModelExport.h
+ *
+ * DESCRIPTION: Skin model export class
+ *
+ * CREATED BY: duyuxin, 2003/10/14
+ *
+ * HISTORY:
+ *
+ * Copyright (c) 2003 Archosaur Studio, All Rights Reserved.
+ */
+
+#ifndef _SKINMODELEXPORT_H_
+#define _SKINMODELEXPORT_H_
+
+#include "max.h"
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Define and Macro
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Types and Global variables
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Declare of Global functions
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Class CSkinModelExport
+//
+///////////////////////////////////////////////////////////////////////////
+
+class CSkinModelExport : public SceneExport
+{
+public:		//	Types
+
+public:		//	Constructions and Destructions
+
+	CSkinModelExport();
+	virtual ~CSkinModelExport() {}
+
+public:		//	Attributes
+
+public:		//	Operaitons
+
+	const TCHAR* AuthorName();
+	const TCHAR* CopyrightMessage();
+	int DoExport(const TCHAR* name, ExpInterface* ei, Interface* i, BOOL suppressPrompts, DWORD options);
+	const TCHAR* Ext(int n);
+	int ExtCount();
+	const TCHAR* LongDesc();
+	const TCHAR* OtherMessage1();
+	const TCHAR* OtherMessage2();
+	const TCHAR* ShortDesc();
+	void ShowAbout(HWND hWnd);
+	unsigned int Version();
+
+protected:	//	Attributes
+
+	ExpInterface*	m_ei;			//	Export interface
+	Interface*		m_i;			//	Interface
+
+protected:	//	Operations
+
+};
+
+///////////////////////////////////////////////////////////////////////////
+//
+//	Inline functions
+//
+///////////////////////////////////////////////////////////////////////////
+
+
+#endif	//	_SKINMODELEXPORT_H_
+

@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoMoveImp", "AutoMoveImp\AutoMoveImp.vcproj", "{465BA715-C7E1-43A4-9411-20F355B43C04}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoPFImp", "AutoPFImp.vcproj", "{C7212142-BE43-4A2D-BDBE-3FCB62852465}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PfMapMerger", "PfMapMerger\PfMapMerger.vcproj", "{7B52DF5F-A067-4661-A2CB-FD176EFDF8FB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaterMapMerger", "WaterMapMerger\WaterMapMerger.vcproj", "{F76B9B8A-F416-4B92-8633-D1350DB9D4BC}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AutoMoveImp\\AutoMoveImp.vcproj
+		SccProjectName1 = \u0022$/AutoPFImp/AutoMoveImp\u0022,\u0020XQQAAAAA
+		SccLocalPath1 = AutoMoveImp
+		SccProjectUniqueName2 = AutoPFImp.vcproj
+		SccLocalPath2 = .
+		SccProjectUniqueName3 = PfMapMerger\\PfMapMerger.vcproj
+		SccProjectName3 = \u0022$/AutoPFImp/PfMapMerger\u0022,\u0020TTQAAAAA
+		SccLocalPath3 = PfMapMerger
+		SccProjectUniqueName4 = WaterMapMerger\\WaterMapMerger.vcproj
+		SccProjectName4 = \u0022$/AutoPFImp/WaterMapMerger\u0022,\u0020KPSAAAAA
+		SccLocalPath4 = WaterMapMerger
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		EditerDebug|Win32 = EditerDebug|Win32
+		EditorRelease|Win32 = EditorRelease|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{465BA715-C7E1-43A4-9411-20F355B43C04}.Debug|Win32.ActiveCfg = Debug|Win32
+		{465BA715-C7E1-43A4-9411-20F355B43C04}.Debug|Win32.Build.0 = Debug|Win32
+		{465BA715-C7E1-43A4-9411-20F355B43C04}.EditerDebug|Win32.ActiveCfg = EditerDebug|Win32
+		{465BA715-C7E1-43A4-9411-20F355B43C04}.EditerDebug|Win32.Build.0 = EditerDebug|Win32
+		{465BA715-C7E1-43A4-9411-20F355B43C04}.EditorRelease|Win32.ActiveCfg = EditorRelease|Win32
+		{465BA715-C7E1-43A4-9411-20F355B43C04}.EditorRelease|Win32.Build.0 = EditorRelease|Win32
+		{465BA715-C7E1-43A4-9411-20F355B43C04}.Release|Win32.ActiveCfg = Release|Win32
+		{465BA715-C7E1-43A4-9411-20F355B43C04}.Release|Win32.Build.0 = Release|Win32
+		{C7212142-BE43-4A2D-BDBE-3FCB62852465}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C7212142-BE43-4A2D-BDBE-3FCB62852465}.Debug|Win32.Build.0 = Debug|Win32
+		{C7212142-BE43-4A2D-BDBE-3FCB62852465}.EditerDebug|Win32.ActiveCfg = Debug|Win32
+		{C7212142-BE43-4A2D-BDBE-3FCB62852465}.EditerDebug|Win32.Build.0 = Debug|Win32
+		{C7212142-BE43-4A2D-BDBE-3FCB62852465}.EditorRelease|Win32.ActiveCfg = Release|Win32
+		{C7212142-BE43-4A2D-BDBE-3FCB62852465}.EditorRelease|Win32.Build.0 = Release|Win32
+		{C7212142-BE43-4A2D-BDBE-3FCB62852465}.Release|Win32.ActiveCfg = Release|Win32
+		{C7212142-BE43-4A2D-BDBE-3FCB62852465}.Release|Win32.Build.0 = Release|Win32
+		{7B52DF5F-A067-4661-A2CB-FD176EFDF8FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B52DF5F-A067-4661-A2CB-FD176EFDF8FB}.Debug|Win32.Build.0 = Debug|Win32
+		{7B52DF5F-A067-4661-A2CB-FD176EFDF8FB}.EditerDebug|Win32.ActiveCfg = Debug|Win32
+		{7B52DF5F-A067-4661-A2CB-FD176EFDF8FB}.EditerDebug|Win32.Build.0 = Debug|Win32
+		{7B52DF5F-A067-4661-A2CB-FD176EFDF8FB}.EditorRelease|Win32.ActiveCfg = Release|Win32
+		{7B52DF5F-A067-4661-A2CB-FD176EFDF8FB}.EditorRelease|Win32.Build.0 = Release|Win32
+		{7B52DF5F-A067-4661-A2CB-FD176EFDF8FB}.Release|Win32.ActiveCfg = Release|Win32
+		{7B52DF5F-A067-4661-A2CB-FD176EFDF8FB}.Release|Win32.Build.0 = Release|Win32
+		{F76B9B8A-F416-4B92-8633-D1350DB9D4BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F76B9B8A-F416-4B92-8633-D1350DB9D4BC}.Debug|Win32.Build.0 = Debug|Win32
+		{F76B9B8A-F416-4B92-8633-D1350DB9D4BC}.EditerDebug|Win32.ActiveCfg = Debug|Win32
+		{F76B9B8A-F416-4B92-8633-D1350DB9D4BC}.EditerDebug|Win32.Build.0 = Debug|Win32
+		{F76B9B8A-F416-4B92-8633-D1350DB9D4BC}.EditorRelease|Win32.ActiveCfg = Release|Win32
+		{F76B9B8A-F416-4B92-8633-D1350DB9D4BC}.EditorRelease|Win32.Build.0 = Release|Win32
+		{F76B9B8A-F416-4B92-8633-D1350DB9D4BC}.Release|Win32.ActiveCfg = Release|Win32
+		{F76B9B8A-F416-4B92-8633-D1350DB9D4BC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

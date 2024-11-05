@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PropDlg", "PropDlg.vcproj", "{54645F9B-6B9A-4F1E-8C3B-F28571043DCD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PropDlg2.2", "PropDlg2.2.vcproj", "{7F34276E-6271-4ABE-9A20-C83A1262B6FF}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PropDlg.vcproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = PropDlg2.2.vcproj
+		SccLocalPath2 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		UNICODEDebug|Win32 = UNICODEDebug|Win32
+		UNICODERelease|Win32 = UNICODERelease|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54645F9B-6B9A-4F1E-8C3B-F28571043DCD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54645F9B-6B9A-4F1E-8C3B-F28571043DCD}.Debug|Win32.Build.0 = Debug|Win32
+		{54645F9B-6B9A-4F1E-8C3B-F28571043DCD}.Release|Win32.ActiveCfg = Release|Win32
+		{54645F9B-6B9A-4F1E-8C3B-F28571043DCD}.Release|Win32.Build.0 = Release|Win32
+		{54645F9B-6B9A-4F1E-8C3B-F28571043DCD}.UNICODEDebug|Win32.ActiveCfg = UNICODEDebug|Win32
+		{54645F9B-6B9A-4F1E-8C3B-F28571043DCD}.UNICODEDebug|Win32.Build.0 = UNICODEDebug|Win32
+		{54645F9B-6B9A-4F1E-8C3B-F28571043DCD}.UNICODERelease|Win32.ActiveCfg = UNICODERelease|Win32
+		{54645F9B-6B9A-4F1E-8C3B-F28571043DCD}.UNICODERelease|Win32.Build.0 = UNICODERelease|Win32
+		{7F34276E-6271-4ABE-9A20-C83A1262B6FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F34276E-6271-4ABE-9A20-C83A1262B6FF}.Debug|Win32.Build.0 = Debug|Win32
+		{7F34276E-6271-4ABE-9A20-C83A1262B6FF}.Release|Win32.ActiveCfg = Release|Win32
+		{7F34276E-6271-4ABE-9A20-C83A1262B6FF}.Release|Win32.Build.0 = Release|Win32
+		{7F34276E-6271-4ABE-9A20-C83A1262B6FF}.UNICODEDebug|Win32.ActiveCfg = UNICODEDebug|Win32
+		{7F34276E-6271-4ABE-9A20-C83A1262B6FF}.UNICODEDebug|Win32.Build.0 = UNICODEDebug|Win32
+		{7F34276E-6271-4ABE-9A20-C83A1262B6FF}.UNICODERelease|Win32.ActiveCfg = UNICODERelease|Win32
+		{7F34276E-6271-4ABE-9A20-C83A1262B6FF}.UNICODERelease|Win32.Build.0 = UNICODERelease|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

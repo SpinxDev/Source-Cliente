@@ -1,0 +1,41 @@
+	public:
+		std::vector<unsigned int> fid_list;
+		std::vector<Octets> fid_master; /*Alien - foi adicionado*/
+		std::vector<Octets> proclaim;	/*Alien - foi adicionado*/
+		unsigned int localsid;
+		enum { PROTOCOL_TYPE = PROTOCOL_FACTIONLISTONLINE_RE };
+	public:
+		FactionListOnline_Re() { type = PROTOCOL_FACTIONLISTONLINE_RE; }
+		FactionListOnline_Re(void*) : Protocol(PROTOCOL_FACTIONLISTONLINE_RE) { }
+		FactionListOnline_Re (const std::vector<unsigned int>& l_fid_list,std::vector<Octets>& l_fid_master,std::vector<Octets>& l_proclaim,unsigned int l_localsid)
+			 : fid_list(l_fid_list),fid_master(l_fid_master)/*Alien - foi adicionado*/,proclaim(l_proclaim)/*Alien - foi adicionado*/, localsid(l_localsid)
+		{
+			type = PROTOCOL_FACTIONLISTONLINE_RE;
+		}
+
+		FactionListOnline_Re(const FactionListOnline_Re &rhs)
+			: Protocol(rhs),fid_list(rhs.fid_list),fid_master(rhs.fid_master)/*Alien - foi adicionado*/,proclaim(rhs.proclaim)/*Alien - foi adicionado*/,localsid(rhs.localsid) { }
+
+		GNET::Protocol *Clone() const { return new FactionListOnline_Re(*this); }
+
+		OctetsStream& marshal(OctetsStream & os) const
+		{
+			os << fid_list;
+			os << fid_master;	/*Alien - foi adicionado*/
+			os << proclaim;		/*Alien - foi adicionado*/
+			os << localsid;
+			return os;
+		}
+
+		const OctetsStream& unmarshal(const OctetsStream &os)
+		{
+			os >> fid_list;
+			os >> fid_master;	/*Alien - foi adicionado*/
+			os >> proclaim;		/*Alien - foi adicionado*/
+			os >> localsid;
+			return os;
+		}
+
+		int PriorPolicy( ) const { return 1; }
+
+		bool SizePolicy(size_t size) const { return size <= 8192; }
