@@ -1,0 +1,9 @@
+
+*.obj
+/Angelica2/.vs
+*.log
+*.pdb
+*.tlog
+/Angelica2/ImmWrapper/Release
+*.exp
+/Angelica2/Angelica3D/Release

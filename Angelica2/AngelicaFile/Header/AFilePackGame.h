@@ -90,16 +90,16 @@ public:		//	Types
 		DWORD	guardByte1;				//	0xffeeffee
 	};
 
-	struct FILEHEADER64
-	{
-		DWORD	guardByte0;				//	0xabcdefab
-		DWORD	dwVersion;				//	Composed by two word version, major part and minor part;
-		DWORD64	dwEntryOffset;			//	The entry list offset from the beginning;
-		DWORD	dwFlags;				//	package flags. the highest bit means the encrypt state;
-		char	szDescription[252];		//	Description
-		DWORD	guardByte1;				//	0xffeeffee
-		DWORD	unknown;
-	};
+	//struct FILEHEADER64
+	//{
+	//	DWORD	guardByte0;				//	0xabcdefab
+	//	DWORD	dwVersion;				//	Composed by two word version, major part and minor part;
+	//	DWORD64	dwEntryOffset;			//	The entry list offset from the beginning;
+	//	DWORD	dwFlags;				//	package flags. the highest bit means the encrypt state;
+	//	char	szDescription[252];		//	Description
+	//	DWORD	guardByte1;				//	0xffeeffee
+	//	DWORD	unknown;
+	//};
 
 	//	Share read file item
 	struct SHAREDFILE

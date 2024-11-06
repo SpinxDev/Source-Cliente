@@ -287,8 +287,8 @@ bool AFilePackGame::InnerOpen(const char* szPckPath, const char* szFolder, OPENM
 			// Now read file number;
 			m_fpPackageFile->seek(nOffset - (sizeof (int) + sizeof (DWORD)), SEEK_SET);
 			m_fpPackageFile->read(&iNumFile, sizeof (int), 1);
-			m_fpPackageFile->seek(nOffset - (sizeof (FILEHEADER64) + sizeof (DWORD) + sizeof(int)), SEEK_SET);
-			m_fpPackageFile->read(&m_header, sizeof (FILEHEADER64), 1);
+			m_fpPackageFile->seek(nOffset - (sizeof (FILEHEADER) + sizeof (DWORD) + sizeof(int)), SEEK_SET);
+			m_fpPackageFile->read(&m_header, sizeof (FILEHEADER), 1);
 			if( strstr(m_header.szDescription, "lica File Package") == NULL )
 				return false;
 			strncpy(m_header.szDescription, AFPCK_COPYRIGHT_TAG, sizeof(m_header.szDescription));

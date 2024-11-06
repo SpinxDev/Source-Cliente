@@ -115,8 +115,18 @@ public:		//	Types
 		DWORD	dwOffset;				//	The offset from the beginning of the package file;
 		DWORD	dwLength;				//	The length of this file;
 		DWORD	dwCompressedLength;		//	The compressed data length;
-
 		int		iAccessCnt;				//	Access counter used by OpenSharedFile
+	};
+
+	struct FILEENTRY64
+	{
+		char*	szFileName[MAX_PATH];				//	The file name of this entry; this may contain a path;
+		DWORD	v3p1;
+		DWORD64	dwOffset;				//	The offset from the beginning of the package file;
+		DWORD	dwLength;				//	The length of this file;
+		DWORD	dwCompressedLength;		//	The compressed data length;
+		DWORD	v3p2;
+		int	iAccessCnt;
 	};
 
 	struct FILEHEADER
@@ -129,6 +139,17 @@ public:		//	Types
 		DWORD	guardByte1;				//	0xffeeffee
 	};
 
+	//struct FILEHEADER
+	//{
+	//	DWORD	guardByte0;				//	0xabcdefab
+	//	DWORD	dwVersion;				//	Composed by two word version, major part and minor part;
+	//	DWORD64	dwEntryOffset;			//	The entry list offset from the beginning;
+	//	DWORD	dwFlags;				//	package flags. the highest bit means the encrypt state;
+	//	char	szDescription[252];		//	Description
+	//	DWORD	guardByte1;				//	0xffeeffee
+	//	DWORD	unk;
+	//};
+
 	//	Share read file item
 	struct SHAREDFILE
 	{
@@ -140,6 +161,7 @@ public:		//	Types
 		DWORD	dwFileLen;		//	File data length
 
 		FILEENTRY*	pFileEntry;	//	Point to file entry
+		FILEENTRY64*	pFileEntry64;	//	Point to file entry
 	};
 
 	//	Cache file name
@@ -170,9 +192,11 @@ private:
 	bool		m_bUseShortName;	//	Get rid of m_szFolder in each file name
 	
 	FILEHEADER	m_header;
+	//FILEHEADER64	m_header64;
 	OPENMODE	m_mode;
 
 	APtrArray<FILEENTRY*>	m_aFileEntries;		//	File entries
+	APtrArray<FILEENTRY64*>	m_aFileEntries64;		//	File entries
 	APtrArray<FILEENTRYCACHE*>	m_aFileEntryCache;	// File entries cache
 	CachedTable				m_CachedFileTab;	//	Cached file table
 	SharedTable				m_SharedFileTab;	//	Shared file table

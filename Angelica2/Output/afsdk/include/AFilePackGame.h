@@ -69,6 +69,17 @@ public:		//	Types
 		DWORD	dwCompressedLength;		//	The compressed data length;
 	};
 
+	struct FILEENTRY64
+	{
+		char*	szFileName;				//	The file name of this entry; this may contain a path;
+		DWORD	v3p1;
+		DWORD64	dwOffset;				//	The offset from the beginning of the package file;
+		DWORD	dwLength;				//	The length of this file;
+		DWORD	dwCompressedLength;		//	The compressed data length;
+		DWORD	v3p2;
+		DWORD	dummy;
+	};
+
 	struct FILEHEADER
 	{
 		DWORD	guardByte0;				//	0xabcdefab
@@ -78,6 +89,17 @@ public:		//	Types
 		char	szDescription[252];		//	Description
 		DWORD	guardByte1;				//	0xffeeffee
 	};
+
+	//struct FILEHEADER64
+	//{
+	//	DWORD	guardByte0;				//	0xabcdefab
+	//	DWORD	dwVersion;				//	Composed by two word version, major part and minor part;
+	//	DWORD64	dwEntryOffset;			//	The entry list offset from the beginning;
+	//	DWORD	dwFlags;				//	package flags. the highest bit means the encrypt state;
+	//	char	szDescription[252];		//	Description
+	//	DWORD	guardByte1;				//	0xffeeffee
+	//	DWORD	unknown;
+	//};
 
 	//	Share read file item
 	struct SHAREDFILE
@@ -90,6 +112,7 @@ public:		//	Types
 		DWORD	dwFileLen;		//	File data length
 
 		FILEENTRY*	pFileEntry;	//	Point to file entry
+		FILEENTRY64* pFileEntry64;
 	};
 
 	//	Cache file name
@@ -128,6 +151,7 @@ private:
 	OPENMODE	m_mode;
 
 	FILEENTRY*				m_aFileEntries;			//	File entries
+	FILEENTRY64*			m_aFileEntries64;			//	File entries
 	int						m_iNumEntry;			//	Number of file entry
 	FileEntryTable			m_FileQuickSearchTab;	//	Quick search table when OM_ID_SEARCH is set
 	APtrArray<FILEENTRY*>	m_aIDCollisionFiles;	//	ID collision file
