@@ -33,6 +33,8 @@ Adições & Modificações:
 
 11- Adicionado Astrolábio (foi feita infusão, nao foi terminado o resto)
 
+12- Adicionado Pedra de Teleporte Tempestuoso (59410)
+
 
 
 Tem mais coisa, é só pesquisar "alien" pelo codigo no projeto
