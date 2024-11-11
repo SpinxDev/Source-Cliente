@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Editor Unicode Debug|Win32">
+      <Configuration>Editor Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Editor Unicode Release|Win32">
+      <Configuration>Editor Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Debug|Win32">
+      <Configuration>Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Release|Win32">
+      <Configuration>Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{7F34276E-6271-4ABE-9A20-C83A1262B6FF}</ProjectGuid>
+    <RootNamespace>PropDlg</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.35219.272</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <OutDir>$(Platform)\2.2\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\2.2\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(Platform)\2.2\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\2.2\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <OutDir>$(Platform)\2.2\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\2.2\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Platform)\2.2\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\2.2\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\Angelica2\Output\A3DSDK\Include;..\..\Angelica2\Output\AMSDK\Include;..\..\Angelica2\Output\AFSDK\Include;..\..\Angelica2\Output\ACSDK\Include;..\..\Angelica2\Output\APSDK\Include;..\..\Angelica2\Output\AAudio\Include;..\..\Angelica2\Output\3rdSDK\Include;..\Output\include;..\Output\include\aaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\UNICODEDebug/PropDlg.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation />
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <AdditionalDependencies>AudioAssistDll2.2_d.lib;AudioEngine2.2_lib_d.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Lib\2.2\PropDlg_ud.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\Output\lib;..\..\Angelica2\Output\3rdSDK\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\UNICODEDebug/PropDlg.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>if not exist .\include md .\include
+xcopy "AObject.h" ".\include" /R /Y /Q
+xcopy "AProperty.h" ".\include" /R /Y /Q
+xcopy "AVariant.h" ".\include" /R /Y /Q
+xcopy "ColorPickerDlg.h" ".\include" /R /Y /Q
+xcopy "CustomColorDialog.h" ".\include" /R /Y /Q
+xcopy "CustomVectorDlg.h" ".\include" /R /Y /Q
+xcopy "MemoEditDlg.h" ".\include" /R /Y /Q
+xcopy "PropDlg_rc.h" ".\include" /R /Y /Q
+xcopy "PropertyBooleanBox.h" ".\include" /R /Y /Q
+xcopy "PropertyBox.h" ".\include" /R /Y /Q
+xcopy "PropertyColorBox.h" ".\include" /R /Y /Q
+xcopy "PropertyCustomBox.h" ".\include" /R /Y /Q
+xcopy "PropertyDialog.h" ".\include" /R /Y /Q
+xcopy "PropertyDoubleBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFileBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFloatBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFontBox.h" ".\include" /R /Y /Q
+xcopy "PropertyIDBox.h" ".\include" /R /Y /Q
+xcopy "PropertyIntegerBox.h" ".\include" /R /Y /Q
+xcopy "PropertyList.h" ".\include" /R /Y /Q
+xcopy "PropertyMemoBox.h" ".\include" /R /Y /Q
+xcopy "PropertySliderBox.h" ".\include" /R /Y /Q
+xcopy "PropertyStringBox.h" ".\include" /R /Y /Q
+xcopy "PropertyVectorBox.h" ".\include" /R /Y /Q
+xcopy "PropertyInterface.h" ".\include" /R /Y /Q
+xcopy "SliderDlg.h" ".\include" /R /Y /Q
+xcopy "MemDC.h" ".\include" /R /Y /Q
+xcopy "DIB.h" ".\include" /R /Y /Q
+xcopy "Common.h" ".\include" /R /Y /Q
+xcopy "PropDlg.rc" ".\include" /R /Y /Q
+xcopy "CCHSB.BMP" ".\include" /R /Y /Q
+xcopy "CCRGB.BMP" ".\include" /R /Y /Q
+
+xcopy .\include\*.* ..\Output\Include\PropDlg\ /Y /D /E /R
+xcopy .\Lib\2.2\*.lib ..\Output\Lib\ /Y /D /E /R
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\Angelica2\Output\A3DSDK\Include;..\..\Angelica2\Output\AMSDK\Include;..\..\Angelica2\Output\AFSDK\Include;..\..\Angelica2\Output\ACSDK\Include;..\..\Angelica2\Output\APSDK\Include;..\..\Angelica2\Output\AAudio\Include;..\..\Angelica2\Output\3rdSDK\Include;..\Output\include;..\Output\include\aaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\Debug/PropDlg.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation />
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <AdditionalDependencies>AudioAssistDll2.2_d.lib;AudioEngine2.2_lib_d.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Lib\2.2\PropDlg_d.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\Output\lib;..\..\Angelica2\Output\3rdSDK\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/PropDlg.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>if not exist .\include md .\include
+xcopy "AObject.h" ".\include" /R /Y /Q
+xcopy "AProperty.h" ".\include" /R /Y /Q
+xcopy "AVariant.h" ".\include" /R /Y /Q
+xcopy "ColorPickerDlg.h" ".\include" /R /Y /Q
+xcopy "CustomColorDialog.h" ".\include" /R /Y /Q
+xcopy "CustomVectorDlg.h" ".\include" /R /Y /Q
+xcopy "MemoEditDlg.h" ".\include" /R /Y /Q
+xcopy "PropDlg_rc.h" ".\include" /R /Y /Q
+xcopy "PropertyBooleanBox.h" ".\include" /R /Y /Q
+xcopy "PropertyBox.h" ".\include" /R /Y /Q
+xcopy "PropertyColorBox.h" ".\include" /R /Y /Q
+xcopy "PropertyCustomBox.h" ".\include" /R /Y /Q
+xcopy "PropertyDialog.h" ".\include" /R /Y /Q
+xcopy "PropertyDoubleBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFileBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFloatBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFontBox.h" ".\include" /R /Y /Q
+xcopy "PropertyIDBox.h" ".\include" /R /Y /Q
+xcopy "PropertyIntegerBox.h" ".\include" /R /Y /Q
+xcopy "PropertyList.h" ".\include" /R /Y /Q
+xcopy "PropertyMemoBox.h" ".\include" /R /Y /Q
+xcopy "PropertySliderBox.h" ".\include" /R /Y /Q
+xcopy "PropertyStringBox.h" ".\include" /R /Y /Q
+xcopy "PropertyVectorBox.h" ".\include" /R /Y /Q
+xcopy "PropertyInterface.h" ".\include" /R /Y /Q
+xcopy "SliderDlg.h" ".\include" /R /Y /Q
+xcopy "MemDC.h" ".\include" /R /Y /Q
+xcopy "DIB.h" ".\include" /R /Y /Q
+xcopy "Common.h" ".\include" /R /Y /Q
+xcopy "PropDlg.rc" ".\include" /R /Y /Q
+xcopy "CCHSB.BMP" ".\include" /R /Y /Q
+xcopy "CCRGB.BMP" ".\include" /R /Y /Q
+
+xcopy .\include\*.* ..\Output\Include\PropDlg\ /Y /D /E /R
+xcopy .\Lib\2.2\*.lib ..\Output\Lib\ /Y /D /E /R
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\Angelica2\Output\A3DSDK\Include;..\..\Angelica2\Output\AMSDK\Include;..\..\Angelica2\Output\AFSDK\Include;..\..\Angelica2\Output\ACSDK\Include;..\..\Angelica2\Output\APSDK\Include;..\..\Angelica2\Output\AAudio\Include;..\..\Angelica2\Output\3rdSDK\Include;..\Output\include;..\Output\include\aaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;UNICODE;_CRT_SECURE_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\UNICODERelease/PropDlg.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation />
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <AdditionalDependencies>AudioAssistDll2.2.lib;AudioEngine2.2_lib.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Lib\2.2\PropDlg_u.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\Output\lib;..\..\Angelica2\Output\3rdSDK\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\UNICODERelease/PropDlg.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>if not exist .\include md .\include
+xcopy "AObject.h" ".\include" /R /Y /Q
+xcopy "AProperty.h" ".\include" /R /Y /Q
+xcopy "AVariant.h" ".\include" /R /Y /Q
+xcopy "ColorPickerDlg.h" ".\include" /R /Y /Q
+xcopy "CustomColorDialog.h" ".\include" /R /Y /Q
+xcopy "CustomVectorDlg.h" ".\include" /R /Y /Q
+xcopy "MemoEditDlg.h" ".\include" /R /Y /Q
+xcopy "PropDlg_rc.h" ".\include" /R /Y /Q
+xcopy "PropertyBooleanBox.h" ".\include" /R /Y /Q
+xcopy "PropertyBox.h" ".\include" /R /Y /Q
+xcopy "PropertyColorBox.h" ".\include" /R /Y /Q
+xcopy "PropertyCustomBox.h" ".\include" /R /Y /Q
+xcopy "PropertyDialog.h" ".\include" /R /Y /Q
+xcopy "PropertyDoubleBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFileBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFloatBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFontBox.h" ".\include" /R /Y /Q
+xcopy "PropertyIDBox.h" ".\include" /R /Y /Q
+xcopy "PropertyIntegerBox.h" ".\include" /R /Y /Q
+xcopy "PropertyList.h" ".\include" /R /Y /Q
+xcopy "PropertyMemoBox.h" ".\include" /R /Y /Q
+xcopy "PropertySliderBox.h" ".\include" /R /Y /Q
+xcopy "PropertyStringBox.h" ".\include" /R /Y /Q
+xcopy "PropertyVectorBox.h" ".\include" /R /Y /Q
+xcopy "PropertyInterface.h" ".\include" /R /Y /Q
+xcopy "SliderDlg.h" ".\include" /R /Y /Q
+xcopy "MemDC.h" ".\include" /R /Y /Q
+xcopy "DIB.h" ".\include" /R /Y /Q
+xcopy "Common.h" ".\include" /R /Y /Q
+xcopy "PropDlg.rc" ".\include" /R /Y /Q
+xcopy "CCHSB.BMP" ".\include" /R /Y /Q
+xcopy "CCRGB.BMP" ".\include" /R /Y /Q
+
+xcopy .\include\*.* ..\Output\Include\PropDlg\ /Y /D /E /R
+xcopy .\Lib\2.2\*.lib ..\Output\Lib\ /Y /D /E /R
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\Angelica2\Output\A3DSDK\Include;..\..\Angelica2\Output\AMSDK\Include;..\..\Angelica2\Output\AFSDK\Include;..\..\Angelica2\Output\ACSDK\Include;..\..\Angelica2\Output\APSDK\Include;..\..\Angelica2\Output\AAudio\Include;..\..\Angelica2\Output\3rdSDK\Include;..\Output\include;..\Output\include\aaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\Release/PropDlg.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation />
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <AdditionalDependencies>AudioAssistDll2.2.lib;AudioEngine2.2_lib.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Lib\2.2\PropDlg.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\Output\lib;..\..\Angelica2\Output\3rdSDK\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/PropDlg.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>if not exist .\include md .\include
+xcopy "AObject.h" ".\include" /R /Y /Q
+xcopy "AProperty.h" ".\include" /R /Y /Q
+xcopy "AVariant.h" ".\include" /R /Y /Q
+xcopy "ColorPickerDlg.h" ".\include" /R /Y /Q
+xcopy "CustomColorDialog.h" ".\include" /R /Y /Q
+xcopy "CustomVectorDlg.h" ".\include" /R /Y /Q
+xcopy "MemoEditDlg.h" ".\include" /R /Y /Q
+xcopy "PropDlg_rc.h" ".\include" /R /Y /Q
+xcopy "PropertyBooleanBox.h" ".\include" /R /Y /Q
+xcopy "PropertyBox.h" ".\include" /R /Y /Q
+xcopy "PropertyColorBox.h" ".\include" /R /Y /Q
+xcopy "PropertyCustomBox.h" ".\include" /R /Y /Q
+xcopy "PropertyDialog.h" ".\include" /R /Y /Q
+xcopy "PropertyDoubleBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFileBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFloatBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFontBox.h" ".\include" /R /Y /Q
+xcopy "PropertyIDBox.h" ".\include" /R /Y /Q
+xcopy "PropertyIntegerBox.h" ".\include" /R /Y /Q
+xcopy "PropertyList.h" ".\include" /R /Y /Q
+xcopy "PropertyMemoBox.h" ".\include" /R /Y /Q
+xcopy "PropertySliderBox.h" ".\include" /R /Y /Q
+xcopy "PropertyStringBox.h" ".\include" /R /Y /Q
+xcopy "PropertyVectorBox.h" ".\include" /R /Y /Q
+xcopy "PropertyInterface.h" ".\include" /R /Y /Q
+xcopy "SliderDlg.h" ".\include" /R /Y /Q
+xcopy "MemDC.h" ".\include" /R /Y /Q
+xcopy "DIB.h" ".\include" /R /Y /Q
+xcopy "Common.h" ".\include" /R /Y /Q
+xcopy "PropDlg.rc" ".\include" /R /Y /Q
+xcopy "CCHSB.BMP" ".\include" /R /Y /Q
+xcopy "CCRGB.BMP" ".\include" /R /Y /Q
+
+xcopy .\include\*.* ..\Output\Include\PropDlg\ /Y /D /E /R
+xcopy .\Lib\2.2\*.lib ..\Output\Lib\ /Y /D /E /R
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\Angelica2\Output\A3DSDK\Include;..\..\Angelica2\Output\AMSDK\Include;..\..\Angelica2\Output\AFSDK\Include;..\..\Angelica2\Output\ACSDK\Include;..\..\Angelica2\Output\APSDK\Include;..\..\Angelica2\Output\AAudio\Include;..\..\Angelica2\Output\3rdSDK\Include;..\Output\include;..\Output\include\aaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;UNICODE;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\Debug/PropDlg.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation />
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <AdditionalDependencies>AudioAssistDll2.2_ud.lib;AudioEngine2.2_lib_ud.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Lib\2.2\PropDlg_ud.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\Output\lib;..\..\Angelica2\Output\3rdSDK\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/PropDlg.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>if not exist .\include md .\include
+xcopy "AObject.h" ".\include" /R /Y /Q
+xcopy "AProperty.h" ".\include" /R /Y /Q
+xcopy "AVariant.h" ".\include" /R /Y /Q
+xcopy "ColorPickerDlg.h" ".\include" /R /Y /Q
+xcopy "CustomColorDialog.h" ".\include" /R /Y /Q
+xcopy "CustomVectorDlg.h" ".\include" /R /Y /Q
+xcopy "MemoEditDlg.h" ".\include" /R /Y /Q
+xcopy "PropDlg_rc.h" ".\include" /R /Y /Q
+xcopy "PropertyBooleanBox.h" ".\include" /R /Y /Q
+xcopy "PropertyBox.h" ".\include" /R /Y /Q
+xcopy "PropertyColorBox.h" ".\include" /R /Y /Q
+xcopy "PropertyCustomBox.h" ".\include" /R /Y /Q
+xcopy "PropertyDialog.h" ".\include" /R /Y /Q
+xcopy "PropertyDoubleBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFileBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFloatBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFontBox.h" ".\include" /R /Y /Q
+xcopy "PropertyIDBox.h" ".\include" /R /Y /Q
+xcopy "PropertyIntegerBox.h" ".\include" /R /Y /Q
+xcopy "PropertyList.h" ".\include" /R /Y /Q
+xcopy "PropertyMemoBox.h" ".\include" /R /Y /Q
+xcopy "PropertySliderBox.h" ".\include" /R /Y /Q
+xcopy "PropertyStringBox.h" ".\include" /R /Y /Q
+xcopy "PropertyVectorBox.h" ".\include" /R /Y /Q
+xcopy "PropertyInterface.h" ".\include" /R /Y /Q
+xcopy "SliderDlg.h" ".\include" /R /Y /Q
+xcopy "MemDC.h" ".\include" /R /Y /Q
+xcopy "DIB.h" ".\include" /R /Y /Q
+xcopy "Common.h" ".\include" /R /Y /Q
+xcopy "PropDlg.rc" ".\include" /R /Y /Q
+xcopy "CCHSB.BMP" ".\include" /R /Y /Q
+xcopy "CCRGB.BMP" ".\include" /R /Y /Q
+
+xcopy .\include\*.* ..\Output\Include\PropDlg\ /Y /D /E /R
+xcopy .\Lib\2.2\*.lib ..\Output\Lib\ /Y /D /E /R
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\Angelica2\Output\A3DSDK\Include;..\..\Angelica2\Output\AMSDK\Include;..\..\Angelica2\Output\AFSDK\Include;..\..\Angelica2\Output\ACSDK\Include;..\..\Angelica2\Output\APSDK\Include;..\..\Angelica2\Output\AAudio\Include;..\..\Angelica2\Output\3rdSDK\Include;..\Output\include;..\Output\include\aaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UNICODE;_UNICODE;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\Debug/PropDlg.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation />
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <AdditionalDependencies>AudioAssistDll2.2_u.lib;AudioEngine2.2_lib_u.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Lib\2.2\PropDlg_u.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\Output\lib;..\..\Angelica2\Output\3rdSDK\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/PropDlg.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>if not exist .\include md .\include
+xcopy "AObject.h" ".\include" /R /Y /Q
+xcopy "AProperty.h" ".\include" /R /Y /Q
+xcopy "AVariant.h" ".\include" /R /Y /Q
+xcopy "ColorPickerDlg.h" ".\include" /R /Y /Q
+xcopy "CustomColorDialog.h" ".\include" /R /Y /Q
+xcopy "CustomVectorDlg.h" ".\include" /R /Y /Q
+xcopy "MemoEditDlg.h" ".\include" /R /Y /Q
+xcopy "PropDlg_rc.h" ".\include" /R /Y /Q
+xcopy "PropertyBooleanBox.h" ".\include" /R /Y /Q
+xcopy "PropertyBox.h" ".\include" /R /Y /Q
+xcopy "PropertyColorBox.h" ".\include" /R /Y /Q
+xcopy "PropertyCustomBox.h" ".\include" /R /Y /Q
+xcopy "PropertyDialog.h" ".\include" /R /Y /Q
+xcopy "PropertyDoubleBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFileBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFloatBox.h" ".\include" /R /Y /Q
+xcopy "PropertyFontBox.h" ".\include" /R /Y /Q
+xcopy "PropertyIDBox.h" ".\include" /R /Y /Q
+xcopy "PropertyIntegerBox.h" ".\include" /R /Y /Q
+xcopy "PropertyList.h" ".\include" /R /Y /Q
+xcopy "PropertyMemoBox.h" ".\include" /R /Y /Q
+xcopy "PropertySliderBox.h" ".\include" /R /Y /Q
+xcopy "PropertyStringBox.h" ".\include" /R /Y /Q
+xcopy "PropertyVectorBox.h" ".\include" /R /Y /Q
+xcopy "PropertyInterface.h" ".\include" /R /Y /Q
+xcopy "SliderDlg.h" ".\include" /R /Y /Q
+xcopy "MemDC.h" ".\include" /R /Y /Q
+xcopy "DIB.h" ".\include" /R /Y /Q
+xcopy "Common.h" ".\include" /R /Y /Q
+xcopy "PropDlg.rc" ".\include" /R /Y /Q
+xcopy "CCHSB.BMP" ".\include" /R /Y /Q
+xcopy "CCRGB.BMP" ".\include" /R /Y /Q
+
+xcopy .\include\*.* ..\Output\Include\PropDlg\ /Y /D /E /R
+xcopy .\Lib\2.2\*.lib ..\Output\Lib\ /Y /D /E /R
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AObject.cpp" />
+    <ClCompile Include="AProperty.cpp" />
+    <ClCompile Include="AVariant.cpp" />
+    <ClCompile Include="ColorGrid.cpp" />
+    <ClCompile Include="ColorPickerDlg.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="CustomColorDialog.cpp" />
+    <ClCompile Include="CustomVectorDlg.cpp" />
+    <ClCompile Include="DIB.CPP" />
+    <ClCompile Include="MemoEditDlg.cpp" />
+    <ClCompile Include="PropertyBooleanBox.cpp" />
+    <ClCompile Include="PropertyBox.cpp" />
+    <ClCompile Include="PropertyColorBox.cpp" />
+    <ClCompile Include="PropertyCustomBox.cpp" />
+    <ClCompile Include="PropertyDialog.cpp" />
+    <ClCompile Include="PropertyDoubleBox.cpp" />
+    <ClCompile Include="PropertyFileBox.cpp" />
+    <ClCompile Include="PropertyFloatBox.cpp" />
+    <ClCompile Include="PropertyFontBox.cpp" />
+    <ClCompile Include="PropertyIDBox.cpp" />
+    <ClCompile Include="PropertyInteger64Box.cpp" />
+    <ClCompile Include="PropertyIntegerBox.cpp" />
+    <ClCompile Include="PropertyInterface.cpp" />
+    <ClCompile Include="PropertyList.cpp" />
+    <ClCompile Include="PropertyMemoBox.cpp" />
+    <ClCompile Include="PropertySliderBox.cpp" />
+    <ClCompile Include="PropertyStringBox.cpp" />
+    <ClCompile Include="PropertyVectorBox.cpp" />
+    <ClCompile Include="SliderDlg.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PropDlg.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AObject.h" />
+    <ClInclude Include="AProperty.h" />
+    <ClInclude Include="AVariant.h" />
+    <ClInclude Include="ColorGrid.h" />
+    <ClInclude Include="ColorPickerDlg.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="CustomColorDialog.h" />
+    <ClInclude Include="CustomVectorDlg.h" />
+    <ClInclude Include="DIB.H" />
+    <ClInclude Include="MemDC.h" />
+    <ClInclude Include="MemoEditDlg.h" />
+    <ClInclude Include="PropDlg_rc.h" />
+    <ClInclude Include="PropertyBooleanBox.h" />
+    <ClInclude Include="PropertyBox.h" />
+    <ClInclude Include="PropertyColorBox.h" />
+    <ClInclude Include="PropertyCustomBox.h" />
+    <ClInclude Include="PropertyDialog.h" />
+    <ClInclude Include="PropertyDoubleBox.h" />
+    <ClInclude Include="PropertyFileBox.h" />
+    <ClInclude Include="PropertyFloatBox.h" />
+    <ClInclude Include="PropertyFontBox.h" />
+    <ClInclude Include="PropertyIDBox.h" />
+    <ClInclude Include="PropertyInteger64Box.h" />
+    <ClInclude Include="PropertyIntegerBox.h" />
+    <ClInclude Include="PropertyInterface.h" />
+    <ClInclude Include="PropertyList.h" />
+    <ClInclude Include="PropertyMemoBox.h" />
+    <ClInclude Include="PropertySliderBox.h" />
+    <ClInclude Include="PropertyStringBox.h" />
+    <ClInclude Include="PropertyVectorBox.h" />
+    <ClInclude Include="SliderDlg.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CCHSB.BMP" />
+    <Image Include="CCRGB.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AFileDialog3\Complier_2005\AFileDialog2.2.vcxproj">
+      <Project>{beed90c6-620a-4c47-a5ee-66db36b1c3b8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\AudioEngine\AudioAssistDll\AudioAssistDll2.2.vcxproj">
+      <Project>{f274fe63-5081-4661-81f1-61a7d3a84c6f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="PropDlg.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

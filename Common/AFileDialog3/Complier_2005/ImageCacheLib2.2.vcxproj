@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Editor Unicode Debug|Win32">
+      <Configuration>Editor Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Editor Unicode Release|Win32">
+      <Configuration>Editor Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Debug|Win32">
+      <Configuration>Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Release|Win32">
+      <Configuration>Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectName>ImageCacheLib</ProjectName>
+    <ProjectGuid>{7F3331AA-DCD6-47E0-9F31-F7C673F66843}</ProjectGuid>
+    <RootNamespace>ImageCacheLib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.35219.272</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(Platform)\2.2\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\2.2\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Platform)\2.2\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\2.2\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <OutDir>$(Platform)\2.2\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\2.2\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <OutDir>$(Platform)\2.2\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\2.2\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\Angelica2\Output\A3DSDK\Include;..\..\..\Angelica2\Output\AMSDK\Include;..\..\..\Angelica2\Output\AFSDK\Include;..\..\..\Angelica2\Output\ACSDK\Include;..\..\..\Angelica2\Output\APSDK\Include;..\..\..\Angelica2\Output\3rdSDK\Include;..\..\Output\include\gfx;..\..\..\Angelica2\Output\3rdSDK\Include\cximage;..\..\Output\include\luaWrapper;..\..\..\Angelica2\3rdSDK\Include\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;_CRT_SECURE_NO_WARNINGS;_ANGELICA2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ICLStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80_icl.pdb</ProgramDataBaseFileName>
+      <XMLDocumentationFileName>$(IntDir)</XMLDocumentationFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\Lib_2005\2.2\$(ProjectName)_d.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\Angelica2\Output\A3DSDK\Include;..\..\..\Angelica2\Output\AMSDK\Include;..\..\..\Angelica2\Output\AFSDK\Include;..\..\..\Angelica2\Output\ACSDK\Include;..\..\..\Angelica2\Output\APSDK\Include;..\..\..\Angelica2\Output\3rdSDK\Include;..\..\Output\include\gfx;..\..\..\Angelica2\Output\3rdSDK\Include\cximage;..\..\Output\include\luaWrapper;..\..\..\Angelica2\3rdSDK\Include\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;_CRT_SECURE_NO_WARNINGS;_ANGELICA2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ICLStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80_icl.pdb</ProgramDataBaseFileName>
+      <XMLDocumentationFileName>$(IntDir)</XMLDocumentationFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\Lib_2005\2.2\$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\Angelica2\Output\A3DSDK\Include;..\..\..\Angelica2\Output\AMSDK\Include;..\..\..\Angelica2\Output\AFSDK\Include;..\..\..\Angelica2\Output\ACSDK\Include;..\..\..\Angelica2\Output\APSDK\Include;..\..\..\Angelica2\Output\3rdSDK\Include;..\..\Output\include\gfx;..\..\..\Angelica2\Output\3rdSDK\Include\cximage;..\..\Output\include\luaWrapper;..\..\..\Angelica2\3rdSDK\Include\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UNICODE;_DEBUG;WIN32;_WINDOWS;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;_CRT_SECURE_NO_WARNINGS;_ANGELICA2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ICLStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80_icl.pdb</ProgramDataBaseFileName>
+      <XMLDocumentationFileName>$(IntDir)</XMLDocumentationFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\Lib_2005\2.2\$(ProjectName)_ud.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\Angelica2\Output\A3DSDK\Include;..\..\..\Angelica2\Output\AMSDK\Include;..\..\..\Angelica2\Output\AFSDK\Include;..\..\..\Angelica2\Output\ACSDK\Include;..\..\..\Angelica2\Output\APSDK\Include;..\..\..\Angelica2\Output\3rdSDK\Include;..\..\Output\include\gfx;..\..\..\Angelica2\Output\3rdSDK\Include\cximage;..\..\Output\include\luaWrapper;..\..\..\Angelica2\3rdSDK\Include\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_UNICODE;NDEBUG;WIN32;_WINDOWS;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;_CRT_SECURE_NO_WARNINGS;_ANGELICA2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ICLStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80_icl.pdb</ProgramDataBaseFileName>
+      <XMLDocumentationFileName>$(IntDir)</XMLDocumentationFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\Lib_2005\2.2\$(ProjectName)_u.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\Angelica2\Output\A3DSDK\Include;..\..\..\Angelica2\Output\AMSDK\Include;..\..\..\Angelica2\Output\AFSDK\Include;..\..\..\Angelica2\Output\ACSDK\Include;..\..\..\Angelica2\Output\APSDK\Include;..\..\..\Angelica2\Output\3rdSDK\Include;..\..\Output\include\gfx;..\..\..\Angelica2\Output\3rdSDK\Include\cximage;..\..\Output\include\luaWrapper;..\..\..\Angelica2\3rdSDK\Include\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;UNICODE;WIN32;_WINDOWS;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;_CRT_SECURE_NO_WARNINGS;_ANGELICA2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ICLStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80_icl.pdb</ProgramDataBaseFileName>
+      <XMLDocumentationFileName>$(IntDir)</XMLDocumentationFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\Lib_2005\2.2\$(ProjectName)_ud.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\Angelica2\Output\A3DSDK\Include;..\..\..\Angelica2\Output\AMSDK\Include;..\..\..\Angelica2\Output\AFSDK\Include;..\..\..\Angelica2\Output\ACSDK\Include;..\..\..\Angelica2\Output\APSDK\Include;..\..\..\Angelica2\Output\3rdSDK\Include;..\..\Output\include\gfx;..\..\..\Angelica2\Output\3rdSDK\Include\cximage;..\..\Output\include\luaWrapper;..\..\..\Angelica2\3rdSDK\Include\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;UNICODE;_WINDOWS;_A_FORBID_NEWDELETE;_A_FORBID_MALLOC;_CRT_SECURE_NO_WARNINGS;_ANGELICA2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ICLStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80_icl.pdb</ProgramDataBaseFileName>
+      <XMLDocumentationFileName>$(IntDir)</XMLDocumentationFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\Lib_2005\2.2\$(ProjectName)_u.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ImageCacheLib\ICLFile.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLImg.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLImgImpl.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLImgImplDDS.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLImgImplECM.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLImgImplGfx.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLImgImplSMD.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLImgImplUMD.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLImgImplUMDS.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLStdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\ImageCacheLib\ICLTaskProcFolder.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLThreadPool.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLThreadTask.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLThreadWrapper.cpp" />
+    <ClCompile Include="..\ImageCacheLib\ICLUnicodeCommon.cpp" />
+    <ClCompile Include="..\ImageCacheLib\PlatformIndependFuncs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ImageCacheLib\ICLCommon.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLFile.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLImg.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLImgImpl.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLImgImplDDS.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLImgImplECM.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLImgImplGfx.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLImgImplSMD.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLImgImplUMD.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLImgImplUMDS.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLNotifier.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLRequireHeaders.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLStdAfx.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLTaskProcFolder.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLThreadPool.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLThreadTask.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLThreadWrapper.h" />
+    <ClInclude Include="..\ImageCacheLib\ICLUnicodeCommon.h" />
+    <ClInclude Include="..\ImageCacheLib\PlatformIndependFuncs.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

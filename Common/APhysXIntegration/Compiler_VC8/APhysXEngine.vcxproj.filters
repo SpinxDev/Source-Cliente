@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1f107758-377d-4aad-b23d-f6e88ea5e5da}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7c8a641e-cc99-4fba-8a83-8a42f8122fa2}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="PhysXBenchmark">
+      <UniqueIdentifier>{44f7eebc-4f22-4aea-9a0f-2ea7f6f11e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Breakable">
+      <UniqueIdentifier>{76c091c5-4748-4a75-afb5-40b45679ea9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterControl">
+      <UniqueIdentifier>{0ff9765c-76b4-44cb-aa73-8a9302844735}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXActorDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXAttacher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXAttacherDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXBoxShapeDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCapsuleShapeDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXClothAttacher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXClothAttacherDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXClothAttachRBConnector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXClothAttachRBConnectorDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXClothObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXClothObjectDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCollisionChannelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCompoundObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCompoundObjectDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXConvexShapeDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXD6JointDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXDebugRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXDistanceJointDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXFluidEmitterAttacher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXFluidEmitterAttacherDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXFluidEmitterAttachRBConnector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXFluidEmitterAttachRBConnectorDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXFluidObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXFluidObjectDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXForceFieldObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXForceFieldObjectDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXHeightFieldShapeDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXJoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXJointDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXMaterialDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXMeshCooker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXMeshDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXObjectConnector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXObjectConnectorDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXObjectDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXObjectDescManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXPerfStats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXPicker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXPlaneShapeDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXPulleyJointDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXRBAttacherDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXRegistryHack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXRevoluteJointDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXRigidBodyObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXRigidBodyObjectDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXSerializerBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXShapeDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXShapeDescManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXSkeletonRBObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXSphereShapeDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXSphericalJointDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXStdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXStringManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXTerrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXTerrainBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXTerrainPatchRBObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXTerrainQuadManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXUserCallBack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXUtilLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\OverlapDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\PhysXBenchmark\PhysXBenchmark.cpp">
+      <Filter>PhysXBenchmark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\PhysXBenchmark\Stream.cpp">
+      <Filter>PhysXBenchmark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXBreakableRBObject.cpp">
+      <Filter>Breakable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXBreakableRBObjectDesc.cpp">
+      <Filter>Breakable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrler.cpp">
+      <Filter>CharacterControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerAssistance.cpp">
+      <Filter>CharacterControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerCallBackAgent.cpp">
+      <Filter>CharacterControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerDesc.cpp">
+      <Filter>CharacterControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerDynamic.cpp">
+      <Filter>CharacterControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerDynConfig.cpp">
+      <Filter>CharacterControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerLightWeight.cpp">
+      <Filter>CharacterControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerManager.cpp">
+      <Filter>CharacterControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerNx.cpp">
+      <Filter>CharacterControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\APhysXEngine\Include\APhysX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXActorDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXAttacher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXAttacherDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXBoxShapeDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCapsuleShapeDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXClothAttacher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXClothAttacherDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXClothAttachRBConnector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXClothAttachRBConnectorDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXClothObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXClothObjectDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCollisionChannelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCompoundObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCompoundObjectDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXConvexShapeDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXD6JointDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXDebugRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXDistanceJointDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXDummyRBObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXDynamicRBObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXFluidEmitterAttacher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXFluidEmitterAttacherDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXFluidEmitterAttachRBConnector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXFluidEmitterAttachRBConnectorDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXFluidObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXFluidObjectDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXForceFieldObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXForceFieldObjectDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXHeightFieldShapeDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXJointDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXMaterialDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXMeshCooker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXMeshDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXObjectConnector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXObjectConnectorDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXObjectDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXObjectDescManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXOutputStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXPerfStats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXPicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXPlaneShapeDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXPulleyJointDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRBAttacher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRBAttacherDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRefCountable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRegistryHack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRevoluteJointDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRigidBodyObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRigidBodyObjectDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXSerializerBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXShapeDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXShapeDescManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXSingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXSkeletonRBObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXSphereShapeDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXSphericalJointDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXStaticRBObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXStdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXStringManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXTerrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXTerrainBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXTerrainPatchRBObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXTerrainQuadManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXUserCallBack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXUserGraphicsSync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXUtilLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Src\OverlapDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Src\PhysXBenchmark\PhysXBenchmark.h">
+      <Filter>PhysXBenchmark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Src\PhysXBenchmark\Stream.h">
+      <Filter>PhysXBenchmark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXBreakable.h">
+      <Filter>Breakable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXBreakableRBObject.h">
+      <Filter>Breakable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXBreakableRBObjectDesc.h">
+      <Filter>Breakable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrler.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerAssistance.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerBase.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerCallBack.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerCallBackAgent.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerDesc.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerDynamic.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerDynConfig.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerImp.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerLightWeight.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerManager.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerMgrImp.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerNx.h">
+      <Filter>CharacterControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -14,22 +14,22 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
     <Filter Include="Wrappers">
-      <UniqueIdentifier>{24346cf4-9281-474b-aab3-9174c45b9cd0}</UniqueIdentifier>
+      <UniqueIdentifier>{7a148aef-a1b7-4db1-a471-170d51eebe34}</UniqueIdentifier>
     </Filter>
     <Filter Include="ExportImpls">
-      <UniqueIdentifier>{c8993540-b483-47a9-a92f-c76f4a18a2e6}</UniqueIdentifier>
+      <UniqueIdentifier>{0078c410-5904-4c9e-9069-e5a7f3169757}</UniqueIdentifier>
     </Filter>
     <Filter Include="AFileDialog2">
-      <UniqueIdentifier>{1a296923-f6cd-4dc0-8ce7-cc4016d9850e}</UniqueIdentifier>
+      <UniqueIdentifier>{fc6c8163-7c14-41ef-ab4c-457ba3d4b18d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Preview">
-      <UniqueIdentifier>{b8fdf28e-5a0f-4672-aec9-d38719f533a6}</UniqueIdentifier>
+      <UniqueIdentifier>{9f941888-6d7b-43a6-9c8a-412e7e045ec5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Preview\RenderItem">
-      <UniqueIdentifier>{bcc79c78-2916-4990-be85-1728cd2642d9}</UniqueIdentifier>
+      <UniqueIdentifier>{a22ee7b1-1b05-43b8-9e04-3d55b8bc54bc}</UniqueIdentifier>
     </Filter>
     <Filter Include="CommonFile">
-      <UniqueIdentifier>{b458823a-1a6f-45c4-a9cb-d544d64fddbb}</UniqueIdentifier>
+      <UniqueIdentifier>{eaaff7f2-5478-42b0-b728-4006a3e33f73}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

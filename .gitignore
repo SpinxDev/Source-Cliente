@@ -7,3 +7,10 @@
 /Angelica2/ImmWrapper/Release
 *.exp
 /Angelica2/Angelica3D/Release
+/Common/Visual Studio 2022
+*.obj
+*.obj
+/Common/PropDlg3/Win32/2.2/Release
+/Common/PropDlg3/release
+*.htm
+/Common/.vs

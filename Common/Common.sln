@@ -1,48 +1,29 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PropDlg2.2", "PropDlg3\PropDlg2.2.vcproj", "{7F34276E-6271-4ABE-9A20-C83A1262B6FF}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BEED90C6-620A-4C47-A5EE-66DB36B1C3B8} = {BEED90C6-620A-4C47-A5EE-66DB36B1C3B8}
-		{F274FE63-5081-4661-81F1-61A7D3A84C6F} = {F274FE63-5081-4661-81F1-61A7D3A84C6F}
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PropDlg2.2", "PropDlg3\PropDlg2.2.vcxproj", "{7F34276E-6271-4ABE-9A20-C83A1262B6FF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageCacheLib", "AFileDialog3\Complier_2005\ImageCacheLib2.2.vcproj", "{7F3331AA-DCD6-47E0-9F31-F7C673F66843}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageCacheLib", "AFileDialog3\Complier_2005\ImageCacheLib2.2.vcxproj", "{7F3331AA-DCD6-47E0-9F31-F7C673F66843}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioEngine2.2", "AudioEngine\AudioEngine\AudioEngine2.2.vcproj", "{7DD76C4A-D24D-4053-978A-3A807584D01F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioEngine2.2", "AudioEngine\AudioEngine\AudioEngine2.2.vcxproj", "{7DD76C4A-D24D-4053-978A-3A807584D01F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaWrapper", "LuaWrapper\LuaWrapper.vcproj", "{58E06326-B5E3-4721-A1AE-5A1B73D80B93}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaWrapper", "LuaWrapper\LuaWrapper.vcxproj", "{58E06326-B5E3-4721-A1AE-5A1B73D80B93}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHBasedCD", "CHBasedCD\CHBasedCD.vcproj", "{8127B042-356A-49F7-8B0A-28EF2EA259BA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHBasedCD", "CHBasedCD\CHBasedCD.vcxproj", "{8127B042-356A-49F7-8B0A-28EF2EA259BA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APhysXEngine", "APhysXIntegration\Compiler_VC8\APhysXEngine.vcproj", "{9B628196-4F60-40EA-ACC3-5E06F328AF2E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APhysXEngine", "APhysXIntegration\Compiler_VC8\APhysXEngine.vcxproj", "{9B628196-4F60-40EA-ACC3-5E06F328AF2E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AFileDialog", "AFileDialog3\Complier_2005\AFileDialog2.2.vcproj", "{BEED90C6-620A-4C47-A5EE-66DB36B1C3B8}"
-	ProjectSection(ProjectDependencies) = postProject
-		{7DD76C4A-D24D-4053-978A-3A807584D01F} = {7DD76C4A-D24D-4053-978A-3A807584D01F}
-		{7F3331AA-DCD6-47E0-9F31-F7C673F66843} = {7F3331AA-DCD6-47E0-9F31-F7C673F66843}
-		{58E06326-B5E3-4721-A1AE-5A1B73D80B93} = {58E06326-B5E3-4721-A1AE-5A1B73D80B93}
-		{0DFD9329-588B-43F2-A005-88C60247FD5C} = {0DFD9329-588B-43F2-A005-88C60247FD5C}
-		{9B628196-4F60-40EA-ACC3-5E06F328AF2E} = {9B628196-4F60-40EA-ACC3-5E06F328AF2E}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AFileDialog", "AFileDialog3\Complier_2005\AFileDialog2.2.vcxproj", "{BEED90C6-620A-4C47-A5EE-66DB36B1C3B8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioAssistDll2.2", "AudioEngine\AudioAssistDll\AudioAssistDll2.2.vcproj", "{F274FE63-5081-4661-81F1-61A7D3A84C6F}"
-	ProjectSection(ProjectDependencies) = postProject
-		{7DD76C4A-D24D-4053-978A-3A807584D01F} = {7DD76C4A-D24D-4053-978A-3A807584D01F}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioAssistDll2.2", "AudioEngine\AudioAssistDll\AudioAssistDll2.2.vcxproj", "{F274FE63-5081-4661-81F1-61A7D3A84C6F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AUInterface", "AUInterface2\AUInterface_2.2.vcproj", "{65B587D0-E310-4550-8E58-77EAF9501E92}"
-	ProjectSection(ProjectDependencies) = postProject
-		{7F34276E-6271-4ABE-9A20-C83A1262B6FF} = {7F34276E-6271-4ABE-9A20-C83A1262B6FF}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AUInterface", "AUInterface2\AUInterface_2.2.vcxproj", "{65B587D0-E310-4550-8E58-77EAF9501E92}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GfxCommon_NoAudio", "GfxCommon\GfxCommon2.2_NoAudio.vcproj", "{0DFD9329-588B-43F2-A005-88C60247FD5C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{58E06326-B5E3-4721-A1AE-5A1B73D80B93} = {58E06326-B5E3-4721-A1AE-5A1B73D80B93}
-		{8127B042-356A-49F7-8B0A-28EF2EA259BA} = {8127B042-356A-49F7-8B0A-28EF2EA259BA}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GfxCommon_NoAudio", "GfxCommon\GfxCommon2.2_NoAudio.vcxproj", "{0DFD9329-588B-43F2-A005-88C60247FD5C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FTDriverDLL.NET2005", "FTDriver\FTDriverDLL.NET2005\FTDriverDLL.NET2005.vcproj", "{D2D09E72-50D0-4097-A6CD-350D90817938}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FTDriverDLL.NET2005", "FTDriver\FTDriverDLL.NET2005\FTDriverDLL.NET2005.vcxproj", "{D2D09E72-50D0-4097-A6CD-350D90817938}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -764,5 +745,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAA5CAC0-E6C1-4381-ABEE-311786F27D53}
 	EndGlobalSection
 EndGlobal

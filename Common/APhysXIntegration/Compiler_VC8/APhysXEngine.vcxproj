@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugStaticLib ForbidAngelicaNewDelete|Win32">
+      <Configuration>DebugStaticLib ForbidAngelicaNewDelete</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugStaticLib|Win32">
+      <Configuration>DebugStaticLib</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Editor Unicode Debug|Win32">
+      <Configuration>Editor Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Editor Unicode Release|Win32">
+      <Configuration>Editor Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseStaticLib DebugRender|Win32">
+      <Configuration>ReleaseStaticLib DebugRender</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseStaticLib ForbidAngelicaNewDelete|Win32">
+      <Configuration>ReleaseStaticLib ForbidAngelicaNewDelete</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseStaticLib|Win32">
+      <Configuration>ReleaseStaticLib</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicod DebugReleaseStaticLib|Win32">
+      <Configuration>Unicod DebugReleaseStaticLib</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode DebugStaticLib|Win32">
+      <Configuration>Unicode DebugStaticLib</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode ReleaseStaticLib DebugRender|Win32">
+      <Configuration>Unicode ReleaseStaticLib DebugRender</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode ReleaseStaticLib|Win32">
+      <Configuration>Unicode ReleaseStaticLib</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{9B628196-4F60-40EA-ACC3-5E06F328AF2E}</ProjectGuid>
+    <RootNamespace>APhysXEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode DebugStaticLib|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib DebugRender|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib ForbidAngelicaNewDelete|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicod DebugReleaseStaticLib|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib DebugRender|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib ForbidAngelicaNewDelete|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode DebugStaticLib|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib DebugRender|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib ForbidAngelicaNewDelete|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicod DebugReleaseStaticLib|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib DebugRender|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib ForbidAngelicaNewDelete|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.35219.272</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">
+    <OutDir>.\Build\APhysXEngine\DebugStaticLib\</OutDir>
+    <IntDir>.\Build\APhysXEngine\DebugStaticLib\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib ForbidAngelicaNewDelete|Win32'">
+    <OutDir>.\Build\APhysXEngine\DebugStaticLib_ForbidAngelicaNewDelete\</OutDir>
+    <IntDir>.\Build\APhysXEngine\DebugStaticLib_ForbidAngelicaNewDelete\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib DebugRender|Win32'">
+    <OutDir>.\Build\APhysXEngine\ReleaseStaticLib_DebugRender\</OutDir>
+    <IntDir>.\Build\APhysXEngine\ReleaseStaticLib_DebugRender\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicod DebugReleaseStaticLib|Win32'">
+    <OutDir>.\Build\APhysXEngine\UnicodeDebugReleaseStaticLib\</OutDir>
+    <IntDir>.\Build\APhysXEngine\UnicodeDebugReleaseStaticLib\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib|Win32'">
+    <OutDir>.\Build\APhysXEngine\ReleaseStaticLib\</OutDir>
+    <IntDir>.\Build\APhysXEngine\ReleaseStaticLib\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib|Win32'">
+    <OutDir>.\Build\APhysXEngine\UnicodeReleaseStaticLib\</OutDir>
+    <IntDir>.\Build\APhysXEngine\UnicodeReleaseStaticLib\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib ForbidAngelicaNewDelete|Win32'">
+    <OutDir>.\Build\APhysXEngine\ReleaseStaticLib_ForbidAngelicaNewDelete\</OutDir>
+    <IntDir>.\Build\APhysXEngine\ReleaseStaticLib_ForbidAngelicaNewDelete\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib DebugRender|Win32'">
+    <OutDir>.\Build\APhysXEngine\UnicodeReleaseStaticLib_DebugRender\</OutDir>
+    <IntDir>.\Build\APhysXEngine\UnicodeReleaseStaticLib_DebugRender\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode DebugStaticLib|Win32'">
+    <OutDir>.\Build\APhysXEngine\UnicodeDebugStaticLib\</OutDir>
+    <IntDir>.\Build\APhysXEngine\UnicodeDebugStaticLib\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\APhysXEngine\Include;..\..\..\Angelica2\Output\3rdsdk\include;..\..\..\Angelica2\Output\acsdk\include;..\..\..\Angelica2\Output\afsdk\include;..\..\..\Angelica2\Output\a3dsdk\include;..\..\..\Angelica2\Output\amsdk\include;..\PhysX_SDK\v2.8.4_win\SDKs\Physics\include;..\PhysX_SDK\v2.8.4_win\SDKs\Foundation\include;..\PhysX_SDK\v2.8.4_win\SDKs\PhysXLoader\include;..\PhysX_SDK\v2.8.4_win\SDKs\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;APHYSX_BUILD_ENGINE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>APhysXStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Build\APhysXEngine\DebugStaticLib/APhysXEngine.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Build\APhysXEngine\DebugStaticLib/</AssemblerListingLocation>
+      <ObjectFileName>.\Build\APhysXEngine\DebugStaticLib/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Build\APhysXEngine\DebugStaticLib/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <AdditionalDependencies>NxuStream2_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\Lib_VC8\APhysXEngineStatic_d.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\NxuStream2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Build\APhysXEngine\DebugStaticLib/APhysXEngine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib ForbidAngelicaNewDelete|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\APhysXEngine\Include;..\..\..\Angelica2\Output\3rdsdk\include;..\..\..\Angelica2\Output\acsdk\include;..\..\..\Angelica2\Output\afsdk\include;..\..\..\Angelica2\Output\a3dsdk\include;..\..\..\Angelica2\Output\amsdk\include;..\PhysX_SDK\v2.8.4_win\SDKs\Physics\include;..\PhysX_SDK\v2.8.4_win\SDKs\Foundation\include;..\PhysX_SDK\v2.8.4_win\SDKs\PhysXLoader\include;..\PhysX_SDK\v2.8.4_win\SDKs\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;APHYSX_BUILD_ENGINE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>APhysXStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Build\APhysXEngine\DebugStaticLib_ForbidAngelicaNewDelete/APhysXEngine.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Build\APhysXEngine\DebugStaticLib_ForbidAngelicaNewDelete/</AssemblerListingLocation>
+      <ObjectFileName>.\Build\APhysXEngine\DebugStaticLib_ForbidAngelicaNewDelete/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Build\APhysXEngine\DebugStaticLib_ForbidAngelicaNewDelete/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\Lib_VC6\APhysXEngineStatic_sd.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Build\APhysXEngine\DebugStaticLib_ForbidAngelicaNewDelete/APhysXEngine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib DebugRender|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\APhysXEngine\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;APHYSX_BUILD_ENGINE;APHYSX_DEBUG_RENDER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>APhysXStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Build\APhysXEngine\ReleaseStaticLib_DebugRender/APhysXEngine.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Build\APhysXEngine\ReleaseStaticLib_DebugRender/</AssemblerListingLocation>
+      <ObjectFileName>.\Build\APhysXEngine\ReleaseStaticLib_DebugRender/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Build\APhysXEngine\ReleaseStaticLib_DebugRender/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\Lib_VC6\APhysXEngineStatic_v.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Build\APhysXEngine\ReleaseStaticLib_DebugRender/APhysXEngine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicod DebugReleaseStaticLib|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\APhysXEngine\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;APHYSX_BUILD_ENGINE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>APhysXStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Build\APhysXEngine\UnicodeDebugReleaseStaticLib/APhysXEngine.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Build\APhysXEngine\UnicodeDebugReleaseStaticLib/</AssemblerListingLocation>
+      <ObjectFileName>.\Build\APhysXEngine\UnicodeDebugReleaseStaticLib/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Build\APhysXEngine\UnicodeDebugReleaseStaticLib/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\Lib_VC6\APhysXEngineStatic_su.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Build\APhysXEngine\UnicodeDebugReleaseStaticLib/APhysXEngine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\APhysXEngine\Include;..\..\..\Angelica2\Output\3rdsdk\include;..\..\..\Angelica2\Output\acsdk\include;..\..\..\Angelica2\Output\afsdk\include;..\..\..\Angelica2\Output\a3dsdk\include;..\..\..\Angelica2\Output\amsdk\include;..\PhysX_SDK\v2.8.4_win\SDKs\Physics\include;..\PhysX_SDK\v2.8.4_win\SDKs\Foundation\include;..\PhysX_SDK\v2.8.4_win\SDKs\PhysXLoader\include;..\PhysX_SDK\v2.8.4_win\SDKs\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;APHYSX_BUILD_ENGINE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>APhysXStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Build\APhysXEngine\ReleaseStaticLib/APhysXEngine.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Build\APhysXEngine\ReleaseStaticLib/</AssemblerListingLocation>
+      <ObjectFileName>.\Build\APhysXEngine\ReleaseStaticLib/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Build\APhysXEngine\ReleaseStaticLib/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <AdditionalDependencies>NxuStream2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\Lib_VC8\APhysXEngineStatic.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\NxuStream2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Build\APhysXEngine\ReleaseStaticLib/APhysXEngine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\APhysXEngine\Include;..\..\..\Angelica2\Output\3rdsdk\include;..\..\..\Angelica2\Output\acsdk\include;..\..\..\Angelica2\Output\afsdk\include;..\..\..\Angelica2\Output\a3dsdk\include;..\..\..\Angelica2\Output\amsdk\include;..\PhysX_SDK\v2.8.4_win\SDKs\Physics\include;..\PhysX_SDK\v2.8.4_win\SDKs\Foundation\include;..\PhysX_SDK\v2.8.4_win\SDKs\PhysXLoader\include;..\PhysX_SDK\v2.8.4_win\SDKs\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;APHYSX_BUILD_ENGINE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>APhysXStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Build\APhysXEngine\UnicodeReleaseStaticLib/APhysXEngine.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Build\APhysXEngine\UnicodeReleaseStaticLib/</AssemblerListingLocation>
+      <ObjectFileName>.\Build\APhysXEngine\UnicodeReleaseStaticLib/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Build\APhysXEngine\UnicodeReleaseStaticLib/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\Lib_VC8\APhysXEngineStatic_u.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Build\APhysXEngine\UnicodeReleaseStaticLib/APhysXEngine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib ForbidAngelicaNewDelete|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\APhysXEngine\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;APHYSX_BUILD_ENGINE;_A_FORBID_MALLOC;_A_FORBID_NEWDELETE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>APhysXStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Build\APhysXEngine\ReleaseStaticLib_ForbidAngelicaNewDelete/APhysXEngine.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Build\APhysXEngine\ReleaseStaticLib_ForbidAngelicaNewDelete/</AssemblerListingLocation>
+      <ObjectFileName>.\Build\APhysXEngine\ReleaseStaticLib_ForbidAngelicaNewDelete/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Build\APhysXEngine\ReleaseStaticLib_ForbidAngelicaNewDelete/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\Lib_VC6\APhysXEngineStatic_s.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Build\APhysXEngine\ReleaseStaticLib_ForbidAngelicaNewDelete/APhysXEngine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib DebugRender|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\APhysXEngine\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;APHYSX_BUILD_ENGINE;UNICODE;APHYSX_DEBUG_RENDER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>APhysXStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Build\APhysXEngine\UnicodeReleaseStaticLib_DebugRender/APhysXEngine.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Build\APhysXEngine\UnicodeReleaseStaticLib_DebugRender/</AssemblerListingLocation>
+      <ObjectFileName>.\Build\APhysXEngine\UnicodeReleaseStaticLib_DebugRender/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Build\APhysXEngine\UnicodeReleaseStaticLib_DebugRender/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\Lib_VC6\APhysXEngineStatic_uv.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Build\APhysXEngine\UnicodeReleaseStaticLib_DebugRender/APhysXEngine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode DebugStaticLib|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\APhysXEngine\Include;..\..\..\Angelica2\Output\3rdsdk\include;..\..\..\Angelica2\Output\acsdk\include;..\..\..\Angelica2\Output\afsdk\include;..\..\..\Angelica2\Output\a3dsdk\include;..\..\..\Angelica2\Output\amsdk\include;..\PhysX_SDK\v2.8.4_win\SDKs\Physics\include;..\PhysX_SDK\v2.8.4_win\SDKs\Foundation\include;..\PhysX_SDK\v2.8.4_win\SDKs\PhysXLoader\include;..\PhysX_SDK\v2.8.4_win\SDKs\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;APHYSX_BUILD_ENGINE;UNICODE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>APhysXStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Build\APhysXEngine\UnicodeDebugStaticLib/APhysXEngine.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Build\APhysXEngine\UnicodeDebugStaticLib/</AssemblerListingLocation>
+      <ObjectFileName>.\Build\APhysXEngine\UnicodeDebugStaticLib/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Build\APhysXEngine\UnicodeDebugStaticLib/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\Lib_VC8\APhysXEngineStatic_ud.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Build\APhysXEngine\UnicodeDebugStaticLib/APhysXEngine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\APhysXEngine\Include;..\..\..\Angelica2\Output\3rdsdk\include;..\..\..\Angelica2\Output\acsdk\include;..\..\..\Angelica2\Output\afsdk\include;..\..\..\Angelica2\Output\a3dsdk\include;..\..\..\Angelica2\Output\amsdk\include;..\PhysX_SDK\v2.8.4_win\SDKs\Physics\include;..\PhysX_SDK\v2.8.4_win\SDKs\Foundation\include;..\PhysX_SDK\v2.8.4_win\SDKs\PhysXLoader\include;..\PhysX_SDK\v2.8.4_win\SDKs\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;APHYSX_BUILD_ENGINE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>APhysXStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Build\APhysXEngine\DebugStaticLib/APhysXEngine.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Build\APhysXEngine\DebugStaticLib/</AssemblerListingLocation>
+      <ObjectFileName>.\Build\APhysXEngine\DebugStaticLib/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Build\APhysXEngine\DebugStaticLib/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <AdditionalDependencies>NxuStream2_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\Lib_VC8\APhysXEngineStatic_d.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\NxuStream2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Build\APhysXEngine\DebugStaticLib/APhysXEngine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\APhysXEngine\Include;..\..\..\Angelica2\Output\3rdsdk\include;..\..\..\Angelica2\Output\acsdk\include;..\..\..\Angelica2\Output\afsdk\include;..\..\..\Angelica2\Output\a3dsdk\include;..\..\..\Angelica2\Output\amsdk\include;..\PhysX_SDK\v2.8.4_win\SDKs\Physics\include;..\PhysX_SDK\v2.8.4_win\SDKs\Foundation\include;..\PhysX_SDK\v2.8.4_win\SDKs\PhysXLoader\include;..\PhysX_SDK\v2.8.4_win\SDKs\Cooking\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;APHYSX_BUILD_ENGINE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>APhysXStdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Build\APhysXEngine\DebugStaticLib/APhysXEngine.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Build\APhysXEngine\DebugStaticLib/</AssemblerListingLocation>
+      <ObjectFileName>.\Build\APhysXEngine\DebugStaticLib/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Build\APhysXEngine\DebugStaticLib/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Lib>
+      <AdditionalDependencies>NxuStream2_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\Lib_VC8\APhysXEngineStatic_d.lib</OutputFile>
+      <AdditionalLibraryDirectories>..\NxuStream2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Build\APhysXEngine\DebugStaticLib/APhysXEngine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXActorDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXAttacher.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXAttacherDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXBoxShapeDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXBreakableRBObject.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXBreakableRBObjectDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCapsuleShapeDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrler.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerAssistance.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerCallBackAgent.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerDynamic.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerDynConfig.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerLightWeight.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerManager.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCharCtrlerNx.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXClothAttacher.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXClothAttacherDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXClothAttachRBConnector.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXClothAttachRBConnectorDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXClothObject.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXClothObjectDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCollisionChannelManager.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCompoundObject.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXCompoundObjectDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXConvexShapeDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXD6JointDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXDebugRenderer.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXDistanceJointDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXEngine.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXFluidEmitterAttacher.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXFluidEmitterAttacherDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXFluidEmitterAttachRBConnector.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXFluidEmitterAttachRBConnectorDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXFluidObject.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXFluidObjectDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXForceFieldObject.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXForceFieldObjectDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXGraph.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXHeightFieldShapeDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXJoint.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXJointDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXMaterialDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXMeshCooker.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXMeshDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXObject.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXObjectConnector.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXObjectConnectorDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXObjectDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXObjectDescManager.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXPerfStats.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXPicker.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXPlaneShapeDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXPulleyJointDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXRBAttacherDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXRegistryHack.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib ForbidAngelicaNewDelete|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib DebugRender|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib ForbidAngelicaNewDelete|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicod DebugReleaseStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode DebugStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib DebugRender|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXRevoluteJointDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXRigidBodyObject.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXRigidBodyObjectDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXScene.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXSerializerBase.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXShapeDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXShapeDescManager.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXSkeletonRBObject.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXSphereShapeDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXSphericalJointDesc.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXStdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib ForbidAngelicaNewDelete|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib DebugRender|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib ForbidAngelicaNewDelete|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicod DebugReleaseStaticLib|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode DebugStaticLib|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib DebugRender|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\APhysXStream.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXStringManager.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXTerrain.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXTerrainBlock.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXTerrainPatchRBObject.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXTerrainQuadManager.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXUserCallBack.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\APhysXUtilLib.cpp" />
+    <ClCompile Include="..\APhysXEngine\Src\OverlapDetector.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib ForbidAngelicaNewDelete|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib DebugRender|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib ForbidAngelicaNewDelete|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicod DebugReleaseStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode DebugStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib DebugRender|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\PhysXBenchmark\PhysXBenchmark.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib ForbidAngelicaNewDelete|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib DebugRender|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib ForbidAngelicaNewDelete|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicod DebugReleaseStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode DebugStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib DebugRender|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\APhysXEngine\Src\PhysXBenchmark\Stream.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib ForbidAngelicaNewDelete|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Editor Unicode Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib DebugRender|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib ForbidAngelicaNewDelete|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicod DebugReleaseStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode DebugStaticLib|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib DebugRender|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode ReleaseStaticLib|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\APhysXEngine\Include\APhysX.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXActorDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXAllocator.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXAttacher.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXAttacherDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXBoxShapeDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXBreakable.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXBreakableRBObject.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXBreakableRBObjectDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCapsuleShapeDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrler.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerAssistance.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerBase.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerCallBack.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerCallBackAgent.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerDynamic.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerDynConfig.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerImp.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerLightWeight.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerManager.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerMgrImp.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCharCtrlerNx.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXClothAttacher.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXClothAttacherDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXClothAttachRBConnector.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXClothAttachRBConnectorDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXClothObject.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXClothObjectDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCollisionChannelManager.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCompoundObject.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXCompoundObjectDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXConverter.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXConvexShapeDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXD6JointDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXDebugRenderer.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXDistanceJointDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXDummyRBObject.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXDynamicRBObject.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXEngine.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXFluidEmitterAttacher.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXFluidEmitterAttacherDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXFluidEmitterAttachRBConnector.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXFluidEmitterAttachRBConnectorDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXFluidObject.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXFluidObjectDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXForceFieldObject.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXForceFieldObjectDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXGraph.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXHeightFieldShapeDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXJoint.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXJointDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXMaterialDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXMeshCooker.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXMeshDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXMutex.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXObject.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXObjectConnector.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXObjectConnectorDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXObjectDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXObjectDescManager.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXOutputStream.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXPerfStats.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXPicker.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXPlaneShapeDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXPrerequisites.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXPulleyJointDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRBAttacher.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRBAttacherDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRefCountable.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRegistryHack.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRevoluteJointDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRigidBodyObject.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXRigidBodyObjectDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXScene.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXSerializerBase.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXShapeDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXShapeDescManager.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXSingleton.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXSkeletonRBObject.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXSphereShapeDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXSphericalJointDesc.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXStaticRBObject.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXStdAfx.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXStream.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXStringManager.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXTerrain.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXTerrainBlock.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXTerrainPatchRBObject.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXTerrainQuadManager.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXUserCallBack.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXUserGraphicsSync.h" />
+    <ClInclude Include="..\APhysXEngine\Include\APhysXUtilLib.h" />
+    <ClInclude Include="..\APhysXEngine\Src\OverlapDetector.h" />
+    <ClInclude Include="..\APhysXEngine\Src\PhysXBenchmark\PhysXBenchmark.h" />
+    <ClInclude Include="..\APhysXEngine\Src\PhysXBenchmark\Stream.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
